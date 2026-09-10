@@ -36,7 +36,7 @@ export const DataProvider = ({ children }) => {
       get: (idOrSlug) => data[key].find((x) => x.id === idOrSlug || x.slug === idOrSlug),
       create: async (item) => {
         const { data: created } = await api.post(`/api/content/${key}`, item);
-        setData((d) => ({ ...d, [key]: [...d[key], created] }));
+        setData((d) => ({ ...d, [key]: [created, ...d[key]] }));
         return created;
       },
       update: async (id, patch) => {

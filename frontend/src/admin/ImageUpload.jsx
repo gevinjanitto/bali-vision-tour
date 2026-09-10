@@ -44,12 +44,14 @@ export const ImageUpload = ({ value, onChange, compact = false, testId = 'image-
 export const GalleryEditor = ({ value = [], onChange }) => {
   const ref = useRef(null);
   const [busy, setBusy] = useState(false);
-  const addFiles = async (files) => {
-    if (!files?.length) return;
+  const addFiles = async (fileList) => {
+    const files = Array.from(fileList || []);
+    if (!files.length) return;
     setBusy(true);
     try {
-      const urls = await Promise.all(Array.from(files).map(uploadImage));
-      onChange([...value, ...urls.map((src, i) => ({ src, label: files[i].name.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ') }))]);
+      const urls = await Promise.all(files.map(uploadImage));
+      onChange([...value, ...urls.map((src, i) => ({ src, label: (files[i]?.name || 'Photo').replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ') }))]);
+      toast.success(`${urls.length} image${urls.length > 1 ? 's' : ''} added to gallery`);
     } catch (e) {
       toast.error(errorMessage(e, 'Upload failed'));
     } finally {

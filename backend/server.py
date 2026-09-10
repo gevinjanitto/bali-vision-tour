@@ -174,8 +174,8 @@ async def create_resource(resource: str, body: Dict[str, Any], user: dict = Depe
     body["slug"] = slug
     body["createdAt"] = now_iso()
     body["updatedAt"] = body["createdAt"]
-    count = await db[resource].count_documents({})
-    body.setdefault("order", count)
+    first = await db[resource].find_one({}, sort=[("order", 1)])
+    body.setdefault("order", (first.get("order", 0) if first else 0) - 1)
     await db[resource].insert_one(dict(body))
     return clean(body)
 

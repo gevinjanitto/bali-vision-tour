@@ -10,6 +10,7 @@ import { Switch } from '../components/ui/switch';
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '../components/ui/select';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '../components/ui/tabs';
 import { ImageUpload, GalleryEditor } from './ImageUpload';
+import { ListEditor } from './ListEditor';
 import { RESOURCE_CONFIG, blocksToText, textToBlocks } from './fields';
 import { errorMessage } from '../lib/api';
 
@@ -41,6 +42,7 @@ const Field = ({ field, value, onChange, raw, onRaw }) => {
     );
     case 'image': return <ImageUpload value={value} onChange={onChange} testId={testId} />;
     case 'gallery': return <GalleryEditor value={value || []} onChange={onChange} />;
+    case 'list': return <ListEditor field={field} value={value} onChange={onChange} />;
     default: return <Input id={id} value={value ?? ''} onChange={(e) => onChange(e.target.value)} className="bg-white" data-testid={testId} />;
   }
 };
@@ -64,6 +66,7 @@ export const ResourceForm = ({ resource, item, onSubmit, onCancel }) => {
       if (f.type === 'json') {
         try { set(payload, f.key, raw[f.key].trim() ? JSON.parse(raw[f.key]) : []); } catch (err) { return toast.error(`Invalid JSON in "${f.label}"`); }
       }
+      if (f.type === 'list') set(payload, f.key, (get(payload, f.key) || []).map((it) => Object.fromEntries(Object.entries(it).map(([k, v]) => [k, Array.isArray(v) ? v.map((s) => String(s).trim()).filter(Boolean) : v]))));
       if (f.type === 'number' && get(payload, f.key) === '') set(payload, f.key, null);
     }
     if (!payload.gallery?.length && payload.image && cfg.sections.some((s) => s.fields.some((x) => x.key === 'gallery'))) payload.gallery = [{ src: payload.image, label: 'Signature Experience' }];

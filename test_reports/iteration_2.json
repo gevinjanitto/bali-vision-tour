@@ -1,0 +1,30 @@
+{
+  "summary": "Iteration 2 focused on the two reported bugs. BUG 1 (gallery upload): PASS - GalleryEditor addFiles now copies FileList via Array.from before async; uploading 2 PNGs to Toyota Avanza/Xenia produced success toast, 2 new thumbnails appeared, form saved, GET /api/content/cars/toyota-avanza-xenia confirmed new /api/files/... entries in gallery (7 items total), and public /car-rental/{slug} rendered without error. FEATURE 2 (structured list editors): PASS - tours 'Itinerary & Details' tab exposes list-features, list-itinerary, list-addons, list-tips; cars 'Extras & Routes' has list-specs, list-addons, list-routes; activities 'Schedule & Details' has list-facts/highlights/timeline/slots/addons/packing; articles 'Content' has list-facts. NO JSON-shaped textareas ([{) found in any tab of any resource form. Editing a tour: added list-addon {title:'QA Addon', price:100000}, saved, verified persisted in GET response, then removed and saved to restore. Existing itinerary points arrays were preserved across save (before=4 days, after=4 days, all points equal). Regression: /tour-packages/enchanting-nusa-penida-escape still renders after edit roundtrip. Backend tests from iteration 1 (22 tests, 100%) still applicable; not re-run.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [
+      {"flow": "New tour visibility on public pages", "issue": "After creating a new tour, it does NOT appear on Home 'Bestselling' (filter+.slice(0,8)) nor on /tour-packages initial view (visible=9). Because there are already >=9 bestseller tours and new items are APPENDED to the array (not prepended and not sorted by createdAt desc), the newly created tour lands at the end and falls outside the initial slice. User must click 'Load more' or delete an existing tour to see it. Cars did appear because there are only 7 cars total and no slice cutoff hits. Fix suggestion: prepend on create in DataContext.jsx line 39 (`[created, ...d[key]]`) OR sort by createdAt desc in list().", "affected_selectors": ["tour-card-*", "src/context/DataContext.jsx:39", "src/pages/Home.jsx:182", "src/pages/TourPackages.jsx:33"]}
+    ],
+    "design_issues": []
+  },
+  "test_report_links": ["/app/backend/tests/backend_test.py", "/app/test_reports/pytest/pytest_results.xml"],
+  "action_items": [
+    "In DataContext.jsx create() -> prepend created item (`[created, ...d[key]]`) so newly added content is immediately visible in Home 'Bestselling' and on /tour-packages / /activities initial view. Also consider sorting server-side by createdAt desc in GET /api/content/{resource}."
+  ],
+  "critical_code_review_comments": [
+    "src/context/DataContext.jsx:39 appends new items -> combined with Home slice(0,8) filter causes 'new item invisible' bug. Prepend or sort desc.",
+    "src/admin/ResourceForm.jsx:72 auto-fills gallery from cover image on save if empty - correct behavior.",
+    "src/admin/ImageUpload.jsx GalleryEditor.addFiles: FileList is correctly captured via Array.from BEFORE the async uploadImage race - fixes the 'Cannot read properties of undefined (reading name)' RCA.",
+    "src/admin/ListEditor.jsx uses field.itemLabel.toLowerCase() (line 45) - all configs supply itemLabel; safe.",
+    "server.py has no createdAt on content items -> cannot sort by recency server-side without a schema tweak (minor)."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "100% (from iter 1, unchanged)", "frontend": "95% (24/25 checks pass; 1 UX visibility issue)"},
+  "test_credentials": "admin/admin",
+  "seed_data_creation": "Created and deleted: QA Sunrise Trek (tour), QA Test Van (car), QA Addon on enchanting-nusa-penida-escape. Also cleaned up leftover 'test' tour from prior iteration. DB now back to 10 tours / 7 cars / originals.",
+  "retest_needed": false,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "Both reported bugs are FIXED. Only a UX observation: newly-created tours (and possibly activities/articles) don't show on the public first-page view because DataContext appends to end and Home slices first 8. Login via [data-testid=login-username/password/submit] or fallback to first two inputs works. Radix tabs must be clicked via page.get_by_role('tab', name='...').click() - programmatic .click() may not switch state, but forceMount now keeps fields mounted so testids remain queryable across tabs. GalleryEditor input is `[data-testid=\"gallery-editor\"] input[type=file][multiple]` - use set_input_files with in-memory PNG buffer. Public pages use ~1s preloader ([data-testid=preloader]).",
+  "rca of the issue": "BUG 1 RCA: In previous GalleryEditor.addFiles, the code did `for (const file of e.target.files) { ...uploadImage(file)... }` and immediately reset e.target.value='' AFTER awaiting async uploads. Between awaits, the input's FileList (a live reference) had already been cleared, so subsequent file accesses returned undefined -> 'Cannot read properties of undefined (reading name)'. FIX: copy the FileList synchronously via `Array.from(fileList || [])` before any await, and pass the fileList arg from the change handler before resetting the input value. Also all uploads run in parallel via Promise.all now. Verified working. BUG 2 RCA (JSON textareas): Prior version used type:'json' fields for structured data (features/itinerary/addons/routes/facts/highlights/timeline/slots/packing/tips) rendered as monospace JSON textareas. Replaced with type:'list' + schema definitions in fields.js, rendered by new ListEditor.jsx with per-item cards (icon Select, text inputs, textarea, lines). ResourceForm.jsx now handles f.type==='list' -> ListEditor, and on submit normalizes lines-typed sub-values by trim+filter. Verified end-to-end: create item -> save -> API roundtrip preserves shape, existing arrays unchanged, no JSON textareas remain in any form."
+}
