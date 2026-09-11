@@ -31,6 +31,11 @@ dist/
 dist
 
 # Environment files (comprehensive coverage)
+.env
+backend/.env
+frontend/.env
+*.env
+!*.env.example
 
 *token.json*
 *credentials.json*
@@ -79,7 +84,11 @@ agenthub/agents/youtube/db
 memory/test_credentials.md
 
 # Mobile development
-android-sdk/frontend/node_modules/.cache/default-development/3.pack
-frontend/node_modules/.cache/default-development/1.pack
-frontend/node_modules/.cache/default-development/3.pack
-frontend/node_modules/.cache/default-development/6.pack
+android-sdk/
+
+# Emergent platform / internal files (not needed for Railway deploy)
+.emergent/
+memory/
+test_reports/
+plan/
+test_result.md

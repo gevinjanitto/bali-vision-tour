@@ -54,6 +54,7 @@
     "react-router-dom": "7.15.0",
     "react-scripts": "5.0.1",
     "recharts": "3.6.0",
+    "serve": "^14.2.6",
     "sonner": "2.0.3",
     "swr": "2.3.8",
     "tailwind-merge": "3.2.0",
@@ -64,6 +65,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "serve": "serve -s build -l $PORT",
     "test": "craco test"
   },
   "browserslist": {
@@ -81,7 +83,6 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
     "@craco/craco": "7.1.0",
-    "@emergentbase/visual-edits": "https://assets.emergent.sh/npm/emergentbase-visual-edits-1.0.13.tgz",
     "@eslint/js": "9.23.0",
     "@types/lodash": "4.17.24",
     "autoprefixer": "10.4.20",

@@ -12,7 +12,8 @@ from typing import Any, Dict, List, Optional
 
 import bcrypt
 import jwt
-import requests
+import cloudinary
+import cloudinary.uploader
 from fastapi import FastAPI, APIRouter, HTTPException, Request, Depends, UploadFile, File
 from fastapi.responses import Response
 from motor.motor_asyncio import AsyncIOMotorClient
@@ -33,10 +34,6 @@ JWT_SECRET = os.environ["JWT_SECRET"]
 JWT_ALG = "HS256"
 RESOURCES = {"tours", "cars", "activities", "articles"}
 APP_NAME = "bali-vision-tour"
-
-STORAGE_BASE = (os.environ.get("INTEGRATION_PROXY_URL") or "").strip() or "https://integrations.emergentagent.com"
-STORAGE_URL = STORAGE_BASE.rstrip("/") + "/objstore/api/v1/storage"
-storage_key: Optional[str] = None
 
 
 def now_iso() -> str:
@@ -281,34 +278,19 @@ async def stats(user: dict = Depends(get_current_user)):
     }
 
 
-# ---------- storage ----------
-def init_storage(force: bool = False) -> str:
-    global storage_key
-    if storage_key and not force:
-        return storage_key
-    resp = requests.post(f"{STORAGE_URL}/init", json={"emergent_key": os.environ.get("EMERGENT_LLM_KEY")}, timeout=30)
-    resp.raise_for_status()
-    storage_key = resp.json()["storage_key"]
-    return storage_key
-
-
-def put_object(path: str, data: bytes, content_type: str) -> dict:
-    resp = requests.put(f"{STORAGE_URL}/objects/{path}", headers={"X-Storage-Key": init_storage(), "Content-Type": content_type}, data=data, timeout=120)
-    if resp.status_code == 404:
-        resp = requests.put(f"{STORAGE_URL}/objects/{path}", headers={"X-Storage-Key": init_storage(force=True), "Content-Type": content_type}, data=data, timeout=120)
-    resp.raise_for_status()
-    return resp.json()
-
-
-def get_object(path: str) -> tuple:
-    resp = requests.get(f"{STORAGE_URL}/objects/{path}", headers={"X-Storage-Key": init_storage()}, timeout=60)
-    if resp.status_code == 404:
-        resp = requests.get(f"{STORAGE_URL}/objects/{path}", headers={"X-Storage-Key": init_storage(force=True)}, timeout=60)
-    resp.raise_for_status()
-    return resp.content, resp.headers.get("Content-Type", "application/octet-stream")
-
+# ---------- storage (Cloudinary) ----------
+cloudinary.config(
+    cloud_name=os.environ.get("CLOUDINARY_CLOUD_NAME"),
+    api_key=os.environ.get("CLOUDINARY_API_KEY"),
+    api_secret=os.environ.get("CLOUDINARY_API_SECRET"),
+    secure=True,
+)
 
 ALLOWED_IMG = {"image/jpeg", "image/png", "image/webp", "image/gif"}
+
+
+def storage_configured() -> bool:
+    return bool(os.environ.get("CLOUDINARY_CLOUD_NAME") and os.environ.get("CLOUDINARY_API_KEY") and os.environ.get("CLOUDINARY_API_SECRET"))
 
 
 @api.post("/upload")
@@ -318,28 +300,15 @@ async def upload(file: UploadFile = File(...), user: dict = Depends(get_current_
     data = await file.read()
     if len(data) > 8 * 1024 * 1024:
         raise HTTPException(400, "Image must be under 8MB")
-    ext = (file.filename or "img").rsplit(".", 1)[-1].lower() if "." in (file.filename or "") else "jpg"
-    path = f"{APP_NAME}/uploads/{uuid.uuid4().hex}.{ext}"
+    if not storage_configured():
+        raise HTTPException(500, "Image storage is not configured. Set CLOUDINARY_* environment variables.")
     try:
-        result = put_object(path, data, file.content_type)
+        result = cloudinary.uploader.upload(data, folder=f"{APP_NAME}/uploads", resource_type="image")
     except Exception as e:
         logger.error(f"Upload failed: {e}")
         raise HTTPException(502, "Storage upload failed")
-    await db.files.insert_one({"id": uuid.uuid4().hex[:12], "storage_path": result["path"], "original_filename": file.filename, "content_type": file.content_type, "size": result.get("size", len(data)), "is_deleted": False, "created_at": now_iso()})
-    return {"url": f"/api/files/{result['path']}", "path": result["path"]}
-
-
-@api.get("/files/{path:path}")
-async def serve_file(path: str):
-    record = await db.files.find_one({"storage_path": path, "is_deleted": False})
-    if not record:
-        raise HTTPException(404, "File not found")
-    try:
-        data, ct = get_object(path)
-    except Exception as e:
-        logger.error(f"Download failed: {e}")
-        raise HTTPException(502, "Storage download failed")
-    return Response(content=data, media_type=record.get("content_type", ct), headers={"Cache-Control": "public, max-age=31536000, immutable"})
+    await db.files.insert_one({"id": uuid.uuid4().hex[:12], "public_id": result["public_id"], "url": result["secure_url"], "original_filename": file.filename, "content_type": file.content_type, "size": result.get("bytes", len(data)), "is_deleted": False, "created_at": now_iso()})
+    return {"url": result["secure_url"], "path": result["public_id"]}
 
 
 @api.get("/")
@@ -390,11 +359,10 @@ async def on_startup():
         await db[r].create_index("id")
     await db.bookings.create_index("createdAt")
     await seed()
-    try:
-        init_storage()
-        logger.info("Storage initialized")
-    except Exception as e:
-        logger.error(f"Storage init failed: {e}")
+    if storage_configured():
+        logger.info("Cloudinary storage configured")
+    else:
+        logger.warning("Cloudinary not configured — image uploads disabled until CLOUDINARY_* env vars are set")
 
 
 @app.on_event("shutdown")
