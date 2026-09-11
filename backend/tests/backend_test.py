@@ -163,15 +163,24 @@ def _tiny_png() -> bytes:
     )
 
 
+def test_health_root_no_db():
+    r = requests.get(f"{API}/")
+    assert r.status_code == 200
+    d = r.json()
+    assert "service" in d and "status" in d
+
+
 def test_upload_png_and_serve(headers):
     files = {"file": ("test.png", io.BytesIO(_tiny_png()), "image/png")}
     r = requests.post(f"{API}/upload", files=files, headers=headers)
     assert r.status_code == 200, r.text
-    url = r.json()["url"]
-    assert url.startswith("/api/files/")
-    r2 = requests.get(f"{BASE_URL}{url}")
+    body = r.json()
+    url = body["url"]
+    assert url.startswith("https://res.cloudinary.com/"), url
+    assert "path" in body
+    r2 = requests.get(url)
     assert r2.status_code == 200
-    assert r2.headers["Content-Type"].startswith("image/")
+    assert r2.headers.get("Content-Type", "").startswith("image/")
 
 
 def test_upload_rejects_non_image(headers):

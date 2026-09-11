@@ -21,7 +21,7 @@ from pydantic import BaseModel
 from starlette.middleware.cors import CORSMiddleware
 
 ROOT_DIR = Path(__file__).parent
-client = AsyncIOMotorClient(os.environ["MONGO_URL"])
+client = AsyncIOMotorClient(os.environ["MONGO_URL"], serverSelectionTimeoutMS=5000)
 db = client[os.environ["DB_NAME"]]
 
 logging.basicConfig(level=logging.INFO)
@@ -352,13 +352,17 @@ async def seed():
 
 @app.on_event("startup")
 async def on_startup():
-    await db.users.create_index("username", unique=True)
-    await db.login_attempts.create_index("identifier")
-    for r in RESOURCES:
-        await db[r].create_index("slug")
-        await db[r].create_index("id")
-    await db.bookings.create_index("createdAt")
-    await seed()
+    try:
+        await db.users.create_index("username", unique=True)
+        await db.login_attempts.create_index("identifier")
+        for r in RESOURCES:
+            await db[r].create_index("slug")
+            await db[r].create_index("id")
+        await db.bookings.create_index("createdAt")
+        await seed()
+        logger.info("Database initialized")
+    except Exception as e:
+        logger.error(f"Database not reachable at startup, will initialize on first request: {e}")
     if storage_configured():
         logger.info("Cloudinary storage configured")
     else:
