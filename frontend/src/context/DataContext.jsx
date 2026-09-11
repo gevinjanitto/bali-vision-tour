@@ -20,7 +20,7 @@ export const DataProvider = ({ children }) => {
   useEffect(() => { setUnauthorizedHandler(() => { setToken(null); setUser(null); }); }, []);
 
   useEffect(() => {
-    Promise.all(RESOURCES.map((r) => api.get(`/api/content/${r}`).then((res) => [r, res.data]).catch(() => [r, []])))
+    Promise.all(RESOURCES.map((r) => api.get(`/api/content/${r}`).then((res) => [r, Array.isArray(res.data) ? res.data : []]).catch(() => [r, []])))
       .then((entries) => setData((d) => ({ ...d, ...Object.fromEntries(entries) })))
       .finally(() => setLoading(false));
   }, []);
@@ -32,8 +32,8 @@ export const DataProvider = ({ children }) => {
 
   const value = useMemo(() => {
     const collection = (key) => ({
-      list: () => data[key],
-      get: (idOrSlug) => data[key].find((x) => x.id === idOrSlug || x.slug === idOrSlug),
+      list: () => (Array.isArray(data[key]) ? data[key] : []),
+      get: (idOrSlug) => (Array.isArray(data[key]) ? data[key] : []).find((x) => x.id === idOrSlug || x.slug === idOrSlug),
       create: async (item) => {
         const { data: created } = await api.post(`/api/content/${key}`, item);
         setData((d) => ({ ...d, [key]: [created, ...d[key]] }));
@@ -57,7 +57,7 @@ export const DataProvider = ({ children }) => {
       activities: collection('activities'),
       articles: collection('articles'),
       bookings: {
-        list: () => data.bookings,
+        list: () => (Array.isArray(data.bookings) ? data.bookings : []),
         create: async (payload) => {
           const { data: created } = await api.post('/api/bookings', payload);
           return created;

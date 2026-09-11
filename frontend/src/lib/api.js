@@ -3,6 +3,10 @@ import axios from 'axios';
 export const AUTH_KEY = 'bvt_admin_token';
 export const API_BASE = process.env.REACT_APP_BACKEND_URL;
 
+if (!API_BASE) {
+  console.error('[config] REACT_APP_BACKEND_URL is not set at build time. API calls will fail. Set it in your hosting env vars and rebuild.');
+}
+
 export const api = axios.create({ baseURL: API_BASE });
 
 api.interceptors.request.use((config) => {
