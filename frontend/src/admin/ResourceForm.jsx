@@ -13,6 +13,7 @@ import { ImageUpload, GalleryEditor } from './ImageUpload';
 import { ListEditor } from './ListEditor';
 import { RESOURCE_CONFIG, blocksToText, textToBlocks } from './fields';
 import { errorMessage } from '../lib/api';
+import { ArticleBlocksEditor } from './ArticleBlocksEditor';
 
 const RAW_TYPES = new Set(['lines', 'json', 'blocks']);
 
@@ -27,6 +28,7 @@ const Field = ({ field, value, onChange, raw, onRaw }) => {
   const id = `f-${field.key.replace(/\./g, '-')}`;
   const testId = `field-${field.key.replace(/\./g, '-')}`;
   switch (field.type) {
+    case 'richblocks': return <ArticleBlocksEditor value={value || []} onChange={onChange} />;
     case 'textarea': return <Textarea id={id} value={value ?? ''} onChange={(e) => onChange(e.target.value)} className="bg-white min-h-[90px]" data-testid={testId} />;
     case 'lines': return <Textarea id={id} value={raw} onChange={(e) => onRaw(e.target.value)} className="bg-white min-h-[110px] font-mono text-xs" data-testid={testId} />;
     case 'blocks': return <Textarea id={id} value={raw} onChange={(e) => onRaw(e.target.value)} className="bg-white min-h-[320px] text-sm leading-relaxed" data-testid={testId} />;
@@ -40,7 +42,7 @@ const Field = ({ field, value, onChange, raw, onRaw }) => {
         <SelectContent>{[...(field.options || []), ...(value && !(field.options || []).includes(value) ? [value] : [])].map((o) => <SelectItem key={o} value={o}>{o}</SelectItem>)}</SelectContent>
       </Select>
     );
-    case 'image': return <ImageUpload value={value} onChange={onChange} testId={testId} />;
+    case 'image': return <ImageUpload value={value} onChange={onChange} testId={testId} recommendation={field.key.includes('avatar') ? '400 × 400 px · foto profil' : '1200 × 800 px · rasio 3:2'} />;
     case 'gallery': return <GalleryEditor value={value || []} onChange={onChange} />;
     case 'list': return <ListEditor field={field} value={value} onChange={onChange} />;
     default: return <Input id={id} value={value ?? ''} onChange={(e) => onChange(e.target.value)} className="bg-white" data-testid={testId} />;

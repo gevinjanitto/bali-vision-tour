@@ -15,9 +15,17 @@ import jwt
 import cloudinary
 import cloudinary.uploader
 from fastapi import FastAPI, APIRouter, HTTPException, Request, Depends, UploadFile, File
-from fastapi.responses import Response
+from fastapi.responses import Response, StreamingResponse
+from starlette.concurrency import run_in_threadpool
+from motor.motor_asyncio import AsyncIOMotorGridFSBucket
+from bson import ObjectId
+from gridfs.errors import NoFile
+from pymongo.errors import DuplicateKeyError
+from PIL import Image, UnidentifiedImageError
+from io import BytesIO
+from site_settings import make_settings_router
 from motor.motor_asyncio import AsyncIOMotorClient
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
 from starlette.middleware.cors import CORSMiddleware
 
 ROOT_DIR = Path(__file__).parent
@@ -61,8 +69,8 @@ def verify_password(p: str, h: str) -> bool:
     return bcrypt.checkpw(p.encode(), h.encode())
 
 
-def create_token(user_id: str, username: str) -> str:
-    payload = {"sub": user_id, "username": username, "type": "access", "exp": datetime.now(timezone.utc) + timedelta(days=7)}
+def create_token(user_id: str, username: str, version: int = 0) -> str:
+    payload = {"sub": user_id, "username": username, "version": version, "type": "access", "exp": datetime.now(timezone.utc) + timedelta(days=7)}
     return jwt.encode(payload, JWT_SECRET, algorithm=JWT_ALG)
 
 
@@ -80,7 +88,7 @@ async def get_current_user(request: Request) -> dict:
     except jwt.InvalidTokenError:
         raise HTTPException(401, "Invalid token")
     user = await db.users.find_one({"id": payload["sub"]}, {"_id": 0, "password_hash": 0})
-    if not user:
+    if not user or payload.get("type") != "access" or payload.get("version", 0) != user.get("token_version", 0):
         raise HTTPException(401, "User not found")
     return user
 
@@ -92,6 +100,8 @@ class LoginBody(BaseModel):
 
 @api.post("/auth/login")
 async def login(body: LoginBody, request: Request, response: Response):
+    if len(body.password.encode()) > 72:
+        raise HTTPException(401, "Invalid username or password")
     ident = f"{request.client.host if request.client else 'x'}:{body.username.lower()}"
     attempt = await db.login_attempts.find_one({"identifier": ident})
     if attempt and attempt.get("count", 0) >= 5:
@@ -103,7 +113,7 @@ async def login(body: LoginBody, request: Request, response: Response):
         await db.login_attempts.update_one({"identifier": ident}, {"$inc": {"count": 1}, "$set": {"last": now_iso()}}, upsert=True)
         raise HTTPException(401, "Invalid username or password")
     await db.login_attempts.delete_one({"identifier": ident})
-    token = create_token(user["id"], user["username"])
+    token = create_token(user["id"], user["username"], user.get("token_version", 0))
     response.set_cookie("access_token", token, httponly=True, secure=True, samesite="none", max_age=7 * 86400, path="/")
     return {"token": token, "user": {"id": user["id"], "username": user["username"], "name": user.get("name", "Admin"), "role": "admin"}}
 
@@ -129,16 +139,59 @@ async def change_password(body: PasswordBody, user: dict = Depends(get_current_u
     full = await db.users.find_one({"id": user["id"]})
     if not verify_password(body.current_password, full["password_hash"]):
         raise HTTPException(400, "Current password is incorrect")
-    if len(body.new_password) < 4:
-        raise HTTPException(400, "Password too short")
-    await db.users.update_one({"id": user["id"]}, {"$set": {"password_hash": hash_password(body.new_password)}})
+    if len(body.new_password) < 8 or len(body.new_password.encode()) > 72:
+        raise HTTPException(400, "Password harus 8–72 byte")
+    await db.users.update_one({"id": user["id"]}, {"$set": {"password_hash": hash_password(body.new_password), "password_changed": True}, "$inc": {"token_version": 1}})
     return {"ok": True}
 
 
+class AccountBody(BaseModel):
+    current_password: str
+    username: str
+    new_password: Optional[str] = None
+
+
+@api.put("/auth/account")
+async def update_account(body: AccountBody, response: Response, user: dict = Depends(get_current_user)):
+    full = await db.users.find_one({"id": user["id"]}, {"_id": 0})
+    if len(body.current_password.encode()) > 72 or not verify_password(body.current_password, full["password_hash"]):
+        raise HTTPException(400, "Password saat ini salah")
+    username = body.username.strip().lower()
+    if not re.fullmatch(r"[a-z0-9_.-]{3,40}", username):
+        raise HTTPException(400, "Username 3–40 karakter: huruf, angka, titik, garis bawah, atau tanda hubung")
+    patch = {"username": username, "password_changed": True, "updated_at": now_iso()}
+    if body.new_password:
+        if len(body.new_password) < 8 or len(body.new_password.encode()) > 72:
+            raise HTTPException(400, "Password baru minimal 8 karakter, maksimal 72 byte")
+        patch["password_hash"] = hash_password(body.new_password)
+    try:
+        await db.users.update_one({"id": user["id"]}, {"$set": patch, "$inc": {"token_version": 1}})
+    except DuplicateKeyError:
+        raise HTTPException(409, "Username sudah digunakan")
+    response.delete_cookie("access_token", path="/", secure=True, samesite="none")
+    return {"ok": True, "message": "Akun diperbarui. Silakan masuk kembali."}
+
+
 # ---------- public content ----------
+class NewsletterBody(BaseModel):
+    email: EmailStr
+
+
+@api.post("/newsletter")
+async def subscribe(body: NewsletterBody):
+    await db.newsletter.update_one({"email": body.email.lower()}, {"$setOnInsert": {"createdAt": now_iso()}}, upsert=True)
+    return {"ok": True}
+
+
 def check_resource(resource: str):
     if resource not in RESOURCES:
         raise HTTPException(404, "Unknown resource")
+
+
+def validate_gallery(body):
+    gallery = body.get("gallery", [])
+    if not isinstance(gallery, list) or len(gallery) > 20:
+        raise HTTPException(422, "Maksimal 20 foto per galeri")
 
 
 @api.get("/content/{resource}")
@@ -160,6 +213,7 @@ async def get_resource(resource: str, slug: str):
 @api.post("/content/{resource}", status_code=201)
 async def create_resource(resource: str, body: Dict[str, Any], user: dict = Depends(get_current_user)):
     check_resource(resource)
+    validate_gallery(body)
     body.pop("_id", None)
     body["id"] = uuid.uuid4().hex[:12]
     base = slugify(body.get("slug") or body.get("title") or body.get("name") or "")
@@ -180,6 +234,7 @@ async def create_resource(resource: str, body: Dict[str, Any], user: dict = Depe
 @api.put("/content/{resource}/{item_id}")
 async def update_resource(resource: str, item_id: str, body: Dict[str, Any], user: dict = Depends(get_current_user)):
     check_resource(resource)
+    validate_gallery(body)
     body.pop("_id", None)
     body.pop("id", None)
     if body.get("slug"):
@@ -191,7 +246,7 @@ async def update_resource(resource: str, item_id: str, body: Dict[str, Any], use
     res = await db[resource].update_one({"id": item_id}, {"$set": body})
     if res.matched_count == 0:
         raise HTTPException(404, "Not found")
-    return clean(await db[resource].find_one({"id": item_id}))
+    return await db[resource].find_one({"id": item_id}, {"_id": 0})
 
 
 @api.delete("/content/{resource}/{item_id}")
@@ -241,7 +296,7 @@ async def update_booking(booking_id: str, body: StatusBody, user: dict = Depends
     res = await db.bookings.update_one({"id": booking_id}, {"$set": {"status": body.status, "updatedAt": now_iso()}})
     if res.matched_count == 0:
         raise HTTPException(404, "Not found")
-    return clean(await db.bookings.find_one({"id": booking_id}))
+    return await db.bookings.find_one({"id": booking_id}, {"_id": 0})
 
 
 @api.delete("/bookings/{booking_id}")
@@ -286,7 +341,8 @@ cloudinary.config(
     secure=True,
 )
 
-ALLOWED_IMG = {"image/jpeg", "image/png", "image/webp", "image/gif"}
+ALLOWED_IMG = {"image/jpeg", "image/png", "image/webp"}
+gridfs = AsyncIOMotorGridFSBucket(db, bucket_name="media")
 
 
 def storage_configured() -> bool:
@@ -296,19 +352,43 @@ def storage_configured() -> bool:
 @api.post("/upload")
 async def upload(file: UploadFile = File(...), user: dict = Depends(get_current_user)):
     if file.content_type not in ALLOWED_IMG:
-        raise HTTPException(400, "Only JPG, PNG, WEBP or GIF images are allowed")
-    data = await file.read()
+        raise HTTPException(400, "Gunakan gambar JPG, PNG, atau WEBP")
+    data = await file.read(8 * 1024 * 1024 + 1)
     if len(data) > 8 * 1024 * 1024:
         raise HTTPException(400, "Image must be under 8MB")
-    if not storage_configured():
-        raise HTTPException(500, "Image storage is not configured. Set CLOUDINARY_* environment variables.")
     try:
-        result = cloudinary.uploader.upload(data, folder=f"{APP_NAME}/uploads", resource_type="image")
+        image = Image.open(BytesIO(data))
+        if image.format not in {"JPEG", "PNG", "WEBP"} or image.width * image.height > 40000000:
+            raise ValueError("Invalid format or dimensions")
+        width, height = image.size
+        mime = Image.MIME[image.format]
+        image.verify()
+    except (UnidentifiedImageError, ValueError, OSError, Image.DecompressionBombError):
+        raise HTTPException(400, "Gambar tidak valid atau melebihi 40 megapiksel")
+    if not storage_configured():
+        file_id = await gridfs.upload_from_stream(uuid.uuid4().hex, data, metadata={"content_type": mime, "width": width, "height": height})
+        return {"url": f"/api/media/{file_id}", "path": str(file_id), "width": width, "height": height}
+    try:
+        result = await run_in_threadpool(cloudinary.uploader.upload, data, folder=f"{APP_NAME}/uploads", resource_type="image")
     except Exception as e:
         logger.error(f"Upload failed: {e}")
         raise HTTPException(502, "Storage upload failed")
     await db.files.insert_one({"id": uuid.uuid4().hex[:12], "public_id": result["public_id"], "url": result["secure_url"], "original_filename": file.filename, "content_type": file.content_type, "size": result.get("bytes", len(data)), "is_deleted": False, "created_at": now_iso()})
     return {"url": result["secure_url"], "path": result["public_id"]}
+
+
+@api.get("/media/{file_id}")
+async def serve_media(file_id: str):
+    if not ObjectId.is_valid(file_id):
+        raise HTTPException(404, "Gambar tidak ditemukan")
+    try:
+        stream = await gridfs.open_download_stream(ObjectId(file_id))
+    except NoFile:
+        raise HTTPException(404, "Gambar tidak ditemukan")
+    async def chunks():
+        while data := await stream.readchunk():
+            yield data
+    return StreamingResponse(chunks(), media_type=stream.metadata["content_type"], headers={"Cache-Control": "public, max-age=31536000, immutable", "X-Content-Type-Options": "nosniff"})
 
 
 @api.get("/")
@@ -317,6 +397,7 @@ async def root():
 
 
 app.include_router(api)
+app.include_router(make_settings_router(db, get_current_user))
 
 app.add_middleware(
     CORSMiddleware,
@@ -330,11 +411,9 @@ app.add_middleware(
 async def seed():
     username = os.environ["ADMIN_USERNAME"].lower()
     password = os.environ["ADMIN_PASSWORD"]
-    existing = await db.users.find_one({"username": username})
+    existing = await db.users.find_one({})
     if not existing:
         await db.users.insert_one({"id": uuid.uuid4().hex[:12], "username": username, "name": "Administrator", "role": "admin", "password_hash": hash_password(password), "created_at": now_iso()})
-    elif not verify_password(password, existing["password_hash"]) and not existing.get("password_changed"):
-        await db.users.update_one({"username": username}, {"$set": {"password_hash": hash_password(password)}})
     seed_file = ROOT_DIR / "seed_data.json"
     if seed_file.exists():
         data = json.loads(seed_file.read_text())
@@ -366,7 +445,7 @@ async def on_startup():
     if storage_configured():
         logger.info("Cloudinary storage configured")
     else:
-        logger.warning("Cloudinary not configured — image uploads disabled until CLOUDINARY_* env vars are set")
+        logger.info("Image uploads use persistent MongoDB GridFS storage")
 
 
 @app.on_event("shutdown")

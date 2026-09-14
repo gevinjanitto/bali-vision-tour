@@ -6,6 +6,7 @@ import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 import { useData } from '../context/DataContext';
 import IMG from '../mock/images';
+import Logo from '../components/Logo';
 
 const AdminLogin = () => {
   const { auth } = useData();
@@ -45,8 +46,7 @@ const AdminLogin = () => {
       <div className="flex items-center justify-center p-6 md:p-12">
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }} className="w-full max-w-md">
           <div className="flex items-center gap-3">
-            <img src="/logo-icon.png" alt="Bali Vision Tour" className="w-12 h-12 rounded-full" />
-            <div className="leading-none"><div className="font-display font-bold text-ink text-lg">Bali Vision</div><div className="font-display font-bold tracking-[0.12em] text-[9px] text-brand">ADMIN PANEL</div></div>
+            <Logo testId="admin-login-logo" />
           </div>
           <h1 className="font-display font-bold text-ink text-3xl mt-10">Welcome back</h1>
           <p className="text-sand text-sm mt-2">Sign in with your administrator credentials.</p>

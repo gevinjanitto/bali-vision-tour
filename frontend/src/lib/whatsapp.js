@@ -1,7 +1,7 @@
 import { COMPANY } from '../mock/common';
 
-export const buildWhatsAppUrl = (message) => {
-  const text = encodeURIComponent(message);
+export const buildWhatsAppUrl = (message = '') => {
+  const text = encodeURIComponent(message || COMPANY.whatsappMessage || '');
   return `https://wa.me/${COMPANY.whatsapp}?text=${text}`;
 };
 

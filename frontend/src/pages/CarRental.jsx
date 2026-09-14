@@ -87,6 +87,7 @@ const CarRental = () => {
             {CAR_FILTERS.map((f) => <button key={f} onClick={() => setFilter(f)} className={`rounded-full px-4 py-2 text-xs font-semibold transition-colors ${filter === f ? 'bg-forest text-white' : 'bg-cream-100 text-ink/80 hover:bg-cream-200'}`} data-testid={`car-filter-${f.toLowerCase().replace(/\s/g, '-')}`}>{f}</button>)}
           </div>
         </Reveal>
+        {list.length === 0 && <div className="mt-10 bg-white rounded-3xl p-12 text-center shadow-soft" data-testid="car-empty-state"><h3 className="font-display text-xl font-bold">No vehicles in this category yet</h3><button onClick={() => setFilter('All Vehicles')} className="btn-outline mt-5" data-testid="car-reset-filters">Reset Filters</button></div>}
         <Stagger className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
           {list.map((c) => <Item key={c.id}><CarCard car={c} onBook={(car) => { setOption('Car + Driver + Petrol (10 Hours)'); setBooking(car); }} /></Item>)}
         </Stagger>

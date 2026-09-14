@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Sun, MapPin, CalendarDays, Wallet, SlidersHorizontal, ChevronDown } from 'lucide-react';
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '../components/ui/select';
@@ -16,7 +16,7 @@ const FilterSelect = ({ icon: I, label, value, onChange, options, placeholder })
   <div>
     <div className="text-[10px] uppercase tracking-[0.16em] font-bold text-ink/60 mb-2">{label}</div>
     <Select value={value} onValueChange={onChange}>
-      <SelectTrigger className="h-12 rounded-xl bg-cream border-ink/10 text-sm font-medium"><span className="flex items-center gap-2"><I className="w-4 h-4 text-brand" /><SelectValue placeholder={placeholder} /></span></SelectTrigger>
+      <SelectTrigger data-testid={`tour-select-${placeholder.toLowerCase().replace(/[^a-z]+/g, '-')}`} className="h-12 rounded-xl bg-cream border-ink/10 text-sm font-medium"><span className="flex items-center gap-2"><I className="w-4 h-4 text-brand" /><SelectValue placeholder={placeholder} /></span></SelectTrigger>
       <SelectContent className="rounded-xl">{options.map((o) => <SelectItem key={o} value={o}>{o}</SelectItem>)}</SelectContent>
     </Select>
   </div>
@@ -29,8 +29,20 @@ const TourPackages = () => {
   const [category, setCategory] = useState(params.get('category') || 'All');
   const [destination, setDestination] = useState(params.get('destination') || 'All Bali Destinations');
   const [duration, setDuration] = useState(params.get('duration') || 'Any Length');
-  const [budget, setBudget] = useState('All Price Ranges');
+  const [budget, setBudget] = useState(params.get('budget') || 'All Price Ranges');
   const [visible, setVisible] = useState(9);
+  useEffect(() => { setVisible(9); }, [category, destination, duration, budget]);
+  useEffect(() => {
+    setCategory(params.get('category') || 'All');
+    setDestination(params.get('destination') || 'All Bali Destinations');
+    setDuration(params.get('duration') || 'Any Length');
+    setBudget(params.get('budget') || 'All Price Ranges');
+  }, [params]);
+  const reset = () => {
+    setCategory('All'); setDestination('All Bali Destinations');
+    setDuration('Any Length'); setBudget('All Price Ranges');
+    setVisible(9); setParams({});
+  };
 
   const filtered = useMemo(() => all.filter((t) => {
     if (category !== 'All' && t.category !== category) return false;
@@ -52,6 +64,7 @@ const TourPackages = () => {
     if (category !== 'All') p.set('category', category);
     if (destination !== 'All Bali Destinations') p.set('destination', destination);
     if (duration !== 'Any Length') p.set('duration', duration);
+    if (budget !== 'All Price Ranges') p.set('budget', budget);
     setParams(p);
     document.getElementById('packages')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
@@ -95,10 +108,10 @@ const TourPackages = () => {
           <div className="text-sm text-sand" data-testid="tour-count">Showing {Math.min(visible, filtered.length)} of {filtered.length} exclusive island experiences</div>
         </Reveal>
         {filtered.length === 0 ? (
-          <div className="mt-12 text-center bg-white rounded-3xl p-14 shadow-soft">
+          <div data-testid="tour-empty-state" className="mt-12 text-center bg-white rounded-3xl p-14 shadow-soft">
             <div className="font-display text-2xl text-ink font-bold">No packages match your filters</div>
             <p className="text-sand mt-2">Try broadening your destination or duration.</p>
-            <button onClick={() => { setCategory('All'); setDestination('All Bali Destinations'); setDuration('Any Length'); setBudget('All Price Ranges'); }} className="btn-outline mt-6">Reset Filters</button>
+            <button onClick={reset} className="btn-outline mt-6" data-testid="tour-reset-filters">Reset Filters</button>
           </div>
         ) : (
           <Stagger className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">

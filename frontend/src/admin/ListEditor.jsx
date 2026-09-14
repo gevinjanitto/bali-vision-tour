@@ -4,11 +4,13 @@ import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '../components/ui/select';
 import Icon from '../components/Icon';
+import { ImageUpload } from './ImageUpload';
 
 export const ICON_OPTIONS = ['Star', 'Users', 'UserRound', 'Car', 'Luggage', 'UtensilsCrossed', 'Footprints', 'Waves', 'Ticket', 'Sun', 'Sunrise', 'Moon', 'Landmark', 'Droplets', 'BedDouble', 'Banknote', 'BadgeDollarSign', 'Ship', 'ShieldCheck', 'Shield', 'Leaf', 'TreePine', 'Mountain', 'Map', 'Route', 'Headphones', 'Zap', 'MoveVertical', 'Bike', 'Armchair', 'Activity', 'Wind', 'Thermometer', 'SprayCan', 'Snowflake', 'Smile', 'Shirt', 'Plug', 'Package', 'LifeBuoy', 'Camera', 'Clock', 'Heart', 'Sparkles', 'Coffee', 'Wifi', 'Umbrella', 'Compass', 'Flag', 'Gift'];
 
 const SubField = ({ sf, value, onChange, testId }) => {
   switch (sf.type) {
+    case 'image': return <ImageUpload value={value} onChange={onChange} testId={testId} compact recommendation="400 × 400 px · foto profil" />;
     case 'textarea': return <Textarea value={value ?? ''} onChange={(e) => onChange(e.target.value)} className="bg-white min-h-[64px] text-sm" placeholder={sf.placeholder} data-testid={testId} />;
     case 'lines': return <Textarea value={(value || []).join('\n')} onChange={(e) => onChange(e.target.value.split('\n'))} className="bg-white min-h-[72px] text-sm" placeholder={sf.placeholder || 'Satu item per baris'} data-testid={testId} />;
     case 'number': return <Input type="number" value={value ?? ''} onChange={(e) => onChange(e.target.value === '' ? '' : Number(e.target.value))} className="bg-white" placeholder={sf.placeholder} data-testid={testId} />;

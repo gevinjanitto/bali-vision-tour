@@ -1,6 +1,7 @@
+import { bindContent } from '../lib/siteContent';
 const u = (id, w = 1200) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
 
-export const IMG = {
+export const IMG = bindContent('images', {
   ubud: u('photo-1555400038-63f5ba517a47'),
   bedugul: u('photo-1711609110590-5ad5c4599e56'),
   riceMist: u('photo-1558005530-a7958896ec60'),
@@ -60,6 +61,6 @@ export const IMG = {
   av6: u('photo-1758600587815-b654d1405e83', 200),
   group: u('photo-1539635278303-d4002c07eae3'),
   couple: u('photo-1544091441-9cca7fbe8923'),
-};
+});
 
 export default IMG;

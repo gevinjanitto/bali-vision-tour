@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink, Outlet, Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Map, Car, Compass, Newspaper, Inbox, LogOut, ExternalLink, Menu, X } from 'lucide-react';
+import { LayoutDashboard, Map, Car, Compass, Newspaper, Inbox, LogOut, ExternalLink, Menu, X, Settings, FilePenLine, ShieldCheck } from 'lucide-react';
 import { useData } from '../context/DataContext';
+import Logo from '../components/Logo';
 
 const NAV = [
   { to: '/admin', label: 'Dashboard', icon: LayoutDashboard, end: true },
@@ -10,16 +11,18 @@ const NAV = [
   { to: '/admin/activities', label: 'Activities', icon: Compass },
   { to: '/admin/articles', label: 'Articles', icon: Newspaper },
   { to: '/admin/bookings', label: 'Booking Requests', icon: Inbox },
+  { to: '/admin/settings', label: 'Kontak & Identitas', icon: Settings },
+  { to: '/admin/content', label: 'Isi Halaman', icon: FilePenLine },
+  { to: '/admin/account', label: 'Akun Admin', icon: ShieldCheck },
 ];
 
 const Sidebar = ({ onNavigate }) => {
   const { auth } = useData();
   return (
-    <div className="h-full flex flex-col bg-forest text-white relative overflow-hidden">
+    <div className="h-full flex flex-col bg-forest text-white relative overflow-y-auto">
       <div className="absolute inset-0 grain pointer-events-none" />
       <div className="relative z-10 flex items-center gap-3 px-6 h-[72px] border-b border-white/10">
-        <img src="/logo-icon.png" alt="" className="w-9 h-9 rounded-full" />
-        <div className="leading-none"><div className="font-display font-bold text-base">Bali Vision</div><div className="font-display font-bold tracking-[0.14em] text-[9px] text-gold mt-0.5">ADMIN PANEL</div></div>
+        <Logo light size="sm" testId="admin-logo" />
       </div>
       <nav className="relative z-10 flex-1 px-4 py-6 space-y-1" data-testid="admin-sidebar">
         {NAV.map((n) => (

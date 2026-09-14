@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ChevronRight, ChevronLeft, MapPin, Camera, Timer, CircleCheck, ArrowRight, MessageCircle, Info } from 'lucide-react';
 import { PageHero, Newsletter } from '../components/Layout';
@@ -20,13 +20,15 @@ const Articles = () => {
   const [q, setQ] = useState('');
   const [cat, setCat] = useState('All');
   const [page, setPage] = useState(1);
+  useEffect(() => { setPage(1); }, [q, cat]);
   const cats = useMemo(() => ['All', ...Array.from(new Set(all.map((a) => a.category)))], [all]);
   const featured = all.find((a) => a.featured) || all[0];
 
   const filtered = useMemo(() => all.filter((a) => (cat === 'All' || a.category === cat) && (!q || `${a.title} ${a.excerpt} ${a.category}`.toLowerCase().includes(q.toLowerCase()))), [all, cat, q]);
   const listed = filtered.filter((a) => a.id !== featured?.id || cat !== 'All' || q);
   const pages = Math.max(1, Math.ceil(listed.length / PER_PAGE));
-  const pageItems = listed.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+  const currentPage = Math.min(page, pages);
+  const pageItems = listed.slice((currentPage - 1) * PER_PAGE, currentPage * PER_PAGE);
 
   return (
     <div data-testid="articles-page">
@@ -61,7 +63,7 @@ const Articles = () => {
       <section className="mx-auto max-w-7xl px-4 md:px-6 lg:px-10 pb-16 grid lg:grid-cols-3 gap-8 items-start">
         <div className="lg:col-span-2">
           <Reveal className="flex items-end justify-between"><SectionHeading eyebrow="Field Notes & Dispatch" title="Latest Journal Dispatches" titleClass="!text-3xl" /><span className="text-xs text-sand">Showing {pageItems.length} Handcrafted Guides</span></Reveal>
-          {pageItems.length === 0 ? <div className="mt-8 bg-white rounded-3xl p-12 text-center shadow-soft"><div className="font-display text-xl font-bold">No articles found</div><p className="text-sand text-sm mt-2">Try a different keyword or category.</p></div> : (
+          {pageItems.length === 0 ? <div className="mt-8 bg-white rounded-3xl p-12 text-center shadow-soft" data-testid="article-empty-state"><div className="font-display text-xl font-bold">No articles found</div><p className="text-sand text-sm mt-2">Try a different keyword or category.</p><button onClick={() => { setQ(''); setCat('All'); setPage(1); }} className="btn-outline mt-5" data-testid="article-reset-filters">Reset Filters</button></div> : (
             <Stagger className="grid sm:grid-cols-2 gap-6 mt-8">{pageItems.map((a) => <Item key={a.id}><ArticleCard article={a} /></Item>)}</Stagger>
           )}
           {pages > 1 && (

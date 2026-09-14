@@ -8,6 +8,7 @@ const L = (key, label, itemLabel, schema, extra = {}) => ({ key, label, type: 'l
 const s = (key, label, type = 'text', extra = {}) => ({ key, label, type, ...extra });
 const ICON = s('icon', 'Ikon', 'icon');
 const TONE = s('tone', 'Warna', 'select', { options: ['brand', 'forest', 'sage', 'gold', 'sand'] });
+const REVIEW_FIELDS = [s('name', 'Nama'), s('avatar', 'Foto profil', 'image'), s('initials', 'Inisial'), s('location', 'Lokasi'), s('meta', 'Keterangan'), s('date', 'Tanggal ulasan'), s('text', 'Isi ulasan', 'textarea'), TONE];
 
 export const RESOURCE_CONFIG = {
   tours: {
@@ -23,6 +24,7 @@ export const RESOURCE_CONFIG = {
         L('itinerary', 'Itinerary perjalanan (per hari)', 'Hari', [s('day', 'Label hari', 'text', { placeholder: 'Day 1' }), s('title', 'Judul kegiatan'), s('meals', 'Makan', 'text', { placeholder: 'Breakfast, Lunch' }), s('desc', 'Deskripsi', 'textarea'), s('points', 'Poin kegiatan (satu per baris)', 'lines')]),
         L('addons', 'Add-on / layanan tambahan berbayar', 'Add-on', [s('title', 'Nama add-on'), s('price', 'Harga (IDR)', 'number'), s('desc', 'Deskripsi', 'textarea')]),
         L('tips', 'Tips perjalanan', 'Tips', [ICON, s('title', 'Judul'), s('desc', 'Deskripsi', 'textarea')]),
+        L('reviewsList', 'Ulasan wisatawan', 'Ulasan', REVIEW_FIELDS),
       ] },
     ],
   },
@@ -38,6 +40,7 @@ export const RESOURCE_CONFIG = {
         L('specs', 'Spesifikasi singkat (chip ikon di kartu)', 'Spesifikasi', [ICON, s('label', 'Teks', 'text', { placeholder: '4-5 VIP Guests' })]),
         L('addons', 'Add-on / layanan tambahan berbayar', 'Add-on', [s('title', 'Nama add-on'), s('price', 'Harga (IDR)', 'number')]),
         L('routes', 'Rekomendasi rute perjalanan', 'Rute', [s('title', 'Judul rute'), s('tag', 'Kategori', 'text', { placeholder: 'Culture & Jungle' }), s('hours', 'Durasi', 'text', { placeholder: '10 Hours' }), TONE, s('stops', 'Tempat yang dikunjungi (satu per baris)', 'lines')]),
+        L('reviewsList', 'Ulasan penumpang', 'Ulasan', REVIEW_FIELDS),
       ] },
     ],
   },
@@ -56,6 +59,7 @@ export const RESOURCE_CONFIG = {
         L('slots', 'Pilihan jam keberangkatan', 'Sesi', [s('label', 'Nama sesi', 'text', { placeholder: 'Morning Session' }), s('sub', 'Keterangan', 'text', { placeholder: '07:30 - 08:30 AM Hotel Dispatch' })]),
         L('addons', 'Add-on / layanan tambahan berbayar', 'Add-on', [s('title', 'Nama add-on'), s('price', 'Harga (IDR)', 'number'), s('desc', 'Deskripsi', 'textarea')]),
         L('packing', 'Panduan barang bawaan', 'Barang', [ICON, s('title', 'Judul'), s('desc', 'Deskripsi', 'textarea')]),
+        L('reviewsList', 'Ulasan peserta', 'Ulasan', REVIEW_FIELDS),
       ] },
     ],
   },
@@ -66,7 +70,7 @@ export const RESOURCE_CONFIG = {
     sections: [
       { title: 'Basic Info', fields: [f('title', 'Title', 'text', { required: true, span: 2 }), f('slug', 'Slug (auto if empty)'), f('category', 'Category', 'select', { options: ARTICLE_CATEGORIES, allowCustom: true }), f('date', 'Publish date', 'date'), f('readTime', 'Read time (e.g. 5 min read)'), f('location', 'Location'), f('featured', 'Featured guide of the month', 'switch'), f('subtitle', 'Subtitle', 'text', { span: 2 }), f('excerpt', 'Excerpt', 'textarea', { span: 2, required: true })] },
       { title: 'Media & Author', fields: [f('image', 'Cover image', 'image', { span: 2 }), f('imageCaption', 'Image caption', 'text', { span: 2 }), f('author.name', 'Author name'), f('author.role', 'Author role'), f('author.avatar', 'Author avatar', 'image'), f('author.license', 'Author license / badge'), f('author.bio', 'Author bio', 'textarea', { span: 2 })] },
-      { title: 'Content', fields: [f('content', 'Article body', 'blocks', { span: 2, hint: 'Tulis paragraf biasa, pisahkan dengan baris kosong. Awali baris dengan "## " untuk sub-judul, "- " untuk daftar poin, dan "> " untuk kutipan.' }), f('tags', 'Header tags (one per line)', 'lines'), f('highlights', "Curator's highlights (one per line)", 'lines'), L('facts', 'Fakta singkat di sidebar', 'Fakta', [s('label', 'Label', 'text', { placeholder: 'Best season' }), s('value', 'Nilai', 'text', { placeholder: 'April - October' })])] },
+      { title: 'Content', fields: [f('content', 'Isi artikel', 'richblocks', { span: 2 }), f('bullets', 'Poin artikel unggulan (satu per baris)', 'lines'), f('tags', 'Header tags (one per line)', 'lines'), f('highlights', "Curator's highlights (one per line)", 'lines'), L('facts', 'Fakta singkat di sidebar', 'Fakta', [s('label', 'Label', 'text', { placeholder: 'Best season' }), s('value', 'Nilai', 'text', { placeholder: 'April - October' })])] },
     ],
   },
 };

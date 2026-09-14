@@ -4,7 +4,13 @@ import { BrowserRouter, Routes, Route, Outlet, useLocation, Navigate } from 'rea
 import { Toaster } from './components/ui/sonner';
 import { DataProvider, useData } from './context/DataContext';
 import { Navbar, MobileNav } from './components/Navbar';
-import { Footer } from './components/Layout';
+import { SiteFooter as Footer } from './components/SiteFooter';
+import { FloatingWhatsApp } from './components/FloatingWhatsApp';
+import { SettingsProvider, useSettings } from './context/SettingsContext';
+import SettingsPage from './admin/SettingsPage';
+import ContentPage from './admin/ContentPage';
+import AccountPage from './admin/AccountPage';
+import PolicyPage from './pages/PolicyPage';
 import { SmoothScroll } from './components/SmoothScroll';
 import { Preloader } from './components/Preloader';
 import Home from './pages/Home';
@@ -31,13 +37,15 @@ const ScrollToTop = () => {
 
 const PublicLayout = () => {
   const { loading } = useData();
+  const { settings } = useSettings();
   return (
-    <div className="min-h-screen flex flex-col pb-[66px] md:pb-0">
+    <div key={settings.updatedAt} className="min-h-screen flex flex-col pb-[66px] md:pb-0">
       <SmoothScroll />
       <Preloader loading={loading} />
       <Navbar />
       <main className="flex-1">{!loading && <Outlet />}</main>
       <Footer />
+      <FloatingWhatsApp />
       <MobileNav />
     </div>
   );
@@ -46,13 +54,21 @@ const PublicLayout = () => {
 const RequireAuth = () => {
   const { auth } = useData();
   if (!auth.isAuthed) return <Navigate to="/admin/login" replace />;
+  if (!auth.user) return <div className="p-12 text-sand" data-testid="admin-loading">Memuat akun…</div>;
   return <AdminLayout />;
+};
+
+const SettingsReady = ({ children }) => {
+  const { loading, error, reload } = useSettings();
+  if (error) return <div className="p-12 text-center" data-testid="site-settings-error"><p>{error}</p><button onClick={reload} className="btn-brand mt-5" data-testid="site-settings-retry">Coba lagi</button></div>;
+  if (loading) return <div className="min-h-screen bg-cream flex items-center justify-center text-brand" data-testid="site-loading">Memuat Bali Vision Tour…</div>;
+  return children;
 };
 
 function App() {
   return (
     <div className="App">
-      <DataProvider>
+      <SettingsProvider><DataProvider><SettingsReady>
         <BrowserRouter>
           <ScrollToTop />
           <Routes>
@@ -67,6 +83,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/articles" element={<Articles />} />
               <Route path="/articles/:slug" element={<ArticleDetail />} />
+              <Route path="/policies/:type" element={<PolicyPage />} />
             </Route>
             <Route path="/admin/login" element={<AdminLogin />} />
             <Route path="/admin" element={<RequireAuth />}>
@@ -76,12 +93,15 @@ function App() {
               <Route path="activities" element={<ResourcePage key="activities" resource="activities" />} />
               <Route path="articles" element={<ResourcePage key="articles" resource="articles" />} />
               <Route path="bookings" element={<Bookings />} />
+              <Route path="settings" element={<SettingsPage />} />
+              <Route path="content" element={<ContentPage />} />
+              <Route path="account" element={<AccountPage />} />
             </Route>
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </BrowserRouter>
         <Toaster position="top-center" richColors />
-      </DataProvider>
+      </SettingsReady></DataProvider></SettingsProvider>
     </div>
   );
 }

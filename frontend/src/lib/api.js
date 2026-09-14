@@ -38,8 +38,10 @@ export const errorMessage = (e, fallback = 'Something went wrong') => {
 };
 
 export const uploadImage = async (file) => {
+  if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) throw new Error('Gunakan JPG, PNG, atau WEBP');
+  if (file.size > 8 * 1024 * 1024) throw new Error('Ukuran gambar maksimal 8 MB');
   const fd = new FormData();
   fd.append('file', file);
   const { data } = await api.post('/api/upload', fd, { headers: { 'Content-Type': 'multipart/form-data' } });
-  return data.url;
+  return data.url?.startsWith('/api/') ? `${API_BASE}${data.url}` : data.url;
 };

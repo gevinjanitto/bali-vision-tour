@@ -44,7 +44,7 @@ const Activities = () => {
           <SectionHeading eyebrow="Handpicked Adventures" title="Featured Bali Activities" />
           <div className="text-xs text-sand flex items-center gap-2"><SlidersHorizontal className="w-4 h-4 text-sage-700" /> All prices include standard equipment, round-trip transport availability &amp; insurance</div>
         </Reveal>
-        {list.length === 0 ? <div className="mt-10 bg-white rounded-3xl p-14 text-center shadow-soft"><div className="font-display text-2xl font-bold">No activities in this category yet</div></div> : (
+        {list.length === 0 ? <div className="mt-10 bg-white rounded-3xl p-14 text-center shadow-soft" data-testid="activity-empty-state"><div className="font-display text-2xl font-bold">No activities in this category yet</div><button onClick={() => setType('All Activities')} className="btn-outline mt-5" data-testid="activity-reset-filters">Reset Filters</button></div> : (
           <Stagger className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">{list.map((a) => <Item key={a.id}><ActivityCard activity={a} onBook={setBooking} /></Item>)}</Stagger>
         )}
       </section>
@@ -70,7 +70,7 @@ const Activities = () => {
             </div>
             <div className="flex flex-col gap-3 md:items-end">
               <button onClick={() => openWhatsApp('Halo, saya ingin inquiry paket group / corporate retreat di Bali.')} className="inline-flex items-center gap-2 rounded-full bg-white text-brand-800 font-bold px-6 py-3.5 text-sm shadow-card hover:bg-cream transition-colors" data-testid="inquire-group"><Mail className="w-4 h-4" /> Inquire Group Package</button>
-              <a href={`tel:${COMPANY.phone.replace(/\s/g, '')}`} className="btn-ghost-light"><Phone className="w-4 h-4" /> Call {COMPANY.phone}</a>
+              <a href={`https://wa.me/${COMPANY.whatsapp}`} target="_blank" rel="noopener noreferrer" data-testid="activity-contact-whatsapp" className="btn-ghost-light"><Phone className="w-4 h-4" /> WhatsApp +{COMPANY.whatsapp}</a>
             </div>
           </div>
         </Reveal>

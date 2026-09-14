@@ -13,6 +13,7 @@ import { HOME_STATS, HOME_CATEGORIES, DESTINATIONS, HOME_FEATURES, TESTIMONIALS 
 import { TOUR_CATEGORIES } from '../mock/tours';
 import { useData } from '../context/DataContext';
 import { openWhatsApp } from '../lib/whatsapp';
+import { bindContent } from '../lib/siteContent';
 
 const SearchField = ({ icon: I, label, value, onChange, options, placeholder }) => (
   <div className="flex items-center gap-3 bg-white rounded-2xl border border-ink/8 px-4 py-2.5 flex-1 min-w-0">
@@ -108,7 +109,7 @@ const StatsRow = () => (
   </section>
 );
 
-const MARQUEE = ['Ubud Rice Terraces', 'Nusa Penida Cliffs', 'Uluwatu Kecak Sunset', 'Mount Batur Sunrise', 'Tirta Empul Blessing', 'Jimbaran Seafood', 'Lempuyang Gate of Heaven', 'Manta Ray Snorkeling'];
+const MARQUEE = bindContent('homeMarquee', ['Ubud Rice Terraces', 'Nusa Penida Cliffs', 'Uluwatu Kecak Sunset', 'Mount Batur Sunrise', 'Tirta Empul Blessing', 'Jimbaran Seafood', 'Lempuyang Gate of Heaven', 'Manta Ray Snorkeling']);
 
 const Marquee = () => (
   <section className="mt-16 border-y border-ink/8 py-5 overflow-hidden" aria-hidden="true" data-testid="marquee">
