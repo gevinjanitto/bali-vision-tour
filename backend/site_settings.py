@@ -80,7 +80,6 @@ class Brand(BaseModel):
     title: str = "Bali Vision"
     tagline: str = "TOUR & TRAVEL"
     legal: str = "PT. Bali Vision Tour"
-    entity: str = "PT Mesari Loka Karya"
     logo: str = "/logo-icon.png"
     logoLight: str = ""
     logoMode: str = "icon"

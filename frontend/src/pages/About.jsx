@@ -5,7 +5,7 @@ import { Reveal, Stagger, Item } from '../components/Reveal';
 import { SectionHeading, Pill, Stars } from '../components/ui-bits';
 import Icon from '../components/Icon';
 import IMG from '../mock/images';
-import { ABOUT, COMPANY } from '../mock/common';
+import { ABOUT } from '../mock/common';
 import { openWhatsApp } from '../lib/whatsapp';
 
 const toneBg = { brand: 'bg-brand-50 text-brand', sage: 'bg-sage text-sage-700', sand: 'bg-cream-200 text-sand' };
@@ -16,7 +16,7 @@ const About = () => (
       <Reveal>
         <Pill tone="brand-soft" uppercase className="!bg-white border border-brand-100"><Sparkles className="w-3 h-3" /> The Soul of Balinese Travel</Pill>
         <h1 className="font-display font-bold text-ink text-4xl md:text-6xl leading-[1.02] tracking-tight mt-6">Crafting Unforgettable Balinese Journeys with <span className="font-serif italic font-medium text-brand">Heart &amp; Heritage</span></h1>
-        <p className="text-sand mt-6 text-[17px] leading-relaxed max-w-xl">Founded on authentic hospitality and deep reverence for the Island of the Gods, Bali Vision Tour blends curated luxury with grassroots Balinese warmth under the licensed care of {COMPANY.entity}.</p>
+        <p className="text-sand mt-6 text-[17px] leading-relaxed max-w-xl">Founded on authentic hospitality and deep reverence for the Island of the Gods, Bali Vision Tour blends curated luxury with grassroots Balinese warmth under the care of licensed, insured local professionals.</p>
         <div className="flex flex-wrap gap-3 mt-8">
           <a href="#story" className="btn-brand !bg-brand-800 hover:!bg-brand-700">Read Our Story <ArrowDown className="w-4 h-4" /></a>
           <button onClick={() => openWhatsApp('Halo Bali Vision Tour! Saya ingin berbicara dengan concierge.')} className="btn-outline"><MessageCircle className="w-4 h-4" /> Chat with Concierge</button>
@@ -38,14 +38,14 @@ const About = () => (
     <section id="story" className="mx-auto max-w-7xl px-4 md:px-6 lg:px-10 pb-20 grid lg:grid-cols-12 gap-12 items-center">
       <Reveal className="lg:col-span-5 relative">
         <div className="rounded-3xl overflow-hidden h-[440px] img-zoom shadow-card"><img src={IMG.group} alt="Guide with travelers" className="w-full h-full object-cover" /></div>
-        <div className="absolute -bottom-6 left-6 right-6 bg-white/95 backdrop-blur rounded-2xl p-5 shadow-card"><div className="eyebrow">Official Entity</div><div className="font-display font-bold text-ink text-lg mt-1">{COMPANY.entity}</div><div className="text-xs text-sand mt-0.5">NIB: 9120008351273 &bull; SK Kemenkumham RI</div></div>
+        <div className="absolute -bottom-6 left-6 right-6 bg-white/95 backdrop-blur rounded-2xl p-5 shadow-card" data-testid="about-story-card"><div className="eyebrow">Since 2014</div><div className="font-display font-bold text-ink text-lg mt-1">Bali Vision Tour</div><div className="text-xs text-sand mt-0.5">Licensed &amp; insured tour operator based in Denpasar, Bali</div></div>
       </Reveal>
       <Reveal delay={0.1} className="lg:col-span-7 lg:pl-6">
         <div className="eyebrow flex items-center gap-3"><span className="w-8 h-px bg-brand" /> Our Humble Roots</div>
         <h2 className="font-display font-bold text-ink text-4xl md:text-5xl leading-[1.05] tracking-tight mt-4">Born in Denpasar, Rooted Across the Archipelago</h2>
         <div className="space-y-4 mt-6 text-ink/75 leading-relaxed text-[15px]">
           <p>Bali Vision Tour emerged from a profound conviction: travel across Bali should never feel transactional. In 2014, our founder, Wayan Sudiarta, began escorting small groups of curious visitors across Mount Batur and Bedugul with a single well-maintained MPV and a genuine desire to unveil the island's mystical sanctity beyond tourist corridors.</p>
-          <p>Under our corporate entity, <b className="text-ink">{COMPANY.entity}</b>, we expanded into a licensed premier destination management company. What remains unaltered is our philosophy of <i className="font-serif text-brand">Tri Hita Karana</i>—the sacred Balinese principle harmonizing human connection, pristine nature, and spiritual heritage.</p>
+          <p>As <b className="text-ink">Bali Vision Tour</b>, we grew into a licensed premier destination management company. What remains unaltered is our philosophy of <i className="font-serif text-brand">Tri Hita Karana</i>—the sacred Balinese principle harmonizing human connection, pristine nature, and spiritual heritage.</p>
           <p>Today, with our own fleet of pristine luxury MPVs, private speedboats, and an elite network of certified native Balinese storytellers, we deliver bespoke, private day tours, airport VIP transfers, and curated retreats with uncompromised integrity.</p>
         </div>
         <div className="mt-8 flex items-center gap-4 bg-white border border-sage rounded-2xl p-5 shadow-soft"><span className="w-11 h-11 rounded-full bg-sage text-sage-700 flex items-center justify-center shrink-0"><BadgeCheck className="w-5 h-5" /></span><div><div className="font-semibold text-ink">Registered Tourism Operator in Bali</div><div className="text-xs text-sand">Fully insured vehicles, licensed local guides, transparent billing with zero tourist surcharges.</div></div></div>
@@ -73,7 +73,7 @@ const About = () => (
         <Reveal>
           <div className="text-[10px] uppercase tracking-[0.16em] font-bold text-gold-100">Sustainable &amp; Ethical Stewardship</div>
           <h2 className="font-display font-bold text-4xl md:text-5xl leading-[1.05] mt-3">Protecting the Sacred Island We Call Home</h2>
-          <p className="text-white/85 mt-5 leading-relaxed">As native custodians of Bali, {COMPANY.entity} commits 5% of annual proceeds to direct community eco-funds, artisan guilds, and temple preservation trusts across Bali's less traveled rural regencies.</p>
+          <p className="text-white/85 mt-5 leading-relaxed">As native custodians of Bali, Bali Vision Tour commits 5% of annual proceeds to direct community eco-funds, artisan guilds, and temple preservation trusts across Bali's less traveled rural regencies.</p>
           <div className="space-y-3 mt-8">{ABOUT.sustainability.map((s) => <div key={s.title} className="flex gap-4 rounded-2xl border border-white/25 bg-white/10 p-4"><Icon name={s.icon} className="w-5 h-5 text-gold shrink-0 mt-0.5" /><div><div className="font-semibold">{s.title}</div><div className="text-xs text-white/80 mt-1">{s.desc}</div></div></div>)}</div>
         </Reveal>
         <Reveal delay={0.15} className="relative rounded-3xl overflow-hidden h-[420px] shadow-card img-zoom"><img src={IMG.riceMist} alt="Rice terraces" className="w-full h-full object-cover" /><div className="absolute inset-0 bg-gradient-to-t from-forest/80 to-transparent" /><div className="absolute bottom-6 left-6 right-6"><div className="text-[10px] uppercase tracking-[0.16em] font-bold text-gold">The Subak Tradition</div><div className="font-display font-bold text-2xl mt-1">UNESCO World Heritage Cultural Landscape</div><p className="text-xs text-white/80 mt-1">We educate every guest on Bali's ancient cooperative water management systems dating back to the 9th century.</p></div></Reveal>

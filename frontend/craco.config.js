@@ -88,7 +88,7 @@ let webpackConfig = {
       const webpack = require('webpack');
       const catalog = require('./plugins/cms-content').catalog(path.join(__dirname, 'src'));
       // Runtime value refreshes the catalogue with source edits during development.
-      webpackConfig.plugins.push(new webpack.DefinePlugin({ __BVT_CMS_CATALOG__: webpack.DefinePlugin.runtimeValue(() => JSON.stringify(require('./plugins/cms-content').catalog(path.join(__dirname, 'src'))), { contextDependencies: [path.join(__dirname, 'src/pages'), path.join(__dirname, 'src/components')] }) }));
+      webpackConfig.plugins.push(new webpack.DefinePlugin({ 'globalThis.__BVT_CMS_CATALOG__': webpack.DefinePlugin.runtimeValue(() => JSON.stringify(require('./plugins/cms-content').catalog(path.join(__dirname, 'src'))), { contextDependencies: [path.join(__dirname, 'src/pages'), path.join(__dirname, 'src/components')] }) }));
 
       // Add ignored patterns to reduce watched directories
         webpackConfig.watchOptions = {

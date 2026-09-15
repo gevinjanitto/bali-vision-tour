@@ -61,7 +61,7 @@ const RequireAuth = () => {
 const SettingsReady = ({ children }) => {
   const { loading, error, reload } = useSettings();
   if (error) return <div className="p-12 text-center" data-testid="site-settings-error"><p>{error}</p><button onClick={reload} className="btn-brand mt-5" data-testid="site-settings-retry">Coba lagi</button></div>;
-  if (loading) return <div className="min-h-screen bg-cream flex items-center justify-center text-brand" data-testid="site-loading">Memuat Bali Vision Tour…</div>;
+  if (loading) return <Preloader loading />;
   return children;
 };
 

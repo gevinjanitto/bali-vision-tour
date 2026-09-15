@@ -4,7 +4,6 @@ import { bindContent } from '../lib/siteContent';
 export const COMPANY = bindContent('company', {
   name: 'Bali Vision Tour',
   legal: 'PT. Bali Vision Tour',
-  entity: 'PT Mesari Loka Karya',
   phone: '+62 822 4747 9695',
   whatsapp: '6282247479695',
   email: 'hello@balivisiontour.com',
@@ -82,7 +81,7 @@ export const ABOUT = bindContent('about', {
   ],
   voices: [
     { name: 'Emma & Liam Walker', meta: 'Melbourne, Australia • 7-Day Bespoke Tour', initials: 'EW', text: 'Bali Vision Tour transformed our honeymoon. Wayan took us to temples where we were the only foreigners, arranged a private water blessing, and our driver Made drove like an angel. Truly pristine service.' },
-    { name: 'Hendra Pratama', meta: 'Jakarta, Indonesia • Family Private Charter', initials: 'HP', text: 'Pelayanan PT Mesari Loka Karya luar biasa! Mobil Alphard dan Innova Zenix sangat bersih dan wangi. Pak Ketut siap 24 jam di WhatsApp merekomendasikan beach club dan resto seafood terbaik di Jimbaran.' },
+    { name: 'Hendra Pratama', meta: 'Jakarta, Indonesia • Family Private Charter', initials: 'HP', text: 'Pelayanan Bali Vision Tour luar biasa! Mobil Alphard dan Innova Zenix sangat bersih dan wangi. Pak Ketut siap 24 jam di WhatsApp merekomendasikan beach club dan resto seafood terbaik di Jimbaran.' },
     { name: 'Sophie & Julian Dupont', meta: 'Geneva, Switzerland • Curated Villa Journey', initials: 'SD', text: "Total peace of mind. Transparent upfront pricing with no awkward surprise commissions at souvenir shops. Saraswati's culinary route in Ubud was the highlight of our three weeks in Southeast Asia." },
   ],
 });
