@@ -1,0 +1,18 @@
+.App { min-height: 100vh; }
+/* Keep content forms, filters and the existing travel layout within small screens. */
+img { max-width: 100%; }
+input, textarea, select { min-width: 0; }
+[data-testid="article-search"] { min-width: 0; width: 0; }
+[data-testid="settings-form"] h1, [data-testid="content-editor-form"] h1 { overflow-wrap: anywhere; }
+[data-testid="settings-form"] input, [data-testid="content-editor-form"] input { max-width: 100%; }
+@media (min-width: 768px) and (max-width: 1050px) {
+  [data-testid="navbar"] nav { gap: 12px; }
+  [data-testid="navbar"] nav a { font-size: 12px; }
+  [data-testid="nav-book-now"] { padding-left: 12px !important; padding-right: 12px !important; }
+}
+@media (max-width: 480px) {
+  [data-testid="newsletter"] form { flex-wrap: wrap; border-radius: 18px; }
+  [data-testid="newsletter-email"] { flex-basis: 100%; }
+  [data-testid="newsletter-submit"] { width: 100%; }
+  [data-testid="articles-page"] [data-testid="article-search"] + button { padding-left: 10px !important; padding-right: 10px !important; }
+}

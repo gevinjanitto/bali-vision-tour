@@ -1,0 +1,4432 @@
+{
+ "tours": [
+  {
+   "id": "t1",
+   "slug": "family-picnic-in-bali",
+   "title": "Family Picnic in Bali",
+   "category": "Family Trip",
+   "badge": "Bestseller",
+   "region": "Ubud & Safari Region",
+   "duration": "4 Days 3 Nights",
+   "days": 4,
+   "rating": 4.9,
+   "reviews": 15,
+   "price": 8190000,
+   "priceUnit": "Family",
+   "originalPrice": 9500000,
+   "image": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=1200&q=80",
+   "bestseller": true,
+   "featured": true,
+   "highlights": [
+    "Bali Safari & Marine Park private safari",
+    "Sacred Ubud Monkey Forest sanctuary",
+    "Tanah Lot sea temple sunset & private MPV"
+   ],
+   "description": "A relaxed 4-day family escape blending wildlife encounters, gentle cultural walks and a sunset picnic on the cliffs of Tanah Lot.",
+   "longDescription": [
+    "Designed for families with young explorers, this itinerary balances excitement with plenty of downtime. Enjoy private safari trams, hands-on animal encounters and a curated picnic basket prepared by our partner chefs.",
+    "Every transfer is in a spacious private MPV with child seats available on request."
+   ],
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=1200&q=80",
+     "label": "Family Moments"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1759129669580-e1e9ae3c078b?auto=format&fit=crop&w=1200&q=80",
+     "label": "Safari Tram"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Ubud Rice Terraces"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1553902000-e036b7d05af5?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tanah Lot Sunset"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Beach Picnic"
+    }
+   ],
+   "features": [
+    {
+     "title": "Private Family MPV",
+     "desc": "Dedicated air-conditioned vehicle with child seats.",
+     "icon": "Car"
+    },
+    {
+     "title": "Safari VIP Access",
+     "desc": "Skip-the-line tram and animal feeding session.",
+     "icon": "Ticket"
+    },
+    {
+     "title": "Picnic Chef Basket",
+     "desc": "Curated gourmet picnic set with local fruits.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Family Resort Stay",
+     "desc": "3 nights at a family-friendly Ubud resort.",
+     "icon": "BedDouble"
+    }
+   ],
+   "itinerary": [
+    {
+     "day": 1,
+     "title": "Arrival & Ubud Monkey Forest Welcome",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 2,
+     "title": "Bali Safari & Marine Park Adventure",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 3,
+     "title": "Rice Terrace Walk & Tanah Lot Picnic",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 4,
+     "title": "Leisure Morning & Airport Transfer",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    }
+   ],
+   "inclusions": [
+    "Private AC vehicle with dedicated English-speaking guide",
+    "All entrance tickets, retribution fees & parking permits",
+    "Daily gourmet breakfasts & selected lunch experiences",
+    "Unlimited bottled mineral water & cool refreshing towels"
+   ],
+   "exclusions": [
+    "International or domestic flights to/from Denpasar Bali",
+    "Alcoholic beverages and specialty cocktails",
+    "Personal travel insurance (highly recommended)",
+    "Gratuities / tipping for local driver and boat crew"
+   ],
+   "tips": [
+    {
+     "title": "Footwear & Terrain",
+     "desc": "Wear sturdy trainers or strapped sandals for steep stone paths and temple stairs.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Sun Protection",
+     "desc": "Reef-safe sunscreen, sunglasses, and wide hats are essential for bright midday sun.",
+     "icon": "Sun"
+    },
+    {
+     "title": "Cash on Island",
+     "desc": "Carry small Indonesian Rupiah cash for local warung refreshments and coco stalls.",
+     "icon": "Banknote"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Charlotte & Oliver M.",
+     "location": "London, United Kingdom",
+     "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+     "text": "The VIP fast boat and private car made everything completely effortless. Bali Vision took care of every detail!",
+     "date": "Stayed October 2024 • Verified Private Tour"
+    },
+    {
+     "name": "David & Sarah Tan",
+     "location": "Singapore",
+     "avatar": "https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?auto=format&fit=crop&w=200&q=80",
+     "text": "Our driver Ketut was incredible—he knew all the exact spots to take photos without crowds. 10/10 recommendation.",
+     "date": "Stayed November 2024 • Verified Private Tour"
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "slug": "magical-bali-family-explorer",
+   "title": "Magical Bali Family Explorer",
+   "category": "Family Trip",
+   "badge": null,
+   "region": "Central & Coast",
+   "duration": "3 Days 2 Nights",
+   "days": 3,
+   "rating": 4.9,
+   "reviews": 37,
+   "price": 5840000,
+   "priceUnit": "Family",
+   "originalPrice": 6800000,
+   "image": "https://images.unsplash.com/photo-1554931670-4ebfabf6e7a9?auto=format&fit=crop&w=1200&q=80",
+   "bestseller": true,
+   "featured": true,
+   "highlights": [
+    "Bali Bird Park interactive aviary tour",
+    "Tegenungan Waterfall & hidden spring dip",
+    "Sanur Beach golden sunrise cycling journey"
+   ],
+   "description": "Three magical days of waterfalls, tropical birds and beachside cycling for families who love to keep moving.",
+   "longDescription": [
+    "From the roar of Tegenungan Waterfall to the calm of Sanur’s sunrise beach path, this compact escape packs in the best of central Bali without long drives."
+   ],
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1554931670-4ebfabf6e7a9?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tegenungan Waterfall"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Jungle Trails"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Sanur Coast"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Rice Terraces"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1544091441-9cca7fbe8923?auto=format&fit=crop&w=1200&q=80",
+     "label": "Family Fun"
+    }
+   ],
+   "features": [
+    {
+     "title": "Bird Park Passes",
+     "desc": "Interactive feeding session included.",
+     "icon": "Bird"
+    },
+    {
+     "title": "Waterfall Guide",
+     "desc": "Safe path and hidden spring access.",
+     "icon": "Droplets"
+    },
+    {
+     "title": "Sunrise Cycling",
+     "desc": "Kids bikes & helmets provided.",
+     "icon": "Bike"
+    },
+    {
+     "title": "Beachfront Stay",
+     "desc": "2 nights at Sanur family resort.",
+     "icon": "BedDouble"
+    }
+   ],
+   "itinerary": [
+    {
+     "day": 1,
+     "title": "Arrival, Bird Park & Ubud Evening",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 2,
+     "title": "Tegenungan Waterfall & Spring Dip",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 3,
+     "title": "Sanur Sunrise Cycling & Departure",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    }
+   ],
+   "inclusions": [
+    "Private AC vehicle with dedicated English-speaking guide",
+    "All entrance tickets, retribution fees & parking permits",
+    "Daily gourmet breakfasts & selected lunch experiences",
+    "Unlimited bottled mineral water & cool refreshing towels"
+   ],
+   "exclusions": [
+    "International or domestic flights to/from Denpasar Bali",
+    "Alcoholic beverages and specialty cocktails",
+    "Personal travel insurance (highly recommended)",
+    "Gratuities / tipping for local driver and boat crew"
+   ],
+   "tips": [
+    {
+     "title": "Footwear & Terrain",
+     "desc": "Wear sturdy trainers or strapped sandals for steep stone paths and temple stairs.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Sun Protection",
+     "desc": "Reef-safe sunscreen, sunglasses, and wide hats are essential for bright midday sun.",
+     "icon": "Sun"
+    },
+    {
+     "title": "Cash on Island",
+     "desc": "Carry small Indonesian Rupiah cash for local warung refreshments and coco stalls.",
+     "icon": "Banknote"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Charlotte & Oliver M.",
+     "location": "London, United Kingdom",
+     "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+     "text": "The VIP fast boat and private car made everything completely effortless. Bali Vision took care of every detail!",
+     "date": "Stayed October 2024 • Verified Private Tour"
+    },
+    {
+     "name": "David & Sarah Tan",
+     "location": "Singapore",
+     "avatar": "https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?auto=format&fit=crop&w=200&q=80",
+     "text": "Our driver Ketut was incredible—he knew all the exact spots to take photos without crowds. 10/10 recommendation.",
+     "date": "Stayed November 2024 • Verified Private Tour"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "slug": "bali-rafting-eco-tour",
+   "title": "Bali Rafting & Eco Tour",
+   "category": "Adventure & Eco",
+   "badge": null,
+   "region": "Ayung River & Jungle",
+   "duration": "4 Days 3 Nights",
+   "days": 4,
+   "rating": 4.8,
+   "reviews": 200,
+   "price": 2460000,
+   "priceUnit": "Person",
+   "originalPrice": 2900000,
+   "image": "https://images.unsplash.com/photo-1641584495089-5914d85d9bcc?auto=format&fit=crop&w=1200&q=80",
+   "bestseller": true,
+   "featured": true,
+   "highlights": [
+    "Ayung River Class II-III white water rafting",
+    "ATV Quad Bike through jungle tunnels & rice fields",
+    "Artisanal Luwak coffee tasting workshop"
+   ],
+   "description": "Adrenaline meets eco-conscious travel in this four-day adventure through Bali’s rivers, jungles and highland plantations.",
+   "longDescription": [
+    "Paddle the legendary Ayung River, tear through muddy jungle tracks on an ATV, and slow down at an organic coffee plantation in the Kintamani highlands."
+   ],
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1641584495089-5914d85d9bcc?auto=format&fit=crop&w=1200&q=80",
+     "label": "Ayung Rafting"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1787758509064-559a5e3eaa65?auto=format&fit=crop&w=1200&q=80",
+     "label": "ATV Jungle Trail"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Jungle Canopy"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1518730573647-359c73385dc5?auto=format&fit=crop&w=1200&q=80",
+     "label": "Kintamani Highlands"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1576878176876-517cdb8006ac?auto=format&fit=crop&w=1200&q=80",
+     "label": "Hidden Waterfall"
+    }
+   ],
+   "features": [
+    {
+     "title": "Pro Rafting Crew",
+     "desc": "Certified guides and safety gear.",
+     "icon": "LifeBuoy"
+    },
+    {
+     "title": "ATV Adventure",
+     "desc": "Single or tandem quad bikes.",
+     "icon": "Bike"
+    },
+    {
+     "title": "Coffee Workshop",
+     "desc": "Luwak coffee roasting session.",
+     "icon": "Coffee"
+    },
+    {
+     "title": "Eco Lodge Stay",
+     "desc": "3 nights at a riverside eco lodge.",
+     "icon": "TreePine"
+    }
+   ],
+   "itinerary": [
+    {
+     "day": 1,
+     "title": "Arrival & Riverside Eco Lodge",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 2,
+     "title": "Ayung River White Water Rafting",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 3,
+     "title": "ATV Jungle Trail & Coffee Plantation",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 4,
+     "title": "Kintamani Sunrise & Departure",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    }
+   ],
+   "inclusions": [
+    "Private AC vehicle with dedicated English-speaking guide",
+    "All entrance tickets, retribution fees & parking permits",
+    "Daily gourmet breakfasts & selected lunch experiences",
+    "Unlimited bottled mineral water & cool refreshing towels"
+   ],
+   "exclusions": [
+    "International or domestic flights to/from Denpasar Bali",
+    "Alcoholic beverages and specialty cocktails",
+    "Personal travel insurance (highly recommended)",
+    "Gratuities / tipping for local driver and boat crew"
+   ],
+   "tips": [
+    {
+     "title": "Footwear & Terrain",
+     "desc": "Wear sturdy trainers or strapped sandals for steep stone paths and temple stairs.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Sun Protection",
+     "desc": "Reef-safe sunscreen, sunglasses, and wide hats are essential for bright midday sun.",
+     "icon": "Sun"
+    },
+    {
+     "title": "Cash on Island",
+     "desc": "Carry small Indonesian Rupiah cash for local warung refreshments and coco stalls.",
+     "icon": "Banknote"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Charlotte & Oliver M.",
+     "location": "London, United Kingdom",
+     "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+     "text": "The VIP fast boat and private car made everything completely effortless. Bali Vision took care of every detail!",
+     "date": "Stayed October 2024 • Verified Private Tour"
+    },
+    {
+     "name": "David & Sarah Tan",
+     "location": "Singapore",
+     "avatar": "https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?auto=format&fit=crop&w=200&q=80",
+     "text": "Our driver Ketut was incredible—he knew all the exact spots to take photos without crowds. 10/10 recommendation.",
+     "date": "Stayed November 2024 • Verified Private Tour"
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "slug": "enchanting-nusa-penida-escape",
+   "title": "Enchanting Nusa Penida Escape",
+   "category": "Private Tour",
+   "badge": "Top Rated",
+   "region": "Nusa Penida Island",
+   "duration": "4 Days 3 Nights",
+   "days": 4,
+   "rating": 5,
+   "reviews": 100,
+   "price": 2420000,
+   "priceUnit": "Person",
+   "originalPrice": 2950000,
+   "image": "https://images.unsplash.com/photo-1557106160-c533b9d00071?auto=format&fit=crop&w=1200&q=80",
+   "bestseller": true,
+   "featured": true,
+   "subtitle": "Pristine Cliffs, Crystal Bays & Secret Lagoons",
+   "highlights": [
+    "Kelingking T-Rex cliff & Angel’s Billabong",
+    "Pristine Diamond Beach & Thousand Islands",
+    "VIP Speedboat return tickets & private island 4x4"
+   ],
+   "description": "A bespoke 4-day private island odyssey exploring the dramatic limestone cliffs of Kelingking Beach, Diamond Beach, manta ray snorkeling, and sunset oceanfront stays.",
+   "longDescription": [
+    "Escape the ordinary and immerse yourself in the raw geological grandeur of Nusa Penida. Over four meticulously planned days, you will bypass the tourist rush through custom-timed departures, marveling at the towering headlands of Kelingking, navigating the turquoise waters of Angel’s Billabong, and tracing the dramatic cliff staircase down to Diamond Beach.",
+    "Designed for those who cherish authentic exploration without sacrificing creature comforts, this package pairs high-octane coastal adventures—like gliding beside oceanic manta rays at Manta Point—with secluded sunsets over Crystal Bay, authentic Balinese hospitality, and hand-selected cliffside retreats."
+   ],
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1557106160-c533b9d00071?auto=format&fit=crop&w=1200&q=80",
+     "label": "Kelingking Secret Point"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1541666282672-5f4aad922c63?auto=format&fit=crop&w=1200&q=80",
+     "label": "Diamond Beach Steps"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1618265909156-0507770ef0d0?auto=format&fit=crop&w=1200&q=80",
+     "label": "Manta Bay Safari"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1636619306699-2d27a100605e?auto=format&fit=crop&w=1200&q=80",
+     "label": "Cliffside 4-Star Stay"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Sunset Beachfront Dining"
+    }
+   ],
+   "features": [
+    {
+     "title": "Private Island 4x4 Chauffeur",
+     "desc": "Dedicated air-conditioned vehicle and island-born expert driver throughout.",
+     "icon": "Car"
+    },
+    {
+     "title": "VIP Fast Boat Return",
+     "desc": "Sanur - Nusa Penida priority check-in boarding passes with luggage assistance.",
+     "icon": "Ship"
+    },
+    {
+     "title": "Private Snorkeling & Manta Bay",
+     "desc": "Chartered boat, full snorkeling gear, and guide to swim with majestic manta rays.",
+     "icon": "Waves"
+    },
+    {
+     "title": "4-Star Oceanfront Stay",
+     "desc": "3 Nights at premium cliffside bungalow with daily gourmet breakfast included.",
+     "icon": "BedDouble"
+    }
+   ],
+   "itinerary": [
+    {
+     "day": 1,
+     "title": "VIP Fast Boat Arrival & Iconic West Coast Wonders",
+     "desc": "Your private chauffeur collects you from your South Bali hotel and escorts you to Sanur Harbor for VIP fast boat check-in. Upon arriving in Nusa Penida, meet your island guide and begin your expedition into the dramatic West Coast.",
+     "points": [
+      "07:30 AM: Hotel pickup & Sanur VIP check-in",
+      "10:30 AM: Kelingking T-Rex Cliff exploration",
+      "01:00 PM: Broken Beach & Angel’s Billabong",
+      "05:30 PM: Golden sunset coconuts at Crystal Bay"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Sunset Welcome Drink"
+    },
+    {
+     "day": 2,
+     "title": "East Coast Hidden Jewels & Cliffside Staircases",
+     "desc": "Descend the legendary limestone staircase to Diamond Beach, then unwind at Atuh Beach and the Thousand Islands viewpoint.",
+     "points": [
+      "08:00 AM: Breakfast & Diamond Beach descent",
+      "11:00 AM: Atuh Beach cove swim",
+      "02:00 PM: Thousand Islands & Rumah Pohon treehouse",
+      "05:00 PM: Return to resort"
+     ],
+     "meals": "Included Meals: Breakfast, Seafood Lunch"
+    },
+    {
+     "day": 3,
+     "title": "Private Snorkeling Ocean Safari & Manta Ray Encounter",
+     "desc": "Board your chartered boat for a private snorkeling safari across Manta Point, Crystal Bay and Gamat Bay.",
+     "points": [
+      "08:30 AM: Boat departure",
+      "09:30 AM: Manta Point snorkeling",
+      "12:00 PM: Gamat Bay & Crystal Bay",
+      "03:00 PM: Afternoon leisure"
+     ],
+     "meals": "Included Meals: Breakfast, Picnic Lunch on Board"
+    },
+    {
+     "day": 4,
+     "title": "Cultural Sacred Temple Visit & VIP Return Transfer",
+     "desc": "Visit the sacred cave temple of Pura Goa Giri Putri before your VIP fast boat return to Sanur and hotel drop-off.",
+     "points": [
+      "08:00 AM: Breakfast & check-out",
+      "09:30 AM: Pura Goa Giri Putri",
+      "12:00 PM: VIP fast boat return",
+      "02:00 PM: South Bali hotel drop-off"
+     ],
+     "meals": "Included Meals: Breakfast"
+    }
+   ],
+   "inclusions": [
+    "VIP return fast boat transfers (Sanur - Nusa Penida)",
+    "3 Nights 4-star cliffside boutique resort stay (Twin/King)",
+    "Private AC 4x4 SUV with dedicated English-speaking guide",
+    "Chartered snorkeling boat, sanitized masks, fins & life jackets",
+    "All entrance tickets, retribution fees & parking permits",
+    "Daily gourmet breakfasts & 4 restaurant lunch experiences",
+    "Unlimited bottled mineral water & cool refreshing towels"
+   ],
+   "exclusions": [
+    "International or domestic flights to/from Denpasar Bali",
+    "Alcoholic beverages and specialty cocktails",
+    "Personal travel insurance (highly recommended)",
+    "Optional drone videography package (available as add-on)",
+    "Gratuities / tipping for local driver and boat crew"
+   ],
+   "addons": [
+    {
+     "title": "Drone 4K Videographer",
+     "desc": "Edited highlight reel of cliffs",
+     "price": 450000
+    },
+    {
+     "title": "Private Speedboat Charter",
+     "desc": "Direct island crossing, no wait",
+     "price": 950000
+    }
+   ],
+   "tips": [
+    {
+     "title": "Footwear & Terrain",
+     "desc": "Wear sturdy trainers or strapped sandals for steep stone paths like Diamond Beach stairs.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Sun Protection",
+     "desc": "Reef-safe sunscreen, sunglasses, and wide hats are essential for bright midday bay sun.",
+     "icon": "Sun"
+    },
+    {
+     "title": "Cash on Island",
+     "desc": "Carry small Indonesian Rupiah cash for local warung refreshments and beach coco stalls.",
+     "icon": "Banknote"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Charlotte & Oliver M.",
+     "location": "London, United Kingdom",
+     "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+     "text": "The VIP fast boat and private car made everything completely effortless. Bali Vision took care of every detail!",
+     "date": "Stayed October 2024 • Verified Private Tour"
+    },
+    {
+     "name": "David & Sarah Tan",
+     "location": "Singapore",
+     "avatar": "https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?auto=format&fit=crop&w=200&q=80",
+     "text": "Our driver Ketut was incredible—he knew all the exact spots to take photos without crowds. 10/10 recommendation.",
+     "date": "Stayed November 2024 • Verified Private Tour"
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "slug": "instagram-iconic-bali-tour",
+   "title": "Instagram Iconic Bali Tour",
+   "category": "Private Tour",
+   "badge": null,
+   "region": "East Bali & Ubud",
+   "duration": "3 Days 2 Nights",
+   "days": 3,
+   "rating": 5,
+   "reviews": 100,
+   "price": 1660000,
+   "priceUnit": "Person",
+   "originalPrice": 1990000,
+   "image": "https://images.unsplash.com/photo-1530080338378-25af8876ae2e?auto=format&fit=crop&w=1200&q=80",
+   "bestseller": true,
+   "featured": true,
+   "highlights": [
+    "Lempuyang Gate of Heaven sunrise priority",
+    "Tirta Gangga Royal Water Palace stepping stones",
+    "Aloha Ubud jungle swing & nest photography"
+   ],
+   "description": "Bali’s most photogenic spots, timed for perfect light and minimal crowds, with a dedicated photo-savvy guide.",
+   "longDescription": [
+    "Arrive at the Gate of Heaven before dawn with priority access, wander royal water gardens, and swing over the Ubud jungle with a professional photographer on hand."
+   ],
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1530080338378-25af8876ae2e?auto=format&fit=crop&w=1200&q=80",
+     "label": "Gate of Heaven"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1575573330964-db3dad170190?auto=format&fit=crop&w=1200&q=80",
+     "label": "Lempuyang Temple"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1711241707155-ba44d6dfb630?auto=format&fit=crop&w=1200&q=80",
+     "label": "Ubud Jungle Swing"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80",
+     "label": "Water Palace"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tegalalang"
+    }
+   ],
+   "features": [
+    {
+     "title": "Priority Sunrise Slot",
+     "desc": "Skip the 2-hour photo queue.",
+     "icon": "Sunrise"
+    },
+    {
+     "title": "Photo Guide",
+     "desc": "Guide trained in mobile photography.",
+     "icon": "Camera"
+    },
+    {
+     "title": "Swing Passes",
+     "desc": "All Aloha swing & nest tickets.",
+     "icon": "Ticket"
+    },
+    {
+     "title": "Boutique Ubud Stay",
+     "desc": "2 nights jungle-view boutique villa.",
+     "icon": "BedDouble"
+    }
+   ],
+   "itinerary": [
+    {
+     "day": 1,
+     "title": "Arrival & Ubud Rice Terrace Golden Hour",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 2,
+     "title": "Lempuyang Sunrise & Tirta Gangga",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 3,
+     "title": "Aloha Swing & Departure",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    }
+   ],
+   "inclusions": [
+    "Private AC vehicle with dedicated English-speaking guide",
+    "All entrance tickets, retribution fees & parking permits",
+    "Daily gourmet breakfasts & selected lunch experiences",
+    "Unlimited bottled mineral water & cool refreshing towels"
+   ],
+   "exclusions": [
+    "International or domestic flights to/from Denpasar Bali",
+    "Alcoholic beverages and specialty cocktails",
+    "Personal travel insurance (highly recommended)",
+    "Gratuities / tipping for local driver and boat crew"
+   ],
+   "tips": [
+    {
+     "title": "Footwear & Terrain",
+     "desc": "Wear sturdy trainers or strapped sandals for steep stone paths and temple stairs.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Sun Protection",
+     "desc": "Reef-safe sunscreen, sunglasses, and wide hats are essential for bright midday sun.",
+     "icon": "Sun"
+    },
+    {
+     "title": "Cash on Island",
+     "desc": "Carry small Indonesian Rupiah cash for local warung refreshments and coco stalls.",
+     "icon": "Banknote"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Charlotte & Oliver M.",
+     "location": "London, United Kingdom",
+     "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+     "text": "The VIP fast boat and private car made everything completely effortless. Bali Vision took care of every detail!",
+     "date": "Stayed October 2024 • Verified Private Tour"
+    },
+    {
+     "name": "David & Sarah Tan",
+     "location": "Singapore",
+     "avatar": "https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?auto=format&fit=crop&w=200&q=80",
+     "text": "Our driver Ketut was incredible—he knew all the exact spots to take photos without crowds. 10/10 recommendation.",
+     "date": "Stayed November 2024 • Verified Private Tour"
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "slug": "heritage-stay-at-penglipuran",
+   "title": "Heritage Stay at Penglipuran",
+   "category": "Cultural & Heritage",
+   "badge": null,
+   "region": "Bangli Highlands",
+   "duration": "2 Days 1 Night",
+   "days": 2,
+   "rating": 5,
+   "reviews": 100,
+   "price": 940000,
+   "priceUnit": "Person",
+   "originalPrice": 1150000,
+   "image": "https://images.unsplash.com/photo-1671080749889-19f8a69deb2b?auto=format&fit=crop&w=1200&q=80",
+   "bestseller": true,
+   "featured": true,
+   "highlights": [
+    "Eco-bamboo village homestay immersion",
+    "11th-century sacred Kehen Temple exploration",
+    "Authentic Balinese culinary workshop with elders"
+   ],
+   "description": "Sleep inside one of the world’s cleanest villages and learn Balinese living traditions from local elders.",
+   "longDescription": [
+    "Penglipuran’s bamboo-lined lanes and ancestral homes open their doors for a genuine homestay experience paired with a sacred temple visit and cooking with village families."
+   ],
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1671080749889-19f8a69deb2b?auto=format&fit=crop&w=1200&q=80",
+     "label": "Penglipuran Village"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?auto=format&fit=crop&w=1200&q=80",
+     "label": "Culinary Workshop"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1575573330964-db3dad170190?auto=format&fit=crop&w=1200&q=80",
+     "label": "Kehen Temple"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1558005530-a7958896ec60?auto=format&fit=crop&w=1200&q=80",
+     "label": "Highland Mist"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Bamboo Forest"
+    }
+   ],
+   "features": [
+    {
+     "title": "Village Homestay",
+     "desc": "Traditional compound with modern bath.",
+     "icon": "Home"
+    },
+    {
+     "title": "Elder Cooking Class",
+     "desc": "Learn lawar & sate lilit.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Temple Ceremony",
+     "desc": "Sarong & offering included.",
+     "icon": "Landmark"
+    },
+    {
+     "title": "Private Transfer",
+     "desc": "Round-trip from South Bali.",
+     "icon": "Car"
+    }
+   ],
+   "itinerary": [
+    {
+     "day": 1,
+     "title": "Village Arrival, Kehen Temple & Cooking",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    },
+    {
+     "day": 2,
+     "title": "Bamboo Forest Walk & Return",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    }
+   ],
+   "inclusions": [
+    "Private AC vehicle with dedicated English-speaking guide",
+    "All entrance tickets, retribution fees & parking permits",
+    "Daily gourmet breakfasts & selected lunch experiences",
+    "Unlimited bottled mineral water & cool refreshing towels"
+   ],
+   "exclusions": [
+    "International or domestic flights to/from Denpasar Bali",
+    "Alcoholic beverages and specialty cocktails",
+    "Personal travel insurance (highly recommended)",
+    "Gratuities / tipping for local driver and boat crew"
+   ],
+   "tips": [
+    {
+     "title": "Footwear & Terrain",
+     "desc": "Wear sturdy trainers or strapped sandals for steep stone paths and temple stairs.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Sun Protection",
+     "desc": "Reef-safe sunscreen, sunglasses, and wide hats are essential for bright midday sun.",
+     "icon": "Sun"
+    },
+    {
+     "title": "Cash on Island",
+     "desc": "Carry small Indonesian Rupiah cash for local warung refreshments and coco stalls.",
+     "icon": "Banknote"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Charlotte & Oliver M.",
+     "location": "London, United Kingdom",
+     "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+     "text": "The VIP fast boat and private car made everything completely effortless. Bali Vision took care of every detail!",
+     "date": "Stayed October 2024 • Verified Private Tour"
+    },
+    {
+     "name": "David & Sarah Tan",
+     "location": "Singapore",
+     "avatar": "https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?auto=format&fit=crop&w=200&q=80",
+     "text": "Our driver Ketut was incredible—he knew all the exact spots to take photos without crowds. 10/10 recommendation.",
+     "date": "Stayed November 2024 • Verified Private Tour"
+    }
+   ]
+  },
+  {
+   "id": "t7",
+   "slug": "explore-nusa-lembongan-ceningan",
+   "title": "Explore Nusa Lembongan & Ceningan",
+   "category": "Private Tour",
+   "badge": null,
+   "region": "Twin Islands",
+   "duration": "1 Day (Full Day)",
+   "days": 1,
+   "rating": 4.9,
+   "reviews": 1000,
+   "price": 399000,
+   "priceUnit": "Person",
+   "originalPrice": 480000,
+   "image": "https://images.unsplash.com/photo-1604500693431-647f9e76dafc?auto=format&fit=crop&w=1200&q=80",
+   "bestseller": true,
+   "featured": true,
+   "highlights": [
+    "Cross iconic Yellow Bridge & Devil’s Tear spray",
+    "Dream Beach infinity view & Blue Lagoon",
+    "Guided coral reef snorkeling with gear included"
+   ],
+   "description": "A full-day twin-island hop with cliff-top lagoons, the famous Yellow Bridge and vibrant coral snorkeling.",
+   "longDescription": [
+    "Board an early fast boat to Lembongan, cross the Yellow Bridge to Ceningan, and finish with guided reef snorkeling before the sunset return."
+   ],
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1604500693431-647f9e76dafc?auto=format&fit=crop&w=1200&q=80",
+     "label": "Blue Lagoon"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1541666282672-5f4aad922c63?auto=format&fit=crop&w=1200&q=80",
+     "label": "Dream Beach"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1618265909156-0507770ef0d0?auto=format&fit=crop&w=1200&q=80",
+     "label": "Reef Snorkeling"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Beach Club"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1607537826640-5ca23e6df221?auto=format&fit=crop&w=1200&q=80",
+     "label": "Surf Break"
+    }
+   ],
+   "features": [
+    {
+     "title": "Fast Boat Tickets",
+     "desc": "Round-trip Sanur departure.",
+     "icon": "Ship"
+    },
+    {
+     "title": "Island Driver",
+     "desc": "Private pickup truck tour.",
+     "icon": "Car"
+    },
+    {
+     "title": "Snorkel Gear",
+     "desc": "Sanitized mask, fins, vest.",
+     "icon": "Waves"
+    },
+    {
+     "title": "Seafood Lunch",
+     "desc": "Beachfront warung lunch.",
+     "icon": "UtensilsCrossed"
+    }
+   ],
+   "itinerary": [
+    {
+     "day": 1,
+     "title": "Twin Islands Full Day Exploration",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    }
+   ],
+   "inclusions": [
+    "Private AC vehicle with dedicated English-speaking guide",
+    "All entrance tickets, retribution fees & parking permits",
+    "Daily gourmet breakfasts & selected lunch experiences",
+    "Unlimited bottled mineral water & cool refreshing towels"
+   ],
+   "exclusions": [
+    "International or domestic flights to/from Denpasar Bali",
+    "Alcoholic beverages and specialty cocktails",
+    "Personal travel insurance (highly recommended)",
+    "Gratuities / tipping for local driver and boat crew"
+   ],
+   "tips": [
+    {
+     "title": "Footwear & Terrain",
+     "desc": "Wear sturdy trainers or strapped sandals for steep stone paths and temple stairs.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Sun Protection",
+     "desc": "Reef-safe sunscreen, sunglasses, and wide hats are essential for bright midday sun.",
+     "icon": "Sun"
+    },
+    {
+     "title": "Cash on Island",
+     "desc": "Carry small Indonesian Rupiah cash for local warung refreshments and coco stalls.",
+     "icon": "Banknote"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Charlotte & Oliver M.",
+     "location": "London, United Kingdom",
+     "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+     "text": "The VIP fast boat and private car made everything completely effortless. Bali Vision took care of every detail!",
+     "date": "Stayed October 2024 • Verified Private Tour"
+    },
+    {
+     "name": "David & Sarah Tan",
+     "location": "Singapore",
+     "avatar": "https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?auto=format&fit=crop&w=200&q=80",
+     "text": "Our driver Ketut was incredible—he knew all the exact spots to take photos without crowds. 10/10 recommendation.",
+     "date": "Stayed November 2024 • Verified Private Tour"
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "slug": "east-nusa-penida-discovery",
+   "title": "East Nusa Penida Discovery",
+   "category": "Private Tour",
+   "badge": null,
+   "region": "East Coast Penida",
+   "duration": "1 Day (Full Day)",
+   "days": 1,
+   "rating": 5,
+   "reviews": 100,
+   "price": 399000,
+   "priceUnit": "Person",
+   "originalPrice": 470000,
+   "image": "https://images.unsplash.com/photo-1541666282672-5f4aad922c63?auto=format&fit=crop&w=1200&q=80",
+   "bestseller": true,
+   "featured": true,
+   "highlights": [
+    "Diamond Beach cliff staircase & turquoise bay",
+    "Secluded Atuh Beach cove & palm forest",
+    "Tree House Molenteng panoramic viewpoint"
+   ],
+   "description": "Discover the quieter east coast of Nusa Penida with its limestone staircases, secret coves and treehouse viewpoints.",
+   "longDescription": [
+    "Avoid the west-coast crowds and explore Diamond Beach, Atuh Beach and the Thousand Islands viewpoint with an island-born guide."
+   ],
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1541666282672-5f4aad922c63?auto=format&fit=crop&w=1200&q=80",
+     "label": "Diamond Beach"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1604500693431-647f9e76dafc?auto=format&fit=crop&w=1200&q=80",
+     "label": "Atuh Cove"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557106160-c533b9d00071?auto=format&fit=crop&w=1200&q=80",
+     "label": "Cliff Views"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Palm Forest"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Sunset Return"
+    }
+   ],
+   "features": [
+    {
+     "title": "Fast Boat Tickets",
+     "desc": "Round-trip Sanur departure.",
+     "icon": "Ship"
+    },
+    {
+     "title": "Island 4x4",
+     "desc": "Private air-conditioned SUV.",
+     "icon": "Car"
+    },
+    {
+     "title": "Treehouse Access",
+     "desc": "Molenteng viewpoint pass.",
+     "icon": "TreePine"
+    },
+    {
+     "title": "Local Lunch",
+     "desc": "Cliffside warung lunch.",
+     "icon": "UtensilsCrossed"
+    }
+   ],
+   "itinerary": [
+    {
+     "day": 1,
+     "title": "East Coast Full Day Discovery",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    }
+   ],
+   "inclusions": [
+    "Private AC vehicle with dedicated English-speaking guide",
+    "All entrance tickets, retribution fees & parking permits",
+    "Daily gourmet breakfasts & selected lunch experiences",
+    "Unlimited bottled mineral water & cool refreshing towels"
+   ],
+   "exclusions": [
+    "International or domestic flights to/from Denpasar Bali",
+    "Alcoholic beverages and specialty cocktails",
+    "Personal travel insurance (highly recommended)",
+    "Gratuities / tipping for local driver and boat crew"
+   ],
+   "tips": [
+    {
+     "title": "Footwear & Terrain",
+     "desc": "Wear sturdy trainers or strapped sandals for steep stone paths and temple stairs.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Sun Protection",
+     "desc": "Reef-safe sunscreen, sunglasses, and wide hats are essential for bright midday sun.",
+     "icon": "Sun"
+    },
+    {
+     "title": "Cash on Island",
+     "desc": "Carry small Indonesian Rupiah cash for local warung refreshments and coco stalls.",
+     "icon": "Banknote"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Charlotte & Oliver M.",
+     "location": "London, United Kingdom",
+     "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+     "text": "The VIP fast boat and private car made everything completely effortless. Bali Vision took care of every detail!",
+     "date": "Stayed October 2024 • Verified Private Tour"
+    },
+    {
+     "name": "David & Sarah Tan",
+     "location": "Singapore",
+     "avatar": "https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?auto=format&fit=crop&w=200&q=80",
+     "text": "Our driver Ketut was incredible—he knew all the exact spots to take photos without crowds. 10/10 recommendation.",
+     "date": "Stayed November 2024 • Verified Private Tour"
+    }
+   ]
+  },
+  {
+   "id": "t9",
+   "slug": "uluwatu-sunset-kecak-fire-dance",
+   "title": "Uluwatu Sunset & Kecak Fire Dance",
+   "category": "Cultural & Heritage",
+   "badge": "Sunset Highlight",
+   "region": "South Peninsula",
+   "duration": "1 Day (Afternoon)",
+   "days": 1,
+   "rating": 4.9,
+   "reviews": 540,
+   "price": 450000,
+   "priceUnit": "Person",
+   "originalPrice": 520000,
+   "image": "https://images.unsplash.com/photo-1604842937136-1648761a6256?auto=format&fit=crop&w=1200&q=80",
+   "bestseller": false,
+   "featured": true,
+   "highlights": [
+    "Cliffside Uluwatu Temple perched 70m above ocean",
+    "Mesmerizing Kecak & Fire Dance amphitheater seats",
+    "Candlelit grilled seafood dinner on Jimbaran Beach"
+   ],
+   "description": "An unforgettable afternoon of cliff temples, hypnotic Kecak chants at sunset and a candlelit seafood feast on the sand.",
+   "longDescription": [
+    "Start at the sacred cliffside temple of Uluwatu, take reserved seats for the Kecak fire dance as the sun drops into the Indian Ocean, then dine on fresh grilled seafood at Jimbaran Bay."
+   ],
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1604842937136-1648761a6256?auto=format&fit=crop&w=1200&q=80",
+     "label": "Uluwatu Temple"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1511164657592-59a452023479?auto=format&fit=crop&w=1200&q=80",
+     "label": "Kecak Fire Dance"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1636619306699-2d27a100605e?auto=format&fit=crop&w=1200&q=80",
+     "label": "Cliff Ocean View"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1588625232507-a337a3bd2e43?auto=format&fit=crop&w=1200&q=80",
+     "label": "Golden Sunset"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Jimbaran Dinner"
+    }
+   ],
+   "features": [
+    {
+     "title": "Reserved Seats",
+     "desc": "Front-row Kecak amphitheater.",
+     "icon": "Ticket"
+    },
+    {
+     "title": "Temple Sarong",
+     "desc": "Sarong & sash provided.",
+     "icon": "Landmark"
+    },
+    {
+     "title": "Seafood Dinner",
+     "desc": "Candlelit Jimbaran set menu.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Private Transfer",
+     "desc": "Hotel pickup & return.",
+     "icon": "Car"
+    }
+   ],
+   "itinerary": [
+    {
+     "day": 1,
+     "title": "Uluwatu Sunset & Jimbaran Dinner",
+     "desc": "Your private chauffeur collects you from your hotel and escorts you through a carefully paced day of iconic sights and hidden local gems, with plenty of time for photography and refreshments.",
+     "points": [
+      "07:30 AM: Hotel pickup & briefing",
+      "10:30 AM: Signature landmark exploration",
+      "01:00 PM: Authentic Balinese lunch",
+      "05:30 PM: Golden hour sunset spot"
+     ],
+     "meals": "Included Meals: Gourmet Indonesian Lunch, Welcome Drink"
+    }
+   ],
+   "inclusions": [
+    "Private AC vehicle with dedicated English-speaking guide",
+    "All entrance tickets, retribution fees & parking permits",
+    "Daily gourmet breakfasts & selected lunch experiences",
+    "Unlimited bottled mineral water & cool refreshing towels"
+   ],
+   "exclusions": [
+    "International or domestic flights to/from Denpasar Bali",
+    "Alcoholic beverages and specialty cocktails",
+    "Personal travel insurance (highly recommended)",
+    "Gratuities / tipping for local driver and boat crew"
+   ],
+   "tips": [
+    {
+     "title": "Footwear & Terrain",
+     "desc": "Wear sturdy trainers or strapped sandals for steep stone paths and temple stairs.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Sun Protection",
+     "desc": "Reef-safe sunscreen, sunglasses, and wide hats are essential for bright midday sun.",
+     "icon": "Sun"
+    },
+    {
+     "title": "Cash on Island",
+     "desc": "Carry small Indonesian Rupiah cash for local warung refreshments and coco stalls.",
+     "icon": "Banknote"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Charlotte & Oliver M.",
+     "location": "London, United Kingdom",
+     "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+     "text": "The VIP fast boat and private car made everything completely effortless. Bali Vision took care of every detail!",
+     "date": "Stayed October 2024 • Verified Private Tour"
+    },
+    {
+     "name": "David & Sarah Tan",
+     "location": "Singapore",
+     "avatar": "https://images.unsplash.com/photo-1513097633097-329a3a64e0d4?auto=format&fit=crop&w=200&q=80",
+     "text": "Our driver Ketut was incredible—he knew all the exact spots to take photos without crowds. 10/10 recommendation.",
+     "date": "Stayed November 2024 • Verified Private Tour"
+    }
+   ]
+  }
+ ],
+ "cars": [
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d?auto=format&fit=crop&w=1200&q=80",
+     "label": "Flagship Fleet"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1625690180114-5530b1304127?auto=format&fit=crop&w=1200&q=80",
+     "label": "Premium Interior"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1596032457104-baa1f5f9372a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Uniformed Chauffeur"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1748215210950-536c6621629a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Luggage Capacity"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Routes"
+    }
+   ],
+   "headline": "Toyota All New Avanza / Xenia Charter with Private English-Speaking Chauffeur",
+   "longDesc": "First-class comfort for island exploration. Experience smooth travel, dual climate control, and supreme ride suspension tailored for Bali’s scenic terrains.",
+   "amenities": [
+    "Chilled Aqua Reflection",
+    "Dual Cold Zone A/C",
+    "Fast USB-C Chargers",
+    "Citrus Cold Towels"
+   ],
+   "addons": [
+    {
+     "title": "Child Safety Baby Seat (ISOFIX)",
+     "price": 50000
+    },
+    {
+     "title": "1 Hour Extra Overtime Buffer",
+     "price": 85000
+    }
+   ],
+   "pickupAreas": [
+    "Seminyak / Kerobokan",
+    "Kuta / Legian",
+    "Canggu / Pererenan",
+    "Ubud",
+    "Nusa Dua / Jimbaran",
+    "Sanur / Denpasar",
+    "Ngurah Rai Airport (DPS)"
+   ],
+   "routes": [
+    {
+     "tag": "Culture & Jungle",
+     "tone": "sage",
+     "hours": "10 Hours",
+     "title": "Ubud Royal Arts & Waterfall Trail",
+     "stops": [
+      "Tegenungan or Kanto Lampo Waterfalls",
+      "Ubud Sacred Monkey Forest Sanctuary",
+      "Tegalalang Rice Terraces & Artisan Coffee Farm",
+      "Sunset dinner at modern Indonesian fine dining"
+     ]
+    },
+    {
+     "tag": "Cliffs & Beach Clubs",
+     "tone": "brand",
+     "hours": "10 Hours",
+     "title": "Uluwatu Ocean Panorama & Sunset Fire",
+     "stops": [
+      "Melasti Beach & Luxury Day Beach Club",
+      "Padang Padang Surf Cove exploration",
+      "Ancient Cliffside Uluwatu Temple & Kecak Dance",
+      "Jimbaran Bay candlelit seafood dinner on the sand"
+     ]
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Marcus & Elena Vance",
+     "meta": "Melbourne, Australia • 3 Days Charter",
+     "initials": "M",
+     "tone": "forest",
+     "text": "Astonishingly silent and comfortable. Our driver Wayan was waiting outside our villa 15 minutes ahead of schedule daily in a pressed uniform with cold jasmine towels. Having the reclining ottoman seats after walking through Ubud was heaven."
+    },
+    {
+     "name": "Sophia Tan",
+     "meta": "Singapore • Family Charter (4 Pax)",
+     "initials": "S",
+     "tone": "brand",
+     "text": "Spotless cabin with zero gasoline fumes. The dual air conditioning blew ice cold during 34-degree Bali heat. Our driver Ketut navigated tight roads with effortless mastery and made table reservations at a cliffside lounge for us. Exceptional service."
+    }
+   ],
+   "id": "c1",
+   "slug": "toyota-avanza-xenia",
+   "name": "Toyota All New Avanza / Xenia",
+   "category": "Compact MPV",
+   "filter": "Family MPV",
+   "badge": null,
+   "image": "https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d?auto=format&fit=crop&w=1200&q=80",
+   "description": "Perfect for couples and compact families seeking effortless Bali island sightseeing.",
+   "specs": [
+    {
+     "icon": "Users",
+     "label": "4-5 Passengers"
+    },
+    {
+     "icon": "Luggage",
+     "label": "3 Large Luggages"
+    },
+    {
+     "icon": "Snowflake",
+     "label": "Double Cold AC"
+    },
+    {
+     "icon": "Droplets",
+     "label": "Free Mineral Water"
+    }
+   ],
+   "features": [
+    "Dual front airbags & active ABS braking",
+    "Includes English-speaking driver + Fuel"
+   ],
+   "price": 450000,
+   "price12h": 550000,
+   "tags": [
+    "Compact MPV",
+    "Fuel Efficient",
+    "Family Friendly"
+   ],
+   "capacity": "4-5 Passengers Max",
+   "capacitySub": "Recommended 4 adults for comfort",
+   "luggage": "3 Large Suitcases",
+   "luggageSub": "Foldable 3rd row for extra space",
+   "drivetrain": "1.5L Petrol Engine",
+   "drivetrainSub": "Smooth CVT transmission",
+   "seating": "Fabric Comfort Seats",
+   "seatingSub": "Reclining second row"
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1753805122914-6366c65a4877?auto=format&fit=crop&w=1200&q=80",
+     "label": "Flagship Fleet"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1625690180114-5530b1304127?auto=format&fit=crop&w=1200&q=80",
+     "label": "Premium Interior"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1596032457104-baa1f5f9372a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Uniformed Chauffeur"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1748215210950-536c6621629a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Luggage Capacity"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Routes"
+    }
+   ],
+   "headline": "Toyota Grand Innova Reborn Charter with Private English-Speaking Chauffeur",
+   "longDesc": "First-class comfort for island exploration. Experience smooth travel, dual climate control, and supreme ride suspension tailored for Bali’s scenic terrains.",
+   "amenities": [
+    "Chilled Aqua Reflection",
+    "Dual Cold Zone A/C",
+    "Fast USB-C Chargers",
+    "Citrus Cold Towels"
+   ],
+   "addons": [
+    {
+     "title": "Child Safety Baby Seat (ISOFIX)",
+     "price": 50000
+    },
+    {
+     "title": "1 Hour Extra Overtime Buffer",
+     "price": 85000
+    }
+   ],
+   "pickupAreas": [
+    "Seminyak / Kerobokan",
+    "Kuta / Legian",
+    "Canggu / Pererenan",
+    "Ubud",
+    "Nusa Dua / Jimbaran",
+    "Sanur / Denpasar",
+    "Ngurah Rai Airport (DPS)"
+   ],
+   "routes": [
+    {
+     "tag": "Culture & Jungle",
+     "tone": "sage",
+     "hours": "10 Hours",
+     "title": "Ubud Royal Arts & Waterfall Trail",
+     "stops": [
+      "Tegenungan or Kanto Lampo Waterfalls",
+      "Ubud Sacred Monkey Forest Sanctuary",
+      "Tegalalang Rice Terraces & Artisan Coffee Farm",
+      "Sunset dinner at modern Indonesian fine dining"
+     ]
+    },
+    {
+     "tag": "Cliffs & Beach Clubs",
+     "tone": "brand",
+     "hours": "10 Hours",
+     "title": "Uluwatu Ocean Panorama & Sunset Fire",
+     "stops": [
+      "Melasti Beach & Luxury Day Beach Club",
+      "Padang Padang Surf Cove exploration",
+      "Ancient Cliffside Uluwatu Temple & Kecak Dance",
+      "Jimbaran Bay candlelit seafood dinner on the sand"
+     ]
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Marcus & Elena Vance",
+     "meta": "Melbourne, Australia • 3 Days Charter",
+     "initials": "M",
+     "tone": "forest",
+     "text": "Astonishingly silent and comfortable. Our driver Wayan was waiting outside our villa 15 minutes ahead of schedule daily in a pressed uniform with cold jasmine towels. Having the reclining ottoman seats after walking through Ubud was heaven."
+    },
+    {
+     "name": "Sophia Tan",
+     "meta": "Singapore • Family Charter (4 Pax)",
+     "initials": "S",
+     "tone": "brand",
+     "text": "Spotless cabin with zero gasoline fumes. The dual air conditioning blew ice cold during 34-degree Bali heat. Our driver Ketut navigated tight roads with effortless mastery and made table reservations at a cliffside lounge for us. Exceptional service."
+    }
+   ],
+   "id": "c2",
+   "slug": "toyota-grand-innova-reborn",
+   "name": "Toyota Grand Innova Reborn",
+   "category": "Premium MPV",
+   "filter": "Family MPV",
+   "badge": "Most Popular",
+   "image": "https://images.unsplash.com/photo-1753805122914-6366c65a4877?auto=format&fit=crop&w=1200&q=80",
+   "description": "Bali's gold-standard touring MPV. Supreme comfort, quiet cabin, and smooth suspension.",
+   "specs": [
+    {
+     "icon": "Users",
+     "label": "6-7 Passengers"
+    },
+    {
+     "icon": "Luggage",
+     "label": "4 Luggages"
+    },
+    {
+     "icon": "Plug",
+     "label": "Fast USB Chargers"
+    },
+    {
+     "icon": "MoveVertical",
+     "label": "Extra Legroom"
+    }
+   ],
+   "features": [
+    "Reclining ergonomic seats in all three rows",
+    "Chauffeur, fuel, parking & iced drinks included"
+   ],
+   "price": 650000,
+   "price12h": 780000,
+   "tags": [
+    "Premium MPV",
+    "Quiet Cabin",
+    "Best Seller"
+   ],
+   "capacity": "6-7 Passengers Max",
+   "capacitySub": "Recommended 5-6 adults for comfort",
+   "luggage": "4 Large Suitcases + Handbags",
+   "luggageSub": "Roof rack available on request",
+   "drivetrain": "2.4L Diesel Engine",
+   "drivetrainSub": "Torquey highland climbs",
+   "seating": "Premium Leather Seats",
+   "seatingSub": "Reclining captain-style second row"
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1748215210950-536c6621629a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Flagship Fleet"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1625690180114-5530b1304127?auto=format&fit=crop&w=1200&q=80",
+     "label": "Premium Interior"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1596032457104-baa1f5f9372a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Uniformed Chauffeur"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1748215210950-536c6621629a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Luggage Capacity"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Routes"
+    }
+   ],
+   "headline": "Toyota Innova Zenix Hybrid Charter with Private English-Speaking Chauffeur",
+   "longDesc": "First-class comfort for island exploration. Experience whisper-quiet hybrid travel, panoramic glass roof, dual automatic climate control, and supreme ride suspension tailored for Bali's scenic terrains.",
+   "amenities": [
+    "Chilled Aqua Reflection",
+    "Dual Cold Zone A/C",
+    "Fast USB-C Chargers",
+    "Citrus Cold Towels"
+   ],
+   "addons": [
+    {
+     "title": "Child Safety Baby Seat (ISOFIX)",
+     "price": 50000
+    },
+    {
+     "title": "1 Hour Extra Overtime Buffer",
+     "price": 85000
+    }
+   ],
+   "pickupAreas": [
+    "Seminyak / Kerobokan",
+    "Kuta / Legian",
+    "Canggu / Pererenan",
+    "Ubud",
+    "Nusa Dua / Jimbaran",
+    "Sanur / Denpasar",
+    "Ngurah Rai Airport (DPS)"
+   ],
+   "routes": [
+    {
+     "tag": "Culture & Jungle",
+     "tone": "sage",
+     "hours": "10 Hours",
+     "title": "Ubud Royal Arts & Waterfall Trail",
+     "stops": [
+      "Tegenungan or Kanto Lampo Waterfalls",
+      "Ubud Sacred Monkey Forest Sanctuary",
+      "Tegalalang Rice Terraces & Artisan Coffee Farm",
+      "Sunset dinner at modern Indonesian fine dining"
+     ]
+    },
+    {
+     "tag": "Cliffs & Beach Clubs",
+     "tone": "brand",
+     "hours": "10 Hours",
+     "title": "Uluwatu Ocean Panorama & Sunset Fire",
+     "stops": [
+      "Melasti Beach & Luxury Day Beach Club",
+      "Padang Padang Surf Cove exploration",
+      "Ancient Cliffside Uluwatu Temple & Kecak Dance",
+      "Jimbaran Bay candlelit seafood dinner on the sand"
+     ]
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Marcus & Elena Vance",
+     "meta": "Melbourne, Australia • 3 Days Charter",
+     "initials": "M",
+     "tone": "forest",
+     "text": "Astonishingly silent and comfortable. Our driver Wayan was waiting outside our villa 15 minutes ahead of schedule daily in a pressed uniform with cold jasmine towels. Having the reclining ottoman seats after walking through Ubud was heaven."
+    },
+    {
+     "name": "Sophia Tan",
+     "meta": "Singapore • Family Charter (4 Pax)",
+     "initials": "S",
+     "tone": "brand",
+     "text": "Spotless cabin with zero gasoline fumes. The dual air conditioning blew ice cold during 34-degree Bali heat. Our driver Ketut navigated tight roads with effortless mastery and made table reservations at a cliffside lounge for us. Exceptional service."
+    }
+   ],
+   "id": "c3",
+   "slug": "toyota-innova-zenix-hybrid",
+   "name": "Toyota Innova Zenix Hybrid",
+   "category": "Modern Luxury Hybrid",
+   "filter": "VIP Luxury",
+   "badge": null,
+   "image": "https://images.unsplash.com/photo-1748215210950-536c6621629a?auto=format&fit=crop&w=1200&q=80",
+   "description": "Next-gen eco-luxury. Whisper-quiet hybrid drivetrain, captain seats, and panoramic roof.",
+   "specs": [
+    {
+     "icon": "Users",
+     "label": "6-7 Passengers"
+    },
+    {
+     "icon": "Luggage",
+     "label": "4 Luggages"
+    },
+    {
+     "icon": "Armchair",
+     "label": "VIP Captain Seats"
+    },
+    {
+     "icon": "Leaf",
+     "label": "Hybrid Whisper-Quiet"
+    }
+   ],
+   "features": [
+    "Panoramic glass moonroof with ambient lighting",
+    "Senior verified driver with immaculate ratings"
+   ],
+   "price": 850000,
+   "price12h": 1000000,
+   "tags": [
+    "Modern Luxury Hybrid",
+    "Eco-Quiet Fleet",
+    "VIP Captain Seats"
+   ],
+   "capacity": "6-7 Passengers Max",
+   "capacitySub": "Recommended 4-5 adults for ultimate VIP reclining comfort",
+   "luggage": "4 Large Suitcases + 2 Handbags",
+   "luggageSub": "Fold-down 3rd row configuration expands boot volume instantly",
+   "drivetrain": "2.0L 5th-Gen Hybrid Electric",
+   "drivetrainSub": "Zero cabin vibration at low speeds, silent start-up, ultra-smooth ride",
+   "seating": "Power Ottoman VIP Captain Seats",
+   "seatingSub": "Micro-perforated premium leather with personal folding side tray tables"
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=1200&q=80",
+     "label": "Flagship Fleet"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1622893288761-823ba60f17a6?auto=format&fit=crop&w=1200&q=80",
+     "label": "Mountain Roads"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1625690180114-5530b1304127?auto=format&fit=crop&w=1200&q=80",
+     "label": "Leather Interior"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1596032457104-baa1f5f9372a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Uniformed Chauffeur"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1518730573647-359c73385dc5?auto=format&fit=crop&w=1200&q=80",
+     "label": "Highland Routes"
+    }
+   ],
+   "headline": "Toyota Fortuner / Pajero Sport Charter with Private English-Speaking Chauffeur",
+   "longDesc": "First-class comfort for island exploration. Experience smooth travel, dual climate control, and supreme ride suspension tailored for Bali’s scenic terrains.",
+   "amenities": [
+    "Chilled Aqua Reflection",
+    "Dual Cold Zone A/C",
+    "Fast USB-C Chargers",
+    "Citrus Cold Towels"
+   ],
+   "addons": [
+    {
+     "title": "Child Safety Baby Seat (ISOFIX)",
+     "price": 50000
+    },
+    {
+     "title": "1 Hour Extra Overtime Buffer",
+     "price": 85000
+    }
+   ],
+   "pickupAreas": [
+    "Seminyak / Kerobokan",
+    "Kuta / Legian",
+    "Canggu / Pererenan",
+    "Ubud",
+    "Nusa Dua / Jimbaran",
+    "Sanur / Denpasar",
+    "Ngurah Rai Airport (DPS)"
+   ],
+   "routes": [
+    {
+     "tag": "Culture & Jungle",
+     "tone": "sage",
+     "hours": "10 Hours",
+     "title": "Ubud Royal Arts & Waterfall Trail",
+     "stops": [
+      "Tegenungan or Kanto Lampo Waterfalls",
+      "Ubud Sacred Monkey Forest Sanctuary",
+      "Tegalalang Rice Terraces & Artisan Coffee Farm",
+      "Sunset dinner at modern Indonesian fine dining"
+     ]
+    },
+    {
+     "tag": "Cliffs & Beach Clubs",
+     "tone": "brand",
+     "hours": "10 Hours",
+     "title": "Uluwatu Ocean Panorama & Sunset Fire",
+     "stops": [
+      "Melasti Beach & Luxury Day Beach Club",
+      "Padang Padang Surf Cove exploration",
+      "Ancient Cliffside Uluwatu Temple & Kecak Dance",
+      "Jimbaran Bay candlelit seafood dinner on the sand"
+     ]
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Marcus & Elena Vance",
+     "meta": "Melbourne, Australia • 3 Days Charter",
+     "initials": "M",
+     "tone": "forest",
+     "text": "Astonishingly silent and comfortable. Our driver Wayan was waiting outside our villa 15 minutes ahead of schedule daily in a pressed uniform with cold jasmine towels. Having the reclining ottoman seats after walking through Ubud was heaven."
+    },
+    {
+     "name": "Sophia Tan",
+     "meta": "Singapore • Family Charter (4 Pax)",
+     "initials": "S",
+     "tone": "brand",
+     "text": "Spotless cabin with zero gasoline fumes. The dual air conditioning blew ice cold during 34-degree Bali heat. Our driver Ketut navigated tight roads with effortless mastery and made table reservations at a cliffside lounge for us. Exceptional service."
+    }
+   ],
+   "id": "c4",
+   "slug": "toyota-fortuner-pajero-sport",
+   "name": "Toyota Fortuner / Pajero Sport",
+   "category": "Luxury 4x4 SUV",
+   "filter": "VIP Luxury",
+   "badge": null,
+   "image": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=1200&q=80",
+   "description": "Prestige commanding road presence with high ground clearance for highland exploration.",
+   "specs": [
+    {
+     "icon": "Users",
+     "label": "5-6 Passengers"
+    },
+    {
+     "icon": "Luggage",
+     "label": "4 Luggages"
+    },
+    {
+     "icon": "Mountain",
+     "label": "Hill & Volcano Ready"
+    },
+    {
+     "icon": "Shield",
+     "label": "Prestige Heavy Build"
+    }
+   ],
+   "features": [
+    "Ideal for Kintamani, Bedugul, and Karangasem slopes",
+    "Full leather upholstery & rear individual climate"
+   ],
+   "price": 1100000,
+   "price12h": 1300000,
+   "tags": [
+    "Luxury 4x4 SUV",
+    "Highland Ready",
+    "Full Leather"
+   ],
+   "capacity": "5-6 Passengers Max",
+   "capacitySub": "Recommended 4 adults for comfort",
+   "luggage": "4 Large Suitcases",
+   "luggageSub": "Deep boot with 3rd row folded",
+   "drivetrain": "2.8L Turbo Diesel 4x4",
+   "drivetrainSub": "High clearance for volcanic roads",
+   "seating": "Full Leather Upholstery",
+   "seatingSub": "Rear individual climate control"
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1534011056808-50c1c6082fe7?auto=format&fit=crop&w=1200&q=80",
+     "label": "Flagship Fleet"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1771248647341-9d8f567b051d?auto=format&fit=crop&w=1200&q=80",
+     "label": "Group Comfort"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1625690180114-5530b1304127?auto=format&fit=crop&w=1200&q=80",
+     "label": "Coach Seats"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1596032457104-baa1f5f9372a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Uniformed Chauffeur"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Group Outings"
+    }
+   ],
+   "headline": "Toyota HiAce Commuter / Premio Charter with Private English-Speaking Chauffeur",
+   "longDesc": "First-class comfort for island exploration. Experience smooth travel, dual climate control, and supreme ride suspension tailored for Bali’s scenic terrains.",
+   "amenities": [
+    "Chilled Aqua Reflection",
+    "Dual Cold Zone A/C",
+    "Fast USB-C Chargers",
+    "Citrus Cold Towels"
+   ],
+   "addons": [
+    {
+     "title": "Child Safety Baby Seat (ISOFIX)",
+     "price": 50000
+    },
+    {
+     "title": "1 Hour Extra Overtime Buffer",
+     "price": 85000
+    }
+   ],
+   "pickupAreas": [
+    "Seminyak / Kerobokan",
+    "Kuta / Legian",
+    "Canggu / Pererenan",
+    "Ubud",
+    "Nusa Dua / Jimbaran",
+    "Sanur / Denpasar",
+    "Ngurah Rai Airport (DPS)"
+   ],
+   "routes": [
+    {
+     "tag": "Culture & Jungle",
+     "tone": "sage",
+     "hours": "10 Hours",
+     "title": "Ubud Royal Arts & Waterfall Trail",
+     "stops": [
+      "Tegenungan or Kanto Lampo Waterfalls",
+      "Ubud Sacred Monkey Forest Sanctuary",
+      "Tegalalang Rice Terraces & Artisan Coffee Farm",
+      "Sunset dinner at modern Indonesian fine dining"
+     ]
+    },
+    {
+     "tag": "Cliffs & Beach Clubs",
+     "tone": "brand",
+     "hours": "10 Hours",
+     "title": "Uluwatu Ocean Panorama & Sunset Fire",
+     "stops": [
+      "Melasti Beach & Luxury Day Beach Club",
+      "Padang Padang Surf Cove exploration",
+      "Ancient Cliffside Uluwatu Temple & Kecak Dance",
+      "Jimbaran Bay candlelit seafood dinner on the sand"
+     ]
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Marcus & Elena Vance",
+     "meta": "Melbourne, Australia • 3 Days Charter",
+     "initials": "M",
+     "tone": "forest",
+     "text": "Astonishingly silent and comfortable. Our driver Wayan was waiting outside our villa 15 minutes ahead of schedule daily in a pressed uniform with cold jasmine towels. Having the reclining ottoman seats after walking through Ubud was heaven."
+    },
+    {
+     "name": "Sophia Tan",
+     "meta": "Singapore • Family Charter (4 Pax)",
+     "initials": "S",
+     "tone": "brand",
+     "text": "Spotless cabin with zero gasoline fumes. The dual air conditioning blew ice cold during 34-degree Bali heat. Our driver Ketut navigated tight roads with effortless mastery and made table reservations at a cliffside lounge for us. Exceptional service."
+    }
+   ],
+   "id": "c5",
+   "slug": "toyota-hiace-commuter-premio",
+   "name": "Toyota HiAce Commuter / Premio",
+   "category": "Executive Group Van",
+   "filter": "Group Vans",
+   "badge": null,
+   "image": "https://images.unsplash.com/photo-1534011056808-50c1c6082fe7?auto=format&fit=crop&w=1200&q=80",
+   "description": "Grand luxury transit for families and corporate groups. Walk-in headroom and huge luggage trunk.",
+   "specs": [
+    {
+     "icon": "Users",
+     "label": "10-14 Passengers"
+    },
+    {
+     "icon": "Luggage",
+     "label": "8+ Luggages"
+    },
+    {
+     "icon": "Wind",
+     "label": "Individual AC Vents"
+    },
+    {
+     "icon": "MoveVertical",
+     "label": "High Ceiling Interior"
+    }
+   ],
+   "features": [
+    "Reclining high-back coach seats with armrests",
+    "Driver + petrol + mineral water included for 10 hours"
+   ],
+   "price": 1200000,
+   "price12h": 1400000,
+   "tags": [
+    "Executive Group Van",
+    "Walk-in Headroom",
+    "Corporate Ready"
+   ],
+   "capacity": "10-14 Passengers Max",
+   "capacitySub": "Recommended 12 adults with luggage",
+   "luggage": "8+ Large Suitcases",
+   "luggageSub": "Rear luggage compartment",
+   "drivetrain": "2.8L Diesel Engine",
+   "drivetrainSub": "Stable long-distance cruising",
+   "seating": "Reclining Coach Seats",
+   "seatingSub": "Individual armrests & AC vents"
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1765461734605-34657fa04db2?auto=format&fit=crop&w=1200&q=80",
+     "label": "Flagship Fleet"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1771248647341-9d8f567b051d?auto=format&fit=crop&w=1200&q=80",
+     "label": "Executive Presence"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1625690180114-5530b1304127?auto=format&fit=crop&w=1200&q=80",
+     "label": "Ottoman Loungers"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1596032457104-baa1f5f9372a?auto=format&fit=crop&w=1200&q=80",
+     "label": "Suited Chauffeur"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1636619306699-2d27a100605e?auto=format&fit=crop&w=1200&q=80",
+     "label": "Cliffside Arrivals"
+    }
+   ],
+   "headline": "Toyota Alphard / Vellfire Luxury Charter with Private English-Speaking Chauffeur",
+   "longDesc": "First-class comfort for island exploration. Experience smooth travel, dual climate control, and supreme ride suspension tailored for Bali’s scenic terrains.",
+   "amenities": [
+    "Chilled Aqua Reflection",
+    "Dual Cold Zone A/C",
+    "Fast USB-C Chargers",
+    "Citrus Cold Towels"
+   ],
+   "addons": [
+    {
+     "title": "Child Safety Baby Seat (ISOFIX)",
+     "price": 50000
+    },
+    {
+     "title": "1 Hour Extra Overtime Buffer",
+     "price": 85000
+    }
+   ],
+   "pickupAreas": [
+    "Seminyak / Kerobokan",
+    "Kuta / Legian",
+    "Canggu / Pererenan",
+    "Ubud",
+    "Nusa Dua / Jimbaran",
+    "Sanur / Denpasar",
+    "Ngurah Rai Airport (DPS)"
+   ],
+   "routes": [
+    {
+     "tag": "Culture & Jungle",
+     "tone": "sage",
+     "hours": "10 Hours",
+     "title": "Ubud Royal Arts & Waterfall Trail",
+     "stops": [
+      "Tegenungan or Kanto Lampo Waterfalls",
+      "Ubud Sacred Monkey Forest Sanctuary",
+      "Tegalalang Rice Terraces & Artisan Coffee Farm",
+      "Sunset dinner at modern Indonesian fine dining"
+     ]
+    },
+    {
+     "tag": "Cliffs & Beach Clubs",
+     "tone": "brand",
+     "hours": "10 Hours",
+     "title": "Uluwatu Ocean Panorama & Sunset Fire",
+     "stops": [
+      "Melasti Beach & Luxury Day Beach Club",
+      "Padang Padang Surf Cove exploration",
+      "Ancient Cliffside Uluwatu Temple & Kecak Dance",
+      "Jimbaran Bay candlelit seafood dinner on the sand"
+     ]
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Marcus & Elena Vance",
+     "meta": "Melbourne, Australia • 3 Days Charter",
+     "initials": "M",
+     "tone": "forest",
+     "text": "Astonishingly silent and comfortable. Our driver Wayan was waiting outside our villa 15 minutes ahead of schedule daily in a pressed uniform with cold jasmine towels. Having the reclining ottoman seats after walking through Ubud was heaven."
+    },
+    {
+     "name": "Sophia Tan",
+     "meta": "Singapore • Family Charter (4 Pax)",
+     "initials": "S",
+     "tone": "brand",
+     "text": "Spotless cabin with zero gasoline fumes. The dual air conditioning blew ice cold during 34-degree Bali heat. Our driver Ketut navigated tight roads with effortless mastery and made table reservations at a cliffside lounge for us. Exceptional service."
+    }
+   ],
+   "id": "c6",
+   "slug": "toyota-alphard-vellfire-luxury",
+   "name": "Toyota Alphard / Vellfire Luxury",
+   "category": "Presidential VIP",
+   "filter": "VIP Luxury",
+   "badge": null,
+   "image": "https://images.unsplash.com/photo-1765461734605-34657fa04db2?auto=format&fit=crop&w=1200&q=80",
+   "description": "First-class executive luxury. Power Ottoman captain loungers, dark privacy tint, and tailored VIP service.",
+   "specs": [
+    {
+     "icon": "Star",
+     "label": "4-5 VIP Guests"
+    },
+    {
+     "icon": "Luggage",
+     "label": "4 Large Luggages"
+    },
+    {
+     "icon": "Armchair",
+     "label": "Ottoman Footrests"
+    },
+    {
+     "icon": "UserRound",
+     "label": "Suited VIP Chauffeur"
+    }
+   ],
+   "features": [
+    "Executive power sliding doors & premium audio",
+    "Chilled refreshing towels, evian water & mints"
+   ],
+   "price": 2200000,
+   "price12h": 2600000,
+   "tags": [
+    "Presidential VIP",
+    "Ottoman Loungers",
+    "Privacy Tint"
+   ],
+   "capacity": "4-5 VIP Guests",
+   "capacitySub": "Two power ottoman captain seats",
+   "luggage": "4 Large Suitcases",
+   "luggageSub": "Electric tailgate",
+   "drivetrain": "2.5L Hybrid V6",
+   "drivetrainSub": "Silent executive cruising",
+   "seating": "Power Ottoman Loungers",
+   "seatingSub": "Massage, heating & privacy curtains"
+  }
+ ],
+ "activities": [
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1641584495089-5914d85d9bcc?auto=format&fit=crop&w=1200&q=80",
+     "label": "Signature Experience"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tropical Setting"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1558005530-a7958896ec60?auto=format&fit=crop&w=1200&q=80",
+     "label": "Highland Views"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Coastal Relax"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Route"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Difficulty",
+     "value": "Moderate",
+     "sub": "Suitable for beginners",
+     "icon": "Activity"
+    },
+    {
+     "label": "Departure Time",
+     "value": "07:30 AM",
+     "sub": "Direct hotel pickup",
+     "icon": "Clock"
+    },
+    {
+     "label": "Group Size",
+     "value": "Max 8",
+     "sub": "Small private groups",
+     "icon": "Users"
+    },
+    {
+     "label": "Guide Ratio",
+     "value": "1 : 4 Ratio",
+     "sub": "Certified local guide",
+     "icon": "UserRound"
+    }
+   ],
+   "highlights": [
+    {
+     "title": "Certified Local Guides",
+     "desc": "Licensed instructors born and raised in the area.",
+     "icon": "ShieldCheck"
+    },
+    {
+     "title": "Premium Gear Provided",
+     "desc": "Clean, sanitized and regularly inspected equipment.",
+     "icon": "Package"
+    },
+    {
+     "title": "Meals Included",
+     "desc": "Authentic local lunch or breakfast included.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Round-trip Transport",
+     "desc": "Private AC transfer from major Bali hubs.",
+     "icon": "Car"
+    }
+   ],
+   "timeline": [
+    {
+     "time": "07:30 AM",
+     "title": "Hotel Pickup",
+     "desc": "Private air-conditioned transfer from your villa or hotel in South Bali or Ubud.",
+     "tone": "brand"
+    },
+    {
+     "time": "09:00 AM",
+     "title": "Briefing & Gear Fitting",
+     "desc": "Meet your certified instructors, receive safety briefing and fitted equipment.",
+     "tone": "forest"
+    },
+    {
+     "time": "09:30 AM",
+     "title": "Main Experience Begins",
+     "desc": "Enjoy the core activity with professional guides and photo stops along the way.",
+     "tone": "brand"
+    },
+    {
+     "time": "12:30 PM",
+     "title": "Lunch & Refresh",
+     "desc": "Buffet lunch, hot showers and fresh towels at the base camp.",
+     "tone": "gold"
+    },
+    {
+     "time": "02:00 PM",
+     "title": "Return Transfer",
+     "desc": "Comfortable ride back to your accommodation.",
+     "tone": "sand"
+    }
+   ],
+   "inclusions": [
+    "Door-to-door private AC transport from all major Bali hubs",
+    "Licensed English-speaking guide or instructor",
+    "All entrance fees & equipment rental",
+    "Meal as described & bottled mineral water",
+    "Comprehensive medical passenger insurance coverage"
+   ],
+   "exclusions": [
+    "Personal expenses and souvenirs",
+    "Alcoholic drinks at the cafe",
+    "Gratuities / tips for your guide"
+   ],
+   "addons": [
+    {
+     "title": "Pro Photographer",
+     "desc": "High-res edited album delivered same day",
+     "price": 500000
+    },
+    {
+     "title": "Private Group Upgrade",
+     "desc": "Exclusive guide for your party only",
+     "price": 350000
+    }
+   ],
+   "slots": [
+    {
+     "label": "Morning Session",
+     "sub": "07:30 - 08:30 AM Hotel Dispatch"
+    },
+    {
+     "label": "Afternoon Session",
+     "sub": "12:30 - 01:30 PM Hotel Dispatch"
+    }
+   ],
+   "packing": [
+    {
+     "title": "Comfortable Clothing",
+     "desc": "Quick-dry clothing and a change of clothes for after the activity.",
+     "icon": "Shirt"
+    },
+    {
+     "title": "Footwear Needs",
+     "desc": "Sturdy sneakers or strapped sandals with good grip.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Essentials",
+     "desc": "Sunscreen, sunglasses, and a small waterproof bag for valuables.",
+     "icon": "Sun"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Elena & Henrik",
+     "location": "Copenhagen, Denmark",
+     "initials": "EH",
+     "tone": "forest",
+     "date": "Oct 2024",
+     "text": "The single most magical morning of my Bali holiday. Our guide kept our pace steady and knew the exact vantage point to avoid crowds."
+    },
+    {
+     "name": "Marcus Turner",
+     "location": "Melbourne, Australia",
+     "initials": "MT",
+     "tone": "brand",
+     "date": "Nov 2024",
+     "text": "Bali Vision Tour handled every detail flawlessly. Chauffeur arrived exactly on time in a luxury private van. The photo shots our guide took look like National Geographic covers."
+    }
+   ],
+   "id": "a1",
+   "slug": "ayung-river-white-water-rafting",
+   "title": "Ayung River White Water Rafting",
+   "category": "Adventure & Waters",
+   "type": "Water Sports & Marine",
+   "badge": "Terlaris / Bestseller",
+   "badgeTone": "brand",
+   "duration": "3 Hours",
+   "rating": 4.9,
+   "reviews": 420,
+   "price": 350000,
+   "image": "https://images.unsplash.com/photo-1641584495089-5914d85d9bcc?auto=format&fit=crop&w=1200&q=80",
+   "includes": [
+    "Buffet lunch & fresh towel facility",
+    "Safety equipment & professional instructor",
+    "Full participant insurance coverage"
+   ],
+   "description": "Paddle 12km of Class II-III rapids through the lush Ayung gorge, past waterfalls and carved stone reliefs."
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1506748566756-07746caecd61?auto=format&fit=crop&w=1200&q=80",
+     "label": "Golden Sunrise Peak Experience"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1508591086314-d7deb00cede9?auto=format&fit=crop&w=1200&q=80",
+     "label": "Crater Steam Vents"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1518730573647-359c73385dc5?auto=format&fit=crop&w=1200&q=80",
+     "label": "Lakeside Hot Springs"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1558005530-a7958896ec60?auto=format&fit=crop&w=1200&q=80",
+     "label": "Midnight Starlight Trail"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?auto=format&fit=crop&w=1200&q=80",
+     "label": "Volcanic Steam Breakfast"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Trekking Difficulty",
+     "value": "Moderate",
+     "sub": "~2 hrs summit climb",
+     "icon": "Activity"
+    },
+    {
+     "label": "Departure Time",
+     "value": "02:00 AM",
+     "sub": "Direct hotel pickup",
+     "icon": "Moon"
+    },
+    {
+     "label": "Summit Altitude",
+     "value": "1,717 Meters",
+     "sub": "Above sea level",
+     "icon": "Mountain"
+    },
+    {
+     "label": "Guide Ratio",
+     "value": "1 : 4 Ratio",
+     "sub": "Certified local guide",
+     "icon": "Users"
+    }
+   ],
+   "highlights": [
+    {
+     "title": "Native Mountain Guides",
+     "desc": "Trek in full confidence with certified locals born and raised on the slopes of Songan caldera.",
+     "icon": "ShieldCheck"
+    },
+    {
+     "title": "Premium Gear Provided",
+     "desc": "Ultra-bright LED headlamps, carbon trekking poles, and thermal windbreakers provided at base.",
+     "icon": "Flashlight"
+    },
+    {
+     "title": "Volcanic Steam Breakfast",
+     "desc": "Taste organic eggs and caramel bananas cooked instantly inside live geothermal steam vents.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Lakeside Thermal Soak",
+     "desc": "2-hour access to Toya Devasya hot spring pools with panoramic vistas of Lake Batur and Abang.",
+     "icon": "Waves"
+    }
+   ],
+   "timeline": [
+    {
+     "time": "01:30 - 02:30 AM",
+     "title": "VIP Chauffeur Pickup",
+     "desc": "Private air-conditioned transfer from your villa or hotel in Nusa Dua, Seminyak, Canggu, Sanur, or Ubud. Relax in reclining comfort during the night drive into Kintamani highlands.",
+     "tone": "brand"
+    },
+    {
+     "time": "03:30 AM",
+     "title": "Base Camp Briefing & Gear Fitting",
+     "desc": "Arrival at Mount Batur private base camp. Enjoy hot Balinese tea, a warm safety briefing by your head guide, and high-intensity headlamp distribution.",
+     "tone": "forest"
+    },
+    {
+     "time": "04:00 AM",
+     "title": "Starlight Volcanic Ascent",
+     "desc": "Commence the trek through lush pine forests before ascending the black volcanic sand trails under an unpolluted canopy of shooting stars.",
+     "tone": "brand"
+    },
+    {
+     "time": "05:45 AM",
+     "title": "Summit Caldera Sunrise Panorama",
+     "desc": "Reach the 1,717m peak just as the sky erupts into crimson and gold. Marvel at silhouettes of Mount Abang, Lake Batur, and Lombok’s distant Mount Rinjani.",
+     "tone": "gold"
+    },
+    {
+     "time": "06:15 AM",
+     "title": "Volcanic Steam Breakfast & Hot Coffee",
+     "desc": "Your guide cooks eggs directly inside geothermal vents. Savor warm banana sandwiches, chocolate biscuits, and fresh hot tea while seated above clouds.",
+     "tone": "brand"
+    },
+    {
+     "time": "07:15 AM",
+     "title": "Crater Rim Descent & Wild Macaques",
+     "desc": "Follow the scenic rim path down toward the lava fields. Observe native friendly mountain monkeys and explore recent 1963 volcanic fissures.",
+     "tone": "forest"
+    },
+    {
+     "time": "08:45 AM",
+     "title": "Toya Devasya Lakeside Hot Spring Dip",
+     "desc": "Immerse in geothermal sulfuric pools (38°C - 40°C) directly abutting Lake Batur. Clean shower amenities, locker, towel, and welcome drink included.",
+     "tone": "brand"
+    },
+    {
+     "time": "11:30 AM",
+     "title": "Artisanal Coffee Stop & Hotel Return",
+     "desc": "En route home, enjoy a brief tasting of organic Luwak and ginger coffee at a jungle plantation before arriving comfortably back at your hotel.",
+     "tone": "sand"
+    }
+   ],
+   "inclusions": [
+    "Door-to-door private AC transport from all major Bali hubs",
+    "Licensed English-speaking Mount Batur trekking guide",
+    "All mountain association entrance fees & caldera tickets",
+    "Hot mineral lake spring entry ticket + towel + locker",
+    "Fresh volcanic steam summit breakfast & hot drinks",
+    "High-lumen LED headlamp & lightweight trekking poles",
+    "Comprehensive medical passenger insurance coverage"
+   ],
+   "exclusions": [
+    "Personal trekking boots or heavy thermal gloves",
+    "Lunch / alcoholic drinks at the hot springs cafe",
+    "Luwak specialty coffee upgrade at spice plantation",
+    "Gratuities / tips for your personal mountain guide"
+   ],
+   "addons": [
+    {
+     "title": "Private 4WD Jeep Alternative",
+     "desc": "Skip hiking & ride straight to sunrise point",
+     "price": 350000
+    },
+    {
+     "title": "Pro Summit Photographer",
+     "desc": "High-res edited album delivered same day",
+     "price": 500000
+    }
+   ],
+   "slots": [
+    {
+     "label": "Sunrise Ascent",
+     "sub": "01:30 - 02:30 AM Hotel Dispatch"
+    }
+   ],
+   "packing": [
+    {
+     "title": "Temperature Check",
+     "desc": "Summit temperatures range from 14°C to 18°C at 05:00 AM before warming quickly after dawn. Layering with a fleece or windbreaker is strongly recommended.",
+     "icon": "Thermometer"
+    },
+    {
+     "title": "Footwear Needs",
+     "desc": "Sturdy sneakers with good grip or lightweight hiking shoes. Avoid flat street sneakers or sandals as volcanic gravel can be slick on descent.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Hot Spring Essentials",
+     "desc": "Bring swimwear and a dry change of clothes in a small daypack. Secure lockers and private shower facilities are provided at Toya Devasya.",
+     "icon": "Waves"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Elena & Henrik",
+     "location": "Copenhagen, Denmark",
+     "initials": "EH",
+     "tone": "forest",
+     "date": "Oct 2024",
+     "text": "The single most magical morning of my Bali holiday. Our guide kept our pace steady and knew the exact vantage point to avoid crowds."
+    },
+    {
+     "name": "Marcus Turner",
+     "location": "Melbourne, Australia",
+     "initials": "MT",
+     "tone": "brand",
+     "date": "Nov 2024",
+     "text": "Bali Vision Tour handled every detail flawlessly. Chauffeur arrived exactly on time in a luxury private van. The photo shots our guide took look like National Geographic covers."
+    }
+   ],
+   "id": "a2",
+   "slug": "mount-batur-sunrise-trekking",
+   "title": "Mount Batur Sunrise Trekking & Breakfast",
+   "category": "Trekking & Volcano",
+   "type": "Adventure & Trekking",
+   "badge": "Iconic Experience",
+   "badgeTone": "forest",
+   "duration": "6 Hours (Early Morning)",
+   "rating": 5,
+   "reviews": 680,
+   "price": 425000,
+   "image": "https://images.unsplash.com/photo-1506748566756-07746caecd61?auto=format&fit=crop&w=1200&q=80",
+   "includes": [
+    "Headlamps, trekking poles & local guide",
+    "Volcanic steam egg breakfast on summit",
+    "Natural hot spring relaxation stop"
+   ],
+   "headline": "Mount Batur Sunrise Volcano Trekking & Lakeside Hot Springs",
+   "tags": [
+    "Iconic Experience",
+    "Early Morning Adventure",
+    "Duration: 6 Hours"
+   ],
+   "description": "Ascend sacred volcanic ridges under starry skies to witness an unforgettable golden sunrise above the clouds, followed by volcanic steam-cooked breakfast and mineral hot spring relaxation.",
+   "longDescription": "Mount Batur is Bali’s most revered active sacred caldera. On this bespoke dawn expedition, bypass crowds with private chauffeur dispatch, dedicated Mount Batur Association mountaineers, and all-weather trekking equipment. Following your breathless sunrise, soak in natural therapeutic thermal pools fed directly by the subterranean volcanic bed."
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1618265909156-0507770ef0d0?auto=format&fit=crop&w=1200&q=80",
+     "label": "Manta Point"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1604500693431-647f9e76dafc?auto=format&fit=crop&w=1200&q=80",
+     "label": "Crystal Bay"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557106160-c533b9d00071?auto=format&fit=crop&w=1200&q=80",
+     "label": "Cliff Views"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1541666282672-5f4aad922c63?auto=format&fit=crop&w=1200&q=80",
+     "label": "Gamat Bay"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Beach Lunch"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Difficulty",
+     "value": "Moderate",
+     "sub": "Suitable for beginners",
+     "icon": "Activity"
+    },
+    {
+     "label": "Departure Time",
+     "value": "07:30 AM",
+     "sub": "Direct hotel pickup",
+     "icon": "Clock"
+    },
+    {
+     "label": "Group Size",
+     "value": "Max 8",
+     "sub": "Small private groups",
+     "icon": "Users"
+    },
+    {
+     "label": "Guide Ratio",
+     "value": "1 : 4 Ratio",
+     "sub": "Certified local guide",
+     "icon": "UserRound"
+    }
+   ],
+   "highlights": [
+    {
+     "title": "Certified Local Guides",
+     "desc": "Licensed instructors born and raised in the area.",
+     "icon": "ShieldCheck"
+    },
+    {
+     "title": "Premium Gear Provided",
+     "desc": "Clean, sanitized and regularly inspected equipment.",
+     "icon": "Package"
+    },
+    {
+     "title": "Meals Included",
+     "desc": "Authentic local lunch or breakfast included.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Round-trip Transport",
+     "desc": "Private AC transfer from major Bali hubs.",
+     "icon": "Car"
+    }
+   ],
+   "timeline": [
+    {
+     "time": "07:30 AM",
+     "title": "Hotel Pickup",
+     "desc": "Private air-conditioned transfer from your villa or hotel in South Bali or Ubud.",
+     "tone": "brand"
+    },
+    {
+     "time": "09:00 AM",
+     "title": "Briefing & Gear Fitting",
+     "desc": "Meet your certified instructors, receive safety briefing and fitted equipment.",
+     "tone": "forest"
+    },
+    {
+     "time": "09:30 AM",
+     "title": "Main Experience Begins",
+     "desc": "Enjoy the core activity with professional guides and photo stops along the way.",
+     "tone": "brand"
+    },
+    {
+     "time": "12:30 PM",
+     "title": "Lunch & Refresh",
+     "desc": "Buffet lunch, hot showers and fresh towels at the base camp.",
+     "tone": "gold"
+    },
+    {
+     "time": "02:00 PM",
+     "title": "Return Transfer",
+     "desc": "Comfortable ride back to your accommodation.",
+     "tone": "sand"
+    }
+   ],
+   "inclusions": [
+    "Door-to-door private AC transport from all major Bali hubs",
+    "Licensed English-speaking guide or instructor",
+    "All entrance fees & equipment rental",
+    "Meal as described & bottled mineral water",
+    "Comprehensive medical passenger insurance coverage"
+   ],
+   "exclusions": [
+    "Personal expenses and souvenirs",
+    "Alcoholic drinks at the cafe",
+    "Gratuities / tips for your guide"
+   ],
+   "addons": [
+    {
+     "title": "Pro Photographer",
+     "desc": "High-res edited album delivered same day",
+     "price": 500000
+    },
+    {
+     "title": "Private Group Upgrade",
+     "desc": "Exclusive guide for your party only",
+     "price": 350000
+    }
+   ],
+   "slots": [
+    {
+     "label": "Morning Session",
+     "sub": "07:30 - 08:30 AM Hotel Dispatch"
+    },
+    {
+     "label": "Afternoon Session",
+     "sub": "12:30 - 01:30 PM Hotel Dispatch"
+    }
+   ],
+   "packing": [
+    {
+     "title": "Comfortable Clothing",
+     "desc": "Quick-dry clothing and a change of clothes for after the activity.",
+     "icon": "Shirt"
+    },
+    {
+     "title": "Footwear Needs",
+     "desc": "Sturdy sneakers or strapped sandals with good grip.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Essentials",
+     "desc": "Sunscreen, sunglasses, and a small waterproof bag for valuables.",
+     "icon": "Sun"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Elena & Henrik",
+     "location": "Copenhagen, Denmark",
+     "initials": "EH",
+     "tone": "forest",
+     "date": "Oct 2024",
+     "text": "The single most magical morning of my Bali holiday. Our guide kept our pace steady and knew the exact vantage point to avoid crowds."
+    },
+    {
+     "name": "Marcus Turner",
+     "location": "Melbourne, Australia",
+     "initials": "MT",
+     "tone": "brand",
+     "date": "Nov 2024",
+     "text": "Bali Vision Tour handled every detail flawlessly. Chauffeur arrived exactly on time in a luxury private van. The photo shots our guide took look like National Geographic covers."
+    }
+   ],
+   "id": "a3",
+   "slug": "nusa-penida-manta-ray-snorkeling",
+   "title": "Nusa Penida Manta Ray Snorkeling",
+   "category": "Water Sports & Ocean",
+   "type": "Water Sports & Marine",
+   "badge": "Must Do",
+   "badgeTone": "brand",
+   "duration": "Full Day",
+   "rating": 4.9,
+   "reviews": 850,
+   "price": 550000,
+   "image": "https://images.unsplash.com/photo-1618265909156-0507770ef0d0?auto=format&fit=crop&w=1200&q=80",
+   "includes": [
+    "Speedboat transfer & premium snorkel gear",
+    "Manta Point, Crystal Bay & Gamat Bay stops",
+    "Underwater GoPro photography included"
+   ],
+   "description": "Glide alongside majestic oceanic manta rays and explore three of Nusa Penida’s most vibrant coral bays."
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1787758509064-559a5e3eaa65?auto=format&fit=crop&w=1200&q=80",
+     "label": "Signature Experience"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tropical Setting"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1558005530-a7958896ec60?auto=format&fit=crop&w=1200&q=80",
+     "label": "Highland Views"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Coastal Relax"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Route"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Difficulty",
+     "value": "Moderate",
+     "sub": "Suitable for beginners",
+     "icon": "Activity"
+    },
+    {
+     "label": "Departure Time",
+     "value": "07:30 AM",
+     "sub": "Direct hotel pickup",
+     "icon": "Clock"
+    },
+    {
+     "label": "Group Size",
+     "value": "Max 8",
+     "sub": "Small private groups",
+     "icon": "Users"
+    },
+    {
+     "label": "Guide Ratio",
+     "value": "1 : 4 Ratio",
+     "sub": "Certified local guide",
+     "icon": "UserRound"
+    }
+   ],
+   "highlights": [
+    {
+     "title": "Certified Local Guides",
+     "desc": "Licensed instructors born and raised in the area.",
+     "icon": "ShieldCheck"
+    },
+    {
+     "title": "Premium Gear Provided",
+     "desc": "Clean, sanitized and regularly inspected equipment.",
+     "icon": "Package"
+    },
+    {
+     "title": "Meals Included",
+     "desc": "Authentic local lunch or breakfast included.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Round-trip Transport",
+     "desc": "Private AC transfer from major Bali hubs.",
+     "icon": "Car"
+    }
+   ],
+   "timeline": [
+    {
+     "time": "07:30 AM",
+     "title": "Hotel Pickup",
+     "desc": "Private air-conditioned transfer from your villa or hotel in South Bali or Ubud.",
+     "tone": "brand"
+    },
+    {
+     "time": "09:00 AM",
+     "title": "Briefing & Gear Fitting",
+     "desc": "Meet your certified instructors, receive safety briefing and fitted equipment.",
+     "tone": "forest"
+    },
+    {
+     "time": "09:30 AM",
+     "title": "Main Experience Begins",
+     "desc": "Enjoy the core activity with professional guides and photo stops along the way.",
+     "tone": "brand"
+    },
+    {
+     "time": "12:30 PM",
+     "title": "Lunch & Refresh",
+     "desc": "Buffet lunch, hot showers and fresh towels at the base camp.",
+     "tone": "gold"
+    },
+    {
+     "time": "02:00 PM",
+     "title": "Return Transfer",
+     "desc": "Comfortable ride back to your accommodation.",
+     "tone": "sand"
+    }
+   ],
+   "inclusions": [
+    "Door-to-door private AC transport from all major Bali hubs",
+    "Licensed English-speaking guide or instructor",
+    "All entrance fees & equipment rental",
+    "Meal as described & bottled mineral water",
+    "Comprehensive medical passenger insurance coverage"
+   ],
+   "exclusions": [
+    "Personal expenses and souvenirs",
+    "Alcoholic drinks at the cafe",
+    "Gratuities / tips for your guide"
+   ],
+   "addons": [
+    {
+     "title": "Pro Photographer",
+     "desc": "High-res edited album delivered same day",
+     "price": 500000
+    },
+    {
+     "title": "Private Group Upgrade",
+     "desc": "Exclusive guide for your party only",
+     "price": 350000
+    }
+   ],
+   "slots": [
+    {
+     "label": "Morning Session",
+     "sub": "07:30 - 08:30 AM Hotel Dispatch"
+    },
+    {
+     "label": "Afternoon Session",
+     "sub": "12:30 - 01:30 PM Hotel Dispatch"
+    }
+   ],
+   "packing": [
+    {
+     "title": "Comfortable Clothing",
+     "desc": "Quick-dry clothing and a change of clothes for after the activity.",
+     "icon": "Shirt"
+    },
+    {
+     "title": "Footwear Needs",
+     "desc": "Sturdy sneakers or strapped sandals with good grip.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Essentials",
+     "desc": "Sunscreen, sunglasses, and a small waterproof bag for valuables.",
+     "icon": "Sun"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Elena & Henrik",
+     "location": "Copenhagen, Denmark",
+     "initials": "EH",
+     "tone": "forest",
+     "date": "Oct 2024",
+     "text": "The single most magical morning of my Bali holiday. Our guide kept our pace steady and knew the exact vantage point to avoid crowds."
+    },
+    {
+     "name": "Marcus Turner",
+     "location": "Melbourne, Australia",
+     "initials": "MT",
+     "tone": "brand",
+     "date": "Nov 2024",
+     "text": "Bali Vision Tour handled every detail flawlessly. Chauffeur arrived exactly on time in a luxury private van. The photo shots our guide took look like National Geographic covers."
+    }
+   ],
+   "id": "a4",
+   "slug": "ubud-atv-quad-bike-jungle-trail",
+   "title": "Ubud ATV Quad Bike Jungle Trail",
+   "category": "Adventure & Motor",
+   "type": "Adventure & Trekking",
+   "badge": "High Adrenaline",
+   "badgeTone": "brand",
+   "duration": "2.5 Hours",
+   "rating": 4.8,
+   "reviews": 310,
+   "price": 450000,
+   "image": "https://images.unsplash.com/photo-1787758509064-559a5e3eaa65?auto=format&fit=crop&w=1200&q=80",
+   "includes": [
+    "Mud tracks, bamboo forest & gorilla cave",
+    "Safety boots, helmet & locker provided",
+    "Hot shower facility and Indonesian lunch"
+   ],
+   "description": "Rip through muddy jungle tracks, bamboo tunnels and rice-field ridges on an automatic quad bike."
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?auto=format&fit=crop&w=1200&q=80",
+     "label": "Signature Experience"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tropical Setting"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1558005530-a7958896ec60?auto=format&fit=crop&w=1200&q=80",
+     "label": "Highland Views"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Coastal Relax"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Route"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Difficulty",
+     "value": "Moderate",
+     "sub": "Suitable for beginners",
+     "icon": "Activity"
+    },
+    {
+     "label": "Departure Time",
+     "value": "07:30 AM",
+     "sub": "Direct hotel pickup",
+     "icon": "Clock"
+    },
+    {
+     "label": "Group Size",
+     "value": "Max 8",
+     "sub": "Small private groups",
+     "icon": "Users"
+    },
+    {
+     "label": "Guide Ratio",
+     "value": "1 : 4 Ratio",
+     "sub": "Certified local guide",
+     "icon": "UserRound"
+    }
+   ],
+   "highlights": [
+    {
+     "title": "Certified Local Guides",
+     "desc": "Licensed instructors born and raised in the area.",
+     "icon": "ShieldCheck"
+    },
+    {
+     "title": "Premium Gear Provided",
+     "desc": "Clean, sanitized and regularly inspected equipment.",
+     "icon": "Package"
+    },
+    {
+     "title": "Meals Included",
+     "desc": "Authentic local lunch or breakfast included.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Round-trip Transport",
+     "desc": "Private AC transfer from major Bali hubs.",
+     "icon": "Car"
+    }
+   ],
+   "timeline": [
+    {
+     "time": "07:30 AM",
+     "title": "Hotel Pickup",
+     "desc": "Private air-conditioned transfer from your villa or hotel in South Bali or Ubud.",
+     "tone": "brand"
+    },
+    {
+     "time": "09:00 AM",
+     "title": "Briefing & Gear Fitting",
+     "desc": "Meet your certified instructors, receive safety briefing and fitted equipment.",
+     "tone": "forest"
+    },
+    {
+     "time": "09:30 AM",
+     "title": "Main Experience Begins",
+     "desc": "Enjoy the core activity with professional guides and photo stops along the way.",
+     "tone": "brand"
+    },
+    {
+     "time": "12:30 PM",
+     "title": "Lunch & Refresh",
+     "desc": "Buffet lunch, hot showers and fresh towels at the base camp.",
+     "tone": "gold"
+    },
+    {
+     "time": "02:00 PM",
+     "title": "Return Transfer",
+     "desc": "Comfortable ride back to your accommodation.",
+     "tone": "sand"
+    }
+   ],
+   "inclusions": [
+    "Door-to-door private AC transport from all major Bali hubs",
+    "Licensed English-speaking guide or instructor",
+    "All entrance fees & equipment rental",
+    "Meal as described & bottled mineral water",
+    "Comprehensive medical passenger insurance coverage"
+   ],
+   "exclusions": [
+    "Personal expenses and souvenirs",
+    "Alcoholic drinks at the cafe",
+    "Gratuities / tips for your guide"
+   ],
+   "addons": [
+    {
+     "title": "Pro Photographer",
+     "desc": "High-res edited album delivered same day",
+     "price": 500000
+    },
+    {
+     "title": "Private Group Upgrade",
+     "desc": "Exclusive guide for your party only",
+     "price": 350000
+    }
+   ],
+   "slots": [
+    {
+     "label": "Morning Session",
+     "sub": "07:30 - 08:30 AM Hotel Dispatch"
+    },
+    {
+     "label": "Afternoon Session",
+     "sub": "12:30 - 01:30 PM Hotel Dispatch"
+    }
+   ],
+   "packing": [
+    {
+     "title": "Comfortable Clothing",
+     "desc": "Quick-dry clothing and a change of clothes for after the activity.",
+     "icon": "Shirt"
+    },
+    {
+     "title": "Footwear Needs",
+     "desc": "Sturdy sneakers or strapped sandals with good grip.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Essentials",
+     "desc": "Sunscreen, sunglasses, and a small waterproof bag for valuables.",
+     "icon": "Sun"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Elena & Henrik",
+     "location": "Copenhagen, Denmark",
+     "initials": "EH",
+     "tone": "forest",
+     "date": "Oct 2024",
+     "text": "The single most magical morning of my Bali holiday. Our guide kept our pace steady and knew the exact vantage point to avoid crowds."
+    },
+    {
+     "name": "Marcus Turner",
+     "location": "Melbourne, Australia",
+     "initials": "MT",
+     "tone": "brand",
+     "date": "Nov 2024",
+     "text": "Bali Vision Tour handled every detail flawlessly. Chauffeur arrived exactly on time in a luxury private van. The photo shots our guide took look like National Geographic covers."
+    }
+   ],
+   "id": "a5",
+   "slug": "traditional-balinese-cooking-class",
+   "title": "Traditional Balinese Cooking Class in Organic Farm",
+   "category": "Culinary & Culture",
+   "type": "Culture & Workshops",
+   "badge": "Culture & Taste",
+   "badgeTone": "sand",
+   "duration": "4 Hours",
+   "rating": 5,
+   "reviews": 195,
+   "price": 375000,
+   "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?auto=format&fit=crop&w=1200&q=80",
+   "includes": [
+    "Vibrant local market tour & herb harvest",
+    "5-course homemade authentic feast",
+    "Printed recipe booklet & certificate"
+   ],
+   "description": "Harvest herbs on an organic farm and master five classic Balinese dishes with a family of village cooks."
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1552301726-570d51466ae2?auto=format&fit=crop&w=1200&q=80",
+     "label": "Signature Experience"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tropical Setting"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1558005530-a7958896ec60?auto=format&fit=crop&w=1200&q=80",
+     "label": "Highland Views"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Coastal Relax"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Route"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Difficulty",
+     "value": "Moderate",
+     "sub": "Suitable for beginners",
+     "icon": "Activity"
+    },
+    {
+     "label": "Departure Time",
+     "value": "07:30 AM",
+     "sub": "Direct hotel pickup",
+     "icon": "Clock"
+    },
+    {
+     "label": "Group Size",
+     "value": "Max 8",
+     "sub": "Small private groups",
+     "icon": "Users"
+    },
+    {
+     "label": "Guide Ratio",
+     "value": "1 : 4 Ratio",
+     "sub": "Certified local guide",
+     "icon": "UserRound"
+    }
+   ],
+   "highlights": [
+    {
+     "title": "Certified Local Guides",
+     "desc": "Licensed instructors born and raised in the area.",
+     "icon": "ShieldCheck"
+    },
+    {
+     "title": "Premium Gear Provided",
+     "desc": "Clean, sanitized and regularly inspected equipment.",
+     "icon": "Package"
+    },
+    {
+     "title": "Meals Included",
+     "desc": "Authentic local lunch or breakfast included.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Round-trip Transport",
+     "desc": "Private AC transfer from major Bali hubs.",
+     "icon": "Car"
+    }
+   ],
+   "timeline": [
+    {
+     "time": "07:30 AM",
+     "title": "Hotel Pickup",
+     "desc": "Private air-conditioned transfer from your villa or hotel in South Bali or Ubud.",
+     "tone": "brand"
+    },
+    {
+     "time": "09:00 AM",
+     "title": "Briefing & Gear Fitting",
+     "desc": "Meet your certified instructors, receive safety briefing and fitted equipment.",
+     "tone": "forest"
+    },
+    {
+     "time": "09:30 AM",
+     "title": "Main Experience Begins",
+     "desc": "Enjoy the core activity with professional guides and photo stops along the way.",
+     "tone": "brand"
+    },
+    {
+     "time": "12:30 PM",
+     "title": "Lunch & Refresh",
+     "desc": "Buffet lunch, hot showers and fresh towels at the base camp.",
+     "tone": "gold"
+    },
+    {
+     "time": "02:00 PM",
+     "title": "Return Transfer",
+     "desc": "Comfortable ride back to your accommodation.",
+     "tone": "sand"
+    }
+   ],
+   "inclusions": [
+    "Door-to-door private AC transport from all major Bali hubs",
+    "Licensed English-speaking guide or instructor",
+    "All entrance fees & equipment rental",
+    "Meal as described & bottled mineral water",
+    "Comprehensive medical passenger insurance coverage"
+   ],
+   "exclusions": [
+    "Personal expenses and souvenirs",
+    "Alcoholic drinks at the cafe",
+    "Gratuities / tips for your guide"
+   ],
+   "addons": [
+    {
+     "title": "Pro Photographer",
+     "desc": "High-res edited album delivered same day",
+     "price": 500000
+    },
+    {
+     "title": "Private Group Upgrade",
+     "desc": "Exclusive guide for your party only",
+     "price": 350000
+    }
+   ],
+   "slots": [
+    {
+     "label": "Morning Session",
+     "sub": "07:30 - 08:30 AM Hotel Dispatch"
+    },
+    {
+     "label": "Afternoon Session",
+     "sub": "12:30 - 01:30 PM Hotel Dispatch"
+    }
+   ],
+   "packing": [
+    {
+     "title": "Comfortable Clothing",
+     "desc": "Quick-dry clothing and a change of clothes for after the activity.",
+     "icon": "Shirt"
+    },
+    {
+     "title": "Footwear Needs",
+     "desc": "Sturdy sneakers or strapped sandals with good grip.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Essentials",
+     "desc": "Sunscreen, sunglasses, and a small waterproof bag for valuables.",
+     "icon": "Sun"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Elena & Henrik",
+     "location": "Copenhagen, Denmark",
+     "initials": "EH",
+     "tone": "forest",
+     "date": "Oct 2024",
+     "text": "The single most magical morning of my Bali holiday. Our guide kept our pace steady and knew the exact vantage point to avoid crowds."
+    },
+    {
+     "name": "Marcus Turner",
+     "location": "Melbourne, Australia",
+     "initials": "MT",
+     "tone": "brand",
+     "date": "Nov 2024",
+     "text": "Bali Vision Tour handled every detail flawlessly. Chauffeur arrived exactly on time in a luxury private van. The photo shots our guide took look like National Geographic covers."
+    }
+   ],
+   "id": "a6",
+   "slug": "tirta-empul-melukat-purification",
+   "title": "Tirta Empul Sacred Melukat Purification Ritual",
+   "category": "Wellness & Heritage",
+   "type": "Wellness & Spa",
+   "badge": "Sacred Ritual",
+   "badgeTone": "forest",
+   "duration": "3 Hours",
+   "rating": 4.9,
+   "reviews": 240,
+   "price": 280000,
+   "image": "https://images.unsplash.com/photo-1552301726-570d51466ae2?auto=format&fit=crop&w=1200&q=80",
+   "includes": [
+    "Traditional temple sarong and sash rental",
+    "Fresh canang sari ritual offerings",
+    "Certified spiritual heritage guide"
+   ],
+   "description": "Take part in the centuries-old Melukat cleansing ritual at the holy spring temple of Tirta Empul."
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1759129669580-e1e9ae3c078b?auto=format&fit=crop&w=1200&q=80",
+     "label": "Signature Experience"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tropical Setting"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1558005530-a7958896ec60?auto=format&fit=crop&w=1200&q=80",
+     "label": "Highland Views"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Coastal Relax"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Route"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Difficulty",
+     "value": "Moderate",
+     "sub": "Suitable for beginners",
+     "icon": "Activity"
+    },
+    {
+     "label": "Departure Time",
+     "value": "07:30 AM",
+     "sub": "Direct hotel pickup",
+     "icon": "Clock"
+    },
+    {
+     "label": "Group Size",
+     "value": "Max 8",
+     "sub": "Small private groups",
+     "icon": "Users"
+    },
+    {
+     "label": "Guide Ratio",
+     "value": "1 : 4 Ratio",
+     "sub": "Certified local guide",
+     "icon": "UserRound"
+    }
+   ],
+   "highlights": [
+    {
+     "title": "Certified Local Guides",
+     "desc": "Licensed instructors born and raised in the area.",
+     "icon": "ShieldCheck"
+    },
+    {
+     "title": "Premium Gear Provided",
+     "desc": "Clean, sanitized and regularly inspected equipment.",
+     "icon": "Package"
+    },
+    {
+     "title": "Meals Included",
+     "desc": "Authentic local lunch or breakfast included.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Round-trip Transport",
+     "desc": "Private AC transfer from major Bali hubs.",
+     "icon": "Car"
+    }
+   ],
+   "timeline": [
+    {
+     "time": "07:30 AM",
+     "title": "Hotel Pickup",
+     "desc": "Private air-conditioned transfer from your villa or hotel in South Bali or Ubud.",
+     "tone": "brand"
+    },
+    {
+     "time": "09:00 AM",
+     "title": "Briefing & Gear Fitting",
+     "desc": "Meet your certified instructors, receive safety briefing and fitted equipment.",
+     "tone": "forest"
+    },
+    {
+     "time": "09:30 AM",
+     "title": "Main Experience Begins",
+     "desc": "Enjoy the core activity with professional guides and photo stops along the way.",
+     "tone": "brand"
+    },
+    {
+     "time": "12:30 PM",
+     "title": "Lunch & Refresh",
+     "desc": "Buffet lunch, hot showers and fresh towels at the base camp.",
+     "tone": "gold"
+    },
+    {
+     "time": "02:00 PM",
+     "title": "Return Transfer",
+     "desc": "Comfortable ride back to your accommodation.",
+     "tone": "sand"
+    }
+   ],
+   "inclusions": [
+    "Door-to-door private AC transport from all major Bali hubs",
+    "Licensed English-speaking guide or instructor",
+    "All entrance fees & equipment rental",
+    "Meal as described & bottled mineral water",
+    "Comprehensive medical passenger insurance coverage"
+   ],
+   "exclusions": [
+    "Personal expenses and souvenirs",
+    "Alcoholic drinks at the cafe",
+    "Gratuities / tips for your guide"
+   ],
+   "addons": [
+    {
+     "title": "Pro Photographer",
+     "desc": "High-res edited album delivered same day",
+     "price": 500000
+    },
+    {
+     "title": "Private Group Upgrade",
+     "desc": "Exclusive guide for your party only",
+     "price": 350000
+    }
+   ],
+   "slots": [
+    {
+     "label": "Morning Session",
+     "sub": "07:30 - 08:30 AM Hotel Dispatch"
+    },
+    {
+     "label": "Afternoon Session",
+     "sub": "12:30 - 01:30 PM Hotel Dispatch"
+    }
+   ],
+   "packing": [
+    {
+     "title": "Comfortable Clothing",
+     "desc": "Quick-dry clothing and a change of clothes for after the activity.",
+     "icon": "Shirt"
+    },
+    {
+     "title": "Footwear Needs",
+     "desc": "Sturdy sneakers or strapped sandals with good grip.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Essentials",
+     "desc": "Sunscreen, sunglasses, and a small waterproof bag for valuables.",
+     "icon": "Sun"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Elena & Henrik",
+     "location": "Copenhagen, Denmark",
+     "initials": "EH",
+     "tone": "forest",
+     "date": "Oct 2024",
+     "text": "The single most magical morning of my Bali holiday. Our guide kept our pace steady and knew the exact vantage point to avoid crowds."
+    },
+    {
+     "name": "Marcus Turner",
+     "location": "Melbourne, Australia",
+     "initials": "MT",
+     "tone": "brand",
+     "date": "Nov 2024",
+     "text": "Bali Vision Tour handled every detail flawlessly. Chauffeur arrived exactly on time in a luxury private van. The photo shots our guide took look like National Geographic covers."
+    }
+   ],
+   "id": "a7",
+   "slug": "bali-safari-marine-park-jungle-hopper",
+   "title": "Bali Safari & Marine Park Jungle Hopper",
+   "category": "Wildlife & Family",
+   "type": "Wildlife & Nature",
+   "badge": "Family Favorite",
+   "badgeTone": "forest",
+   "duration": "Full Day",
+   "rating": 4.8,
+   "reviews": 520,
+   "price": 720000,
+   "image": "https://images.unsplash.com/photo-1759129669580-e1e9ae3c078b?auto=format&fit=crop&w=1200&q=80",
+   "includes": [
+    "Guided safari tram ride through habitats",
+    "Animal education shows & water play zone",
+    "Bali Agung theatrical performance pass"
+   ],
+   "description": "A full family day of safari trams, animal shows, water play and the spectacular Bali Agung theatre."
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+     "label": "Signature Experience"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tropical Setting"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1558005530-a7958896ec60?auto=format&fit=crop&w=1200&q=80",
+     "label": "Highland Views"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Coastal Relax"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Route"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Difficulty",
+     "value": "Moderate",
+     "sub": "Suitable for beginners",
+     "icon": "Activity"
+    },
+    {
+     "label": "Departure Time",
+     "value": "07:30 AM",
+     "sub": "Direct hotel pickup",
+     "icon": "Clock"
+    },
+    {
+     "label": "Group Size",
+     "value": "Max 8",
+     "sub": "Small private groups",
+     "icon": "Users"
+    },
+    {
+     "label": "Guide Ratio",
+     "value": "1 : 4 Ratio",
+     "sub": "Certified local guide",
+     "icon": "UserRound"
+    }
+   ],
+   "highlights": [
+    {
+     "title": "Certified Local Guides",
+     "desc": "Licensed instructors born and raised in the area.",
+     "icon": "ShieldCheck"
+    },
+    {
+     "title": "Premium Gear Provided",
+     "desc": "Clean, sanitized and regularly inspected equipment.",
+     "icon": "Package"
+    },
+    {
+     "title": "Meals Included",
+     "desc": "Authentic local lunch or breakfast included.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Round-trip Transport",
+     "desc": "Private AC transfer from major Bali hubs.",
+     "icon": "Car"
+    }
+   ],
+   "timeline": [
+    {
+     "time": "07:30 AM",
+     "title": "Hotel Pickup",
+     "desc": "Private air-conditioned transfer from your villa or hotel in South Bali or Ubud.",
+     "tone": "brand"
+    },
+    {
+     "time": "09:00 AM",
+     "title": "Briefing & Gear Fitting",
+     "desc": "Meet your certified instructors, receive safety briefing and fitted equipment.",
+     "tone": "forest"
+    },
+    {
+     "time": "09:30 AM",
+     "title": "Main Experience Begins",
+     "desc": "Enjoy the core activity with professional guides and photo stops along the way.",
+     "tone": "brand"
+    },
+    {
+     "time": "12:30 PM",
+     "title": "Lunch & Refresh",
+     "desc": "Buffet lunch, hot showers and fresh towels at the base camp.",
+     "tone": "gold"
+    },
+    {
+     "time": "02:00 PM",
+     "title": "Return Transfer",
+     "desc": "Comfortable ride back to your accommodation.",
+     "tone": "sand"
+    }
+   ],
+   "inclusions": [
+    "Door-to-door private AC transport from all major Bali hubs",
+    "Licensed English-speaking guide or instructor",
+    "All entrance fees & equipment rental",
+    "Meal as described & bottled mineral water",
+    "Comprehensive medical passenger insurance coverage"
+   ],
+   "exclusions": [
+    "Personal expenses and souvenirs",
+    "Alcoholic drinks at the cafe",
+    "Gratuities / tips for your guide"
+   ],
+   "addons": [
+    {
+     "title": "Pro Photographer",
+     "desc": "High-res edited album delivered same day",
+     "price": 500000
+    },
+    {
+     "title": "Private Group Upgrade",
+     "desc": "Exclusive guide for your party only",
+     "price": 350000
+    }
+   ],
+   "slots": [
+    {
+     "label": "Morning Session",
+     "sub": "07:30 - 08:30 AM Hotel Dispatch"
+    },
+    {
+     "label": "Afternoon Session",
+     "sub": "12:30 - 01:30 PM Hotel Dispatch"
+    }
+   ],
+   "packing": [
+    {
+     "title": "Comfortable Clothing",
+     "desc": "Quick-dry clothing and a change of clothes for after the activity.",
+     "icon": "Shirt"
+    },
+    {
+     "title": "Footwear Needs",
+     "desc": "Sturdy sneakers or strapped sandals with good grip.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Essentials",
+     "desc": "Sunscreen, sunglasses, and a small waterproof bag for valuables.",
+     "icon": "Sun"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Elena & Henrik",
+     "location": "Copenhagen, Denmark",
+     "initials": "EH",
+     "tone": "forest",
+     "date": "Oct 2024",
+     "text": "The single most magical morning of my Bali holiday. Our guide kept our pace steady and knew the exact vantage point to avoid crowds."
+    },
+    {
+     "name": "Marcus Turner",
+     "location": "Melbourne, Australia",
+     "initials": "MT",
+     "tone": "brand",
+     "date": "Nov 2024",
+     "text": "Bali Vision Tour handled every detail flawlessly. Chauffeur arrived exactly on time in a luxury private van. The photo shots our guide took look like National Geographic covers."
+    }
+   ],
+   "id": "a8",
+   "slug": "seawalker-watersports-tanjung-benoa",
+   "title": "Seawalker & Watersports at Tanjung Benoa",
+   "category": "Water Sports",
+   "type": "Water Sports & Marine",
+   "badge": "Popular Choice",
+   "badgeTone": "brand",
+   "duration": "4 Hours",
+   "rating": 4.8,
+   "reviews": 390,
+   "price": 390000,
+   "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80",
+   "includes": [
+    "Specialized helmet diving (no swimming needed)",
+    "Hands-on marine fish feeding experience",
+    "Locker, towel, shower & beach lounge pass"
+   ],
+   "description": "Walk on the ocean floor with a helmet dive and feed tropical fish, no swimming skills required."
+  },
+  {
+   "gallery": [
+    {
+     "src": "https://images.unsplash.com/photo-1711241707155-ba44d6dfb630?auto=format&fit=crop&w=1200&q=80",
+     "label": "Signature Experience"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1557093793-d149a38a1be8?auto=format&fit=crop&w=1200&q=80",
+     "label": "Tropical Setting"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1558005530-a7958896ec60?auto=format&fit=crop&w=1200&q=80",
+     "label": "Highland Views"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?auto=format&fit=crop&w=1200&q=80",
+     "label": "Coastal Relax"
+    },
+    {
+     "src": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=1200&q=80",
+     "label": "Scenic Route"
+    }
+   ],
+   "facts": [
+    {
+     "label": "Difficulty",
+     "value": "Moderate",
+     "sub": "Suitable for beginners",
+     "icon": "Activity"
+    },
+    {
+     "label": "Departure Time",
+     "value": "07:30 AM",
+     "sub": "Direct hotel pickup",
+     "icon": "Clock"
+    },
+    {
+     "label": "Group Size",
+     "value": "Max 8",
+     "sub": "Small private groups",
+     "icon": "Users"
+    },
+    {
+     "label": "Guide Ratio",
+     "value": "1 : 4 Ratio",
+     "sub": "Certified local guide",
+     "icon": "UserRound"
+    }
+   ],
+   "highlights": [
+    {
+     "title": "Certified Local Guides",
+     "desc": "Licensed instructors born and raised in the area.",
+     "icon": "ShieldCheck"
+    },
+    {
+     "title": "Premium Gear Provided",
+     "desc": "Clean, sanitized and regularly inspected equipment.",
+     "icon": "Package"
+    },
+    {
+     "title": "Meals Included",
+     "desc": "Authentic local lunch or breakfast included.",
+     "icon": "UtensilsCrossed"
+    },
+    {
+     "title": "Round-trip Transport",
+     "desc": "Private AC transfer from major Bali hubs.",
+     "icon": "Car"
+    }
+   ],
+   "timeline": [
+    {
+     "time": "07:30 AM",
+     "title": "Hotel Pickup",
+     "desc": "Private air-conditioned transfer from your villa or hotel in South Bali or Ubud.",
+     "tone": "brand"
+    },
+    {
+     "time": "09:00 AM",
+     "title": "Briefing & Gear Fitting",
+     "desc": "Meet your certified instructors, receive safety briefing and fitted equipment.",
+     "tone": "forest"
+    },
+    {
+     "time": "09:30 AM",
+     "title": "Main Experience Begins",
+     "desc": "Enjoy the core activity with professional guides and photo stops along the way.",
+     "tone": "brand"
+    },
+    {
+     "time": "12:30 PM",
+     "title": "Lunch & Refresh",
+     "desc": "Buffet lunch, hot showers and fresh towels at the base camp.",
+     "tone": "gold"
+    },
+    {
+     "time": "02:00 PM",
+     "title": "Return Transfer",
+     "desc": "Comfortable ride back to your accommodation.",
+     "tone": "sand"
+    }
+   ],
+   "inclusions": [
+    "Door-to-door private AC transport from all major Bali hubs",
+    "Licensed English-speaking guide or instructor",
+    "All entrance fees & equipment rental",
+    "Meal as described & bottled mineral water",
+    "Comprehensive medical passenger insurance coverage"
+   ],
+   "exclusions": [
+    "Personal expenses and souvenirs",
+    "Alcoholic drinks at the cafe",
+    "Gratuities / tips for your guide"
+   ],
+   "addons": [
+    {
+     "title": "Pro Photographer",
+     "desc": "High-res edited album delivered same day",
+     "price": 500000
+    },
+    {
+     "title": "Private Group Upgrade",
+     "desc": "Exclusive guide for your party only",
+     "price": 350000
+    }
+   ],
+   "slots": [
+    {
+     "label": "Morning Session",
+     "sub": "07:30 - 08:30 AM Hotel Dispatch"
+    },
+    {
+     "label": "Afternoon Session",
+     "sub": "12:30 - 01:30 PM Hotel Dispatch"
+    }
+   ],
+   "packing": [
+    {
+     "title": "Comfortable Clothing",
+     "desc": "Quick-dry clothing and a change of clothes for after the activity.",
+     "icon": "Shirt"
+    },
+    {
+     "title": "Footwear Needs",
+     "desc": "Sturdy sneakers or strapped sandals with good grip.",
+     "icon": "Footprints"
+    },
+    {
+     "title": "Essentials",
+     "desc": "Sunscreen, sunglasses, and a small waterproof bag for valuables.",
+     "icon": "Sun"
+    }
+   ],
+   "reviewsList": [
+    {
+     "name": "Elena & Henrik",
+     "location": "Copenhagen, Denmark",
+     "initials": "EH",
+     "tone": "forest",
+     "date": "Oct 2024",
+     "text": "The single most magical morning of my Bali holiday. Our guide kept our pace steady and knew the exact vantage point to avoid crowds."
+    },
+    {
+     "name": "Marcus Turner",
+     "location": "Melbourne, Australia",
+     "initials": "MT",
+     "tone": "brand",
+     "date": "Nov 2024",
+     "text": "Bali Vision Tour handled every detail flawlessly. Chauffeur arrived exactly on time in a luxury private van. The photo shots our guide took look like National Geographic covers."
+    }
+   ],
+   "id": "a9",
+   "slug": "aloha-ubud-jungle-swing-photo-spot",
+   "title": "Aloha Ubud Jungle Swing & Photo Spot",
+   "category": "Adventure & Photo",
+   "type": "Adventure & Trekking",
+   "badge": "Instagram Iconic",
+   "badgeTone": "gold",
+   "duration": "2 Hours",
+   "rating": 4.9,
+   "reviews": 610,
+   "price": 250000,
+   "image": "https://images.unsplash.com/photo-1711241707155-ba44d6dfb630?auto=format&fit=crop&w=1200&q=80",
+   "includes": [
+    "Extreme single & romantic tandem swings",
+    "Giant woven bird nests and photo vantage points",
+    "Safety harness and comprehensive insurance"
+   ],
+   "description": "Soar over the Ubud jungle canopy on giant swings and pose in woven bird nests for iconic photos."
+  }
+ ],
+ "articles": [
+  {
+   "id": "ar1",
+   "slug": "ultimate-first-timers-guide-east-nusa-penida-2025",
+   "title": "The Ultimate First-Timer's Guide to Exploring East Nusa Penida in 2025",
+   "category": "Island Itineraries",
+   "tags": [
+    "Featured Expedition",
+    "Nusa Penida Series",
+    "8 min read",
+    "Updated for 2025"
+   ],
+   "excerpt": "Venture beyond the crowded western viewpoints into secluded Diamond Beach, the dramatic Thousand Islands viewpoint, and sacred cave temples. From chartering sea vessels from Sanur Harbour to navigating cliffside trails safely, here is the quintessential travel blueprint curated with private drivers and local safety insights.",
+   "subtitle": "From beating the sunrise crowds at Diamond Beach to descending the sacred steps of Pura Goa Giri Putri — an insider’s manual curated by licensed Balinese storytellers.",
+   "image": "https://images.unsplash.com/photo-1541666282672-5f4aad922c63?auto=format&fit=crop&w=1200&q=80",
+   "imageCaption": "Morning light over the dramatic limestone cliffs of Diamond Beach, taken during our sunrise private expedition. Photo: Bali Vision Tour archives.",
+   "author": {
+    "name": "Ni Ketut Saraswati",
+    "role": "Lead Cultural Curator",
+    "avatar": "https://images.unsplash.com/photo-1631814029262-e25e779f941f?auto=format&fit=crop&w=800&q=80",
+    "bio": "Born in Klungkung Regency, Ketut has spent over a decade documenting the oral histories, sacred temples, and secluded coastal landscapes of the Nusa Islands. Her itineraries prioritize respectful cultural exchange and direct fair compensation for local Balinese drivers and boat crews.",
+    "license": "Licensed Guide #BALI-4891"
+   },
+   "date": "2025-01-15",
+   "readTime": "8 min read",
+   "featured": true,
+   "location": "East Nusa Penida, Bali",
+   "bullets": [
+    "Optimal speed boat transit windows to avoid rough swell",
+    "Private 4WD hire vs scooter rentals on island roads",
+    "Cultural customs when visiting Pura Goa Giri Putri"
+   ],
+   "highlights": [
+    "06:30 AM departure from Sanur Harbour avoids 2-hour queue bottlenecks at diamond viewpoints.",
+    "4WD charter only; gravel paths and sharp 30° cliff drops make scooters a dangerous gamble for tourists.",
+    "Temple attire is strictly required for Goa Giri Putri; sarong and yellow waist sash are non-negotiable.",
+    "Cliffside Warungs above Suwehan Bay offer fresh young coconuts and wood-fired snapper harvested at dawn."
+   ],
+   "facts": [
+    {
+     "label": "Best Season",
+     "value": "Apr - Oct (Dry Season)"
+    },
+    {
+     "label": "Fast Boat Crossing",
+     "value": "40 Mins (Sanur Harbour)"
+    },
+    {
+     "label": "Recommended Time",
+     "value": "1 Full Day (10-12 Hrs)"
+    },
+    {
+     "label": "Fitness Requirement",
+     "value": "Moderate (Stairs)"
+    }
+   ],
+   "content": [
+    {
+     "type": "h2",
+     "text": "Beyond the Instagram Clichés: The Wild Majesty of East Penida"
+    },
+    {
+     "type": "p",
+     "text": "While thousands of travelers queue patiently under the midday sun at Kelingking Beach on the western side of the island, East Nusa Penida remains an amphitheater of untamed geological drama. Here, razor-sharp karst formations slice directly through Indian Ocean swells, bathed in a celestial sunrise that warms the ivory limestone long before tour buses arrive."
+    },
+    {
+     "type": "p",
+     "text": "To truly understand East Penida is to appreciate its dual nature: an exhilarating playground of sheer cliff paths alongside profound sacred geography. This is the dwelling place of ancestral spirits, where Balinese villagers have for generations farmed seaweed along hidden tides and gathered inside underground caverns to honor Ratu Hyang Giri Putri."
+    },
+    {
+     "type": "quote",
+     "text": "Nusa Penida doesn't reveal its soul to those in a rush. The island asks you to breathe with its ocean tides and honor the sanctity of its stone.",
+     "cite": "Pemangku Ketut Raka, Pura Goa Giri Putri Elder"
+    },
+    {
+     "type": "h2",
+     "text": "Step-by-Step Itinerary: The Ideal 1-Day East Penida Route"
+    },
+    {
+     "type": "p",
+     "text": "Covering East Nusa Penida comfortably in a single day requires precise timing to avoid midday tropical heat and ensure seamless private boat connections. Here is the vetted route designed by our concierge team:"
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "time": "06:30 AM • Coastal Port",
+       "tag": "VIP Priority Boarding",
+       "title": "Sanur Private Terminal Fast Boat Departure",
+       "desc": "Skip the wet, unorganized public boarding queues in Sanur. Board our chartered twin-engine speedboat via elevated private pontoon. The crossing takes exactly 40 minutes over calm morning waters with views of Mount Agung rising above the horizon."
+      },
+      {
+       "time": "08:30 AM • Clifftop Lookout",
+       "tag": "Pre-Crowd Advantage",
+       "title": "Thousand Islands Viewpoint & Rumah Pohon (Treehouse)",
+       "desc": "Arrive before the 10:00 AM wave of day-trippers. Gaze down from the Molenteng lookout across dozens of emerald pinnacle islands dotted along turquoise bays. Perfect natural lighting for photography without squinting against the harsh sun."
+      },
+      {
+       "time": "10:45 AM • Coastal Trek",
+       "tag": "Handrail Supported",
+       "title": "Diamond Beach & Atuh Beach Limestone Descent",
+       "desc": "Walk down the celebrated limestone stairway chiseled by hand into the cliff face. Relax on the powdery white sands beneath the towering diamond-shaped monolith. (Safety tip: Swimming here is recommended only during low tide due to shore breaks)."
+      },
+      {
+       "time": "01:15 PM • Culinary Break",
+       "tag": "Private Table Reserved",
+       "title": "Authentic Balinese Feast Overlooking Suwehan Bay",
+       "desc": "Recharge in an open-air pavilion. Enjoy freshly caught ocean fish grilled over coconut husks, sambal matah, urap vegetables, organic red rice, and chilled young coconut water harvested right on property."
+      },
+      {
+       "time": "03:00 PM • Sacred Sanctuary",
+       "tag": "Spiritual Guide Provided",
+       "title": "Sacred Purification inside Pura Goa Giri Putri",
+       "desc": "Enter through a tiny crawl space in the limestone cliff to discover an astonishing cathedral-like cavern over 300 meters long. Receive a traditional tri-datu thread bracelet and holy water blessing (Melukat) by the resident Balinese priest."
+      },
+      {
+       "time": "05:00 PM • Return Voyage",
+       "tag": "Sunset Over Sanur",
+       "title": "Return VIP Fast Boat to Sanur",
+       "desc": "Board your reserved return vessel. Relax as the sun dips behind the volcanic ridge of Bali mainland, casting golden light across the Badung Strait."
+      }
+     ]
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "https://images.unsplash.com/photo-1552301726-570d51466ae2?auto=format&fit=crop&w=1200&q=80",
+       "label": "Melukat ceremony deep within Pura Goa Giri Putri"
+      },
+      {
+       "src": "https://images.unsplash.com/photo-1604500693431-647f9e76dafc?auto=format&fit=crop&w=1200&q=80",
+       "label": "Turquoise shallows at Atuh Bay"
+      }
+     ]
+    },
+    {
+     "type": "h2",
+     "text": "Crucial Practical Intelligence (What Most Guides Won't Tell You)"
+    },
+    {
+     "type": "p",
+     "text": "A luxury journey relies on smooth execution. Avoid common traveler pitfalls by reviewing these verified logistical realities:"
+    },
+    {
+     "type": "cards",
+     "items": [
+      {
+       "icon": "Car",
+       "title": "Rugged Road Realities & 4WD Charter",
+       "desc": "While East Penida’s arterial roads were paved in 2023, access paths to Diamond Beach and Suwehan remain steep and gravelly. Rental scooters witness dozens of gravel skids every week. A chartered private Toyota Innova or Avanza with a seasoned island driver ensures safety and continuous air conditioning."
+      },
+      {
+       "icon": "Banknote",
+       "title": "Cash vs E-Wallet Connectivity",
+       "desc": "Cellular reception fluctuates wildly behind the cliff ridges. While our tour packages cover all entrance tickets and meals in advance, keep Rp 200,000 to Rp 300,000 in cash for personal coconuts, treehouse photo fees (Rp 75,000), or tips. Island ATMs frequently run out of bills."
+      },
+      {
+       "icon": "Footprints",
+       "title": "Physical Fitness & Cliff Staircases",
+       "desc": "Reaching the shoreline at Diamond Beach involves 250 carved stone steps with rope railings. Good footwear with rubber grip is essential (prohibit flip-flops on the stairs). Those with vertigo can comfortably soak in the majestic views from clifftop pavilions without descending."
+      },
+      {
+       "icon": "Landmark",
+       "title": "Temple Dress Code & Etiquette",
+       "desc": "Pura Goa Giri Putri is a living Hindu sanctuary. Knees and shoulders must be covered. We provide complimentary freshly laundered batik sarongs and golden waist sashes to all Bali Vision guests before entering the cave."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ar2",
+   "slug": "mount-batur-sunrise-trekking-essential-gear",
+   "title": "Mount Batur Sunrise Trekking: Essential Gear, Weather Tips & What to Expect",
+   "category": "Adventure & Hiking",
+   "excerpt": "A comprehensive walkthrough of the 03:00 AM ascent up Kintamani’s sacred volcano. Learn how to dress for pre-dawn temperatures, avoid unlicensed guides, and time your summit for the perfect sunrise.",
+   "image": "https://images.unsplash.com/photo-1506748566756-07746caecd61?auto=format&fit=crop&w=1200&q=80",
+   "author": {
+    "name": "Wayan Suartana",
+    "role": "Mountain Guide",
+    "avatar": "https://images.unsplash.com/photo-1516011362164-3095a82b0af9?auto=format&fit=crop&w=800&q=80",
+    "bio": "Wayan has led sunrise treks on Mount Batur for 12 years and knows every trail on the caldera.",
+    "license": "Licensed Guide #BALI-2201"
+   },
+   "date": "2025-01-12",
+   "readTime": "5 min read",
+   "featured": false,
+   "content": [
+    {
+     "type": "p",
+     "text": "Mount Batur rewards travelers who plan around light, tide and ceremony calendars rather than rushing between viewpoints. Our concierge team has compiled the practical details below from years of escorting private guests across the island."
+    },
+    {
+     "type": "h2",
+     "text": "Timing Your Visit"
+    },
+    {
+     "type": "p",
+     "text": "Arrive early. Most iconic spots are quiet before 08:30 AM and again after 04:00 PM. Midday heat and tour-bus crowds peak between 10:00 AM and 02:00 PM."
+    },
+    {
+     "type": "quote",
+     "text": "Bali does not reveal its soul to those in a rush. Slow down, greet the locals, and let the island set the pace.",
+     "cite": "Bali Vision Concierge Team"
+    },
+    {
+     "type": "h2",
+     "text": "Practical Intelligence"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Carry small Rupiah notes for temple donations and parking",
+      "Dress respectfully: sarong and sash are mandatory at temples",
+      "A private chauffeur removes parking stress and lets you linger where you love",
+      "Reef-safe sunscreen protects both your skin and Bali’s coral"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Our chauffeurs can adapt any of these recommendations into a bespoke daily route. Message our WhatsApp concierge for a tailored plan."
+    }
+   ]
+  },
+  {
+   "id": "ar3",
+   "slug": "balinese-temple-etiquette",
+   "title": "Balinese Temple Etiquette: What Every Traveler Needs to Know Before Entering Pura",
+   "category": "Culture & Traditions",
+   "excerpt": "Respecting Tri Hita Karana philosophy: Proper sarong tying, respectful posture during odalan ceremonies, rules regarding menstruation, and proper photo distance from praying locals.",
+   "image": "https://images.unsplash.com/photo-1575573330964-db3dad170190?auto=format&fit=crop&w=1200&q=80",
+   "author": {
+    "name": "Gede Putu Arya",
+    "role": "Temple Heritage Writer",
+    "avatar": "https://images.unsplash.com/photo-1700553856089-1ea9261143a7?auto=format&fit=crop&w=800&q=80",
+    "bio": "Gede documents temple ceremonies and etiquette across Bali’s nine regencies.",
+    "license": "Licensed Guide #BALI-3310"
+   },
+   "date": "2025-01-09",
+   "readTime": "6 min read",
+   "featured": false,
+   "content": [
+    {
+     "type": "p",
+     "text": "Temple etiquette rewards travelers who plan around light, tide and ceremony calendars rather than rushing between viewpoints. Our concierge team has compiled the practical details below from years of escorting private guests across the island."
+    },
+    {
+     "type": "h2",
+     "text": "Timing Your Visit"
+    },
+    {
+     "type": "p",
+     "text": "Arrive early. Most iconic spots are quiet before 08:30 AM and again after 04:00 PM. Midday heat and tour-bus crowds peak between 10:00 AM and 02:00 PM."
+    },
+    {
+     "type": "quote",
+     "text": "Bali does not reveal its soul to those in a rush. Slow down, greet the locals, and let the island set the pace.",
+     "cite": "Bali Vision Concierge Team"
+    },
+    {
+     "type": "h2",
+     "text": "Practical Intelligence"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Carry small Rupiah notes for temple donations and parking",
+      "Dress respectfully: sarong and sash are mandatory at temples",
+      "A private chauffeur removes parking stress and lets you linger where you love",
+      "Reef-safe sunscreen protects both your skin and Bali’s coral"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Our chauffeurs can adapt any of these recommendations into a bespoke daily route. Message our WhatsApp concierge for a tailored plan."
+    }
+   ]
+  },
+  {
+   "id": "ar4",
+   "slug": "innova-zenix-hybrid-vs-alphard-charter-fleet",
+   "title": "Toyota Innova Zenix Hybrid vs Alphard: Choosing the Right Charter Fleet for Your Bali Group",
+   "category": "Travel Fleet & Tips",
+   "excerpt": "Compare luggage capacity, narrow village maneuverability, suspension comfort on mountain inclines, and daily cost efficiency for families and executive groups.",
+   "image": "https://images.unsplash.com/photo-1765461734605-34657fa04db2?auto=format&fit=crop&w=1200&q=80",
+   "author": {
+    "name": "Made Darmayasa",
+    "role": "Fleet Operations Lead",
+    "avatar": "https://images.unsplash.com/photo-1629425733761-caae3b5f2e50?auto=format&fit=crop&w=800&q=80",
+    "bio": "Made oversees fleet safety and writes practical charter guides for families.",
+    "license": "Fleet Lead"
+   },
+   "date": "2025-01-06",
+   "readTime": "4 min read",
+   "featured": false,
+   "content": [
+    {
+     "type": "p",
+     "text": "Choosing a charter fleet rewards travelers who plan around light, tide and ceremony calendars rather than rushing between viewpoints. Our concierge team has compiled the practical details below from years of escorting private guests across the island."
+    },
+    {
+     "type": "h2",
+     "text": "Timing Your Visit"
+    },
+    {
+     "type": "p",
+     "text": "Arrive early. Most iconic spots are quiet before 08:30 AM and again after 04:00 PM. Midday heat and tour-bus crowds peak between 10:00 AM and 02:00 PM."
+    },
+    {
+     "type": "quote",
+     "text": "Bali does not reveal its soul to those in a rush. Slow down, greet the locals, and let the island set the pace.",
+     "cite": "Bali Vision Concierge Team"
+    },
+    {
+     "type": "h2",
+     "text": "Practical Intelligence"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Carry small Rupiah notes for temple donations and parking",
+      "Dress respectfully: sarong and sash are mandatory at temples",
+      "A private chauffeur removes parking stress and lets you linger where you love",
+      "Reef-safe sunscreen protects both your skin and Bali’s coral"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Our chauffeurs can adapt any of these recommendations into a bespoke daily route. Message our WhatsApp concierge for a tailored plan."
+    }
+   ]
+  },
+  {
+   "id": "ar5",
+   "slug": "hidden-waterfalls-northern-ubud",
+   "title": "Hidden Waterfalls of Northern Ubud: Escaping the Crowds in Gianyar",
+   "category": "Hidden Gems",
+   "excerpt": "Skip the packed tourist queues at Tegenungan. We explore secluded ravines, secret river canyons, and natural swimming pools tucked away in pristine jungle.",
+   "image": "https://images.unsplash.com/photo-1576878176876-517cdb8006ac?auto=format&fit=crop&w=1200&q=80",
+   "author": {
+    "name": "Ayu Mirah",
+    "role": "Nature & Wellness Curator",
+    "avatar": "https://images.unsplash.com/photo-1627161683077-e34782c24d81?auto=format&fit=crop&w=200&q=80",
+    "bio": "Ayu explores hidden waterfalls and wellness retreats across northern Bali.",
+    "license": "Licensed Guide #BALI-5120"
+   },
+   "date": "2025-01-03",
+   "readTime": "7 min read",
+   "featured": false,
+   "content": [
+    {
+     "type": "p",
+     "text": "Northern Ubud waterfalls rewards travelers who plan around light, tide and ceremony calendars rather than rushing between viewpoints. Our concierge team has compiled the practical details below from years of escorting private guests across the island."
+    },
+    {
+     "type": "h2",
+     "text": "Timing Your Visit"
+    },
+    {
+     "type": "p",
+     "text": "Arrive early. Most iconic spots are quiet before 08:30 AM and again after 04:00 PM. Midday heat and tour-bus crowds peak between 10:00 AM and 02:00 PM."
+    },
+    {
+     "type": "quote",
+     "text": "Bali does not reveal its soul to those in a rush. Slow down, greet the locals, and let the island set the pace.",
+     "cite": "Bali Vision Concierge Team"
+    },
+    {
+     "type": "h2",
+     "text": "Practical Intelligence"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Carry small Rupiah notes for temple donations and parking",
+      "Dress respectfully: sarong and sash are mandatory at temples",
+      "A private chauffeur removes parking stress and lets you linger where you love",
+      "Reef-safe sunscreen protects both your skin and Bali’s coral"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Our chauffeurs can adapt any of these recommendations into a bespoke daily route. Message our WhatsApp concierge for a tailored plan."
+    }
+   ]
+  },
+  {
+   "id": "ar6",
+   "slug": "uluwatu-sunset-kecak-dance-vantage-points",
+   "title": "Uluwatu Sunset & Kecak Dance: Best Vantage Points and Dinner Spots in Jimbaran",
+   "category": "Evening Itineraries",
+   "excerpt": "How to reserve front-row amphitheater tickets without waiting in two-hour queues, plus our curated selection of authentic candlelit beachfront seafood.",
+   "image": "https://images.unsplash.com/photo-1511164657592-59a452023479?auto=format&fit=crop&w=1200&q=80",
+   "author": {
+    "name": "Bagus Narendra",
+    "role": "Sunset & Dining Editor",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+    "bio": "Bagus curates the best sunset vantage points and beachfront dining across South Bali.",
+    "license": "Editor"
+   },
+   "date": "2024-12-28",
+   "readTime": "5 min read",
+   "featured": false,
+   "content": [
+    {
+     "type": "p",
+     "text": "Uluwatu sunset rewards travelers who plan around light, tide and ceremony calendars rather than rushing between viewpoints. Our concierge team has compiled the practical details below from years of escorting private guests across the island."
+    },
+    {
+     "type": "h2",
+     "text": "Timing Your Visit"
+    },
+    {
+     "type": "p",
+     "text": "Arrive early. Most iconic spots are quiet before 08:30 AM and again after 04:00 PM. Midday heat and tour-bus crowds peak between 10:00 AM and 02:00 PM."
+    },
+    {
+     "type": "quote",
+     "text": "Bali does not reveal its soul to those in a rush. Slow down, greet the locals, and let the island set the pace.",
+     "cite": "Bali Vision Concierge Team"
+    },
+    {
+     "type": "h2",
+     "text": "Practical Intelligence"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Carry small Rupiah notes for temple donations and parking",
+      "Dress respectfully: sarong and sash are mandatory at temples",
+      "A private chauffeur removes parking stress and lets you linger where you love",
+      "Reef-safe sunscreen protects both your skin and Bali’s coral"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Our chauffeurs can adapt any of these recommendations into a bespoke daily route. Message our WhatsApp concierge for a tailored plan."
+    }
+   ]
+  },
+  {
+   "id": "ar7",
+   "slug": "sustainable-island-hopping-gili-nusa",
+   "title": "A Guide to Sustainable Island Hopping in the Gili & Nusa Islands",
+   "category": "Eco Travel",
+   "excerpt": "Protecting marine sanctuaries: Reef-safe sunscreen standards, zero-single-use plastic charters, and ethical sea turtle snorkeling guidelines around Nusa Lembongan.",
+   "image": "https://images.unsplash.com/photo-1604500693431-647f9e76dafc?auto=format&fit=crop&w=1200&q=80",
+   "author": {
+    "name": "Siti Rahma",
+    "role": "Sustainability Writer",
+    "avatar": "https://images.unsplash.com/photo-1664312572933-0563f14484a1?auto=format&fit=crop&w=200&q=80",
+    "bio": "Siti writes about marine conservation and sustainable island travel.",
+    "license": "Editor"
+   },
+   "date": "2024-12-22",
+   "readTime": "6 min read",
+   "featured": false,
+   "content": [
+    {
+     "type": "p",
+     "text": "Sustainable island hopping rewards travelers who plan around light, tide and ceremony calendars rather than rushing between viewpoints. Our concierge team has compiled the practical details below from years of escorting private guests across the island."
+    },
+    {
+     "type": "h2",
+     "text": "Timing Your Visit"
+    },
+    {
+     "type": "p",
+     "text": "Arrive early. Most iconic spots are quiet before 08:30 AM and again after 04:00 PM. Midday heat and tour-bus crowds peak between 10:00 AM and 02:00 PM."
+    },
+    {
+     "type": "quote",
+     "text": "Bali does not reveal its soul to those in a rush. Slow down, greet the locals, and let the island set the pace.",
+     "cite": "Bali Vision Concierge Team"
+    },
+    {
+     "type": "h2",
+     "text": "Practical Intelligence"
+    },
+    {
+     "type": "list",
+     "items": [
+      "Carry small Rupiah notes for temple donations and parking",
+      "Dress respectfully: sarong and sash are mandatory at temples",
+      "A private chauffeur removes parking stress and lets you linger where you love",
+      "Reef-safe sunscreen protects both your skin and Bali’s coral"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Our chauffeurs can adapt any of these recommendations into a bespoke daily route. Message our WhatsApp concierge for a tailored plan."
+    }
+   ]
+  }
+ ]
+}
