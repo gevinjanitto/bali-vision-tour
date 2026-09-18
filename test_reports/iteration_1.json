@@ -1,0 +1,24 @@
+{
+  "summary": "Comprehensive E2E test of 4 Bali Vision Tour changes: (1) footer admin link inline with copyright, (2) 15-min idle auto-logout with 1-min warning, (3) TipTap WYSIWYG for tours/cars/activities/articles + article paragraph blocks, (4) shared temple hero image on Activities/Tours/Articles/CarRental. All 4 features verified working via Playwright + backend API round-trip.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": ["/app/test_reports/iteration_1.json"],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "RichTextEditor: onUpdate treats '<p></p>' as empty and returns ''. If user deliberately clears content on a legacy plain-text field this is fine; but combined with sanitizer in RichText.toHtml regex /<[a-z][\\s\\S]*>/i, any HTML-looking legacy string passes through without wrapping – acceptable.",
+    "IdleLogout: EVENTS include 'mousemove' with throttle 1s. If browser tab is inactive and setInterval throttles to 1s+, tick could exceed limit slightly but logout still fires correctly – acceptable.",
+    "Backend /api/content/{resource} accepts Dict[str, Any] with no schema for longDesc/longDescription; both legacy array and new HTML string coexist. Existing untouched items still render (verified for tours/activities/articles/cars public pages)."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "100%", "frontend": "100%"},
+  "test_credentials": "admin / BaliVision2025! (from /app/memory/test_credentials.md)",
+  "seed_data_creation": "Modified seeded records for testing: cars/toyota-avanza-xenia longDesc appended ' TESTBOLD<ts>'; tours/family-picnic-in-bali longDescription appended ' TOURTAG' to last paragraph; articles/ultimate-first-timers-guide-east-nusa-penida-2025 gained one extra Paragraf block containing test text. Not restored; main agent may re-seed if needed (data is non-critical suffix text).",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "All 4 features verified. Key evidence: footer-copyright and footer-admin-link share parent data-testid='footer-bottom-left' and identical y=5742.6 at desktop. --hero-img on all 4 pages contains 'photo-1711609110590-5ad5c4599e56'. Idle: warning dialog appears when last_active=14m5s ago (countdown ~54s); stay-button resets timestamp; auto-logout+redirect when set to 15m+2s ago; closed-page scenario (16 min old timestamp) redirects immediately to /admin/login and clears token. Rich editor: wrapper/toolbar/13 buttons (bold,italic,underline,h2,h3,bullet,ordered,quote,hr,link,unlink,undo,redo) verified for cars.longDesc; tours legacy array → 2 <p> blocks preloaded; save round-trip returns HTML string with <p>...</p>; public pages render sanitized HTML without escaped tags. Article paragraph blocks: contenteditable testid pattern content-article-p-block-<idx>-text works; new blocks added via native <select data-testid=article-new-block-type> + article-add-block button; saved as {type:'p', text:'<p>...</p>'}. Manual logout clears both localStorage keys.",
+  "rca of the issue": "N/A - no issues found."
+}
