@@ -23,6 +23,8 @@ Dari project https://github.com/gevinjanitto/bali-vision-tour:
 - Idle logout (`admin/IdleLogout.jsx`): 15 menit tanpa mousemove/klik/keydown/scroll → logout; dialog peringatan 60 detik sebelumnya (tombol "Tetap masuk" / "Logout sekarang"); timestamp aktivitas di localStorage `bvt_admin_last_active`, sehingga halaman yang ditutup >15 menit lalu dibuka lagi langsung logout.
 - WYSIWYG TipTap (`admin/RichTextEditor.jsx`), field type `richtext`: tours.longDescription, cars.longDesc, activities.longDescription, articles.author.bio, dan blok "Paragraf" isi artikel. Disimpan sebagai HTML; dirender di publik lewat `components/RichText.jsx` (sanitasi DOMPurify, kompatibel dengan data lama berupa teks/array).
 - Hero Activities, Tour Packages, Articles memakai `IMG.bedugul` (sama dengan Car Rental).
+- Durasi logout otomatis dapat diatur admin di halaman Akun Admin (`admin/IdleSettingsCard.jsx`, `PUT /api/auth/preferences`, opsi 5/10/15/30/60/120 menit atau nonaktif; tersimpan di dokumen user `idle_timeout_minutes`, dibaca lewat `/api/auth/me`).
+- Git: konflik merge dengan origin/main diselesaikan (versi lokal dipertahankan, file deploy remote ditambahkan) — siap push fast-forward.
 - Testing agent iteration 1: 100% pass (backend & frontend).
 
 ## Backlog
