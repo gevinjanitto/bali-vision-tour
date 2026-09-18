@@ -94,6 +94,7 @@ export const DataProvider = ({ children }) => {
           }
         },
         logout,
+        updateUser: (patch) => setUser((u) => ({ ...u, ...patch })),
       },
     };
   }, [data, loading, token, user, logout]);

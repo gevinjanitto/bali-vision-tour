@@ -115,7 +115,7 @@ async def login(body: LoginBody, request: Request, response: Response):
     await db.login_attempts.delete_one({"identifier": ident})
     token = create_token(user["id"], user["username"], user.get("token_version", 0))
     response.set_cookie("access_token", token, httponly=True, secure=True, samesite="none", max_age=7 * 86400, path="/")
-    return {"token": token, "user": {"id": user["id"], "username": user["username"], "name": user.get("name", "Admin"), "role": "admin"}}
+    return {"token": token, "user": {"id": user["id"], "username": user["username"], "name": user.get("name", "Admin"), "role": "admin", "idle_timeout_minutes": user.get("idle_timeout_minutes", 15)}}
 
 
 @api.get("/auth/me")
@@ -127,6 +127,21 @@ async def me(user: dict = Depends(get_current_user)):
 async def logout(response: Response):
     response.delete_cookie("access_token", path="/")
     return {"ok": True}
+
+
+class PreferencesBody(BaseModel):
+    idle_timeout_minutes: int
+
+
+IDLE_TIMEOUT_OPTIONS = {0, 5, 10, 15, 30, 60, 120}
+
+
+@api.put("/auth/preferences")
+async def update_preferences(body: PreferencesBody, user: dict = Depends(get_current_user)):
+    if body.idle_timeout_minutes not in IDLE_TIMEOUT_OPTIONS:
+        raise HTTPException(400, "Durasi logout otomatis tidak valid")
+    await db.users.update_one({"id": user["id"]}, {"$set": {"idle_timeout_minutes": body.idle_timeout_minutes, "updated_at": now_iso()}})
+    return {"ok": True, "idle_timeout_minutes": body.idle_timeout_minutes}
 
 
 class PasswordBody(BaseModel):
